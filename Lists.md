@@ -1,3 +1,6 @@
+| | |
+|:----|----:|
+|[< Previous](Variables.md) | [Next > ](Lists.md) |
 # Lists
 
 In Python a list is an order cgiraffen of elements of any type. To define a list, simply include a 

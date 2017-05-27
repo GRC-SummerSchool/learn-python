@@ -1,3 +1,6 @@
+| | |
+|:----|----:|
+| Day 1 | [Next (Hello World) > ](HelloWorld.md) |
 # GRC-SummerSchool Learn Python.
 
 This course is designed to provide an introduction to programming using Python. The 

@@ -1,3 +1,6 @@
+| | |
+|:----|----:|
+|[< Previous (Intro)](README.md) | [Next (Variables) > ](Variables.md) |
 # Hello World
 
 The Pycharm IDE provides the development environment to create, edit, run and debug your
@@ -27,6 +30,10 @@ program. Notice the project tree on the left shows that hello-world.py is part o
 ### Edit your program
 
 Type in your first program. Here we will use the built-in *print* function to output a string to the console.
+
+```python
+print("Hello World")
+```
 
 ![](.HelloWorld_images/first_program.png)
 

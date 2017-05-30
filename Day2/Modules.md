@@ -60,7 +60,7 @@ my-module
 ```
 
 If Python program imports my-module.submodule, my-module/__init__.py will execute implicitly along
-with my-module/submodule/__init__.py. 
+with my-module/submodule/\_\_init\_\_.py. 
 
 
 

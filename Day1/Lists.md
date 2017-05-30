@@ -1,9 +1,8 @@
-| | |
-|:----|----:|
-|[< Previous](Variables.md) | [Next > ](Lists.md) |
+|[< Previous (Variables)](Variables.md) | [Day1](../README.md)| [Next (Conditionals) >](Conditionals.md) |
+|----|----|----|
 # Lists
 
-In Python a list is an order cgiraffen of elements of any type. To define a list, simply include a 
+In Python a list is an order collection of elements of any type. To define a list, simply include a 
 comma separated list of elements between square brackets.
 ```python
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -49,44 +48,11 @@ numbers[2:4] = [-3,-4]  # modify the 3rd and 4th element
 print(numbers[:])       # prints [1, 2, -3, -4, 5, 6, 7, 8, 9]
 ```
 
-You can iterate through all the elements in a list using a for loop:
-
-```python
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-for n in numbers:
-    print(n)
-```
-will produce the following output:
-```
-1
-2
-3
-4
-5
-6
-7
-8
-9
-```
-
 Lists can be heterogeneous, allowing you to mix types at will.
 
 ```python
 mix = [1, "cat", 3, "dog", 5, 6, 7, 8, "giraffe"]
-for n in mix:
-    print(n)
-```
-will produce the following output:
-```
-1
-cat
-3
-dog
-5
-6
-7
-8
-giraffe
+print(mix)
 ```
 
 To add to a list once its constructed, use the append(x) function
@@ -95,12 +61,20 @@ mix = [1, "cat", 3, "dog", 5, 6, 7, 8, "giraffe"]
 
 mix.append(10)
 mix.append("lion")
+print(mix)
 ```
 
-To remove elments from the list once its constructed, use the pop(x) function
+To remove elements from the list once its constructed, use the pop(x) function
 ```python
 mix = [1, "cat", 3, "dog", 5, 6, 7, 8, "giraffe"]
 
 mix.pop(0)  # removes the first element (1)
 mix.pop(-1) # removes the last element
+mix.insert(0, "front of list")  # inserts element at supplied position (0)
+print(mix)
+```
+
+Running the above example will produce the following output:
+```
+['front of list', 'cat', 3, 'dog', 5, 6, 7, 8]
 ```

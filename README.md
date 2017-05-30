@@ -1,31 +1,46 @@
-| | |
-|:----|----:|
-| Day 1 | [Next (Hello World) > ](HelloWorld.md) |
 # GRC-SummerSchool Learn Python.
 
 This course is designed to provide an introduction to programming using Python. The 
 course is geared toward folks with a scientific background and structured to be 
-completed over a four - 45 minute sessions.
+completed over a four x 45 minute sessions.
+
+Over the four sessions, the class will build from the basics of the Python
+language to using more advanced modules capable of plotting and analyzing 
+data.
 
 ## Day 1
 
-On the first day, the class will setup a python environment on your laptop.
+On the first day, the class will setup a python environment on your laptop
+and cover the basics of the Python language.
 
-### Setting up the environment
+1. [Setup Environment](Day1/Setup.md)
+1. Instructor Demo
+1. [Hello World](Day1/HelloWorld.md)
+1. [Variables](Day1/Variables.md)
+1. [Input](Day1/Input.md)
+1. [Conditionals](Day1/Conditionals.md)
+1. [Lists](Day1/Lists.md)
 
-You will need a python environment, Git version control client, and IDE to participate in this 
-course.
+## Day 2
 
-1. Download and install [Anaconda](https://www.continuum.io/downloads)
-1. Download and install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-1. Download and install [PyCharm Community Edition](https://www.jetbrains.com/pycharm/download/)
+1. [Loops](Day2/Loops.md)
+1. [Dictionaries](Day2/Dictionaries)
+1. [Debugging](Day2/Debugging.md)
+1. [Modules](Day2/Modules.md)
+1. Git Overview
 
+## Day 3
 
-### First Python Program
+1. Git Changes
+1. Functions
+1. File I/O
+1. Arrays
+1. Simple Graphing
 
-For the first program we will construct the classic Hello Word program.
+## Day 4
 
-```python
-print("Hello World")
+1. Git
+1. Data Analysis
+1. Tests
+1. Additional Resources
 
-```

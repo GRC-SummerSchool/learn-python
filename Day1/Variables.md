@@ -1,4 +1,4 @@
-| [< Previous](HelloWorld.md) | [Day1](../README.md)| [Next (Lists)>](Lists.md) |
+| [< Previous (Whitespace)](Whitespace.md) | [Day1](../README.md)| [Next (Lists)>](Lists.md) |
 |----|----|----|
 ### Single Line Comments
 You can add comments to your code by using a few ways.
@@ -89,3 +89,6 @@ print("The length of string1 is ", len(string1))
 ### Exercise
 
 Modify your Hello World program to greet you by name, where your name is stored in a variable.
+
+| [< Previous (Whitespace)](Whitespace.md) | [Day1](../README.md)| [Next (Lists)>](Lists.md) |
+|----|----|----|

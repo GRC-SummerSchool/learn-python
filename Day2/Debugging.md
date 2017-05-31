@@ -83,3 +83,6 @@ Once you are finished stepping, you can tell the program to continue (F9).
 The program will then resume running normally unless it encounters another
 breakpoint, at which point the program will pause and allow you to inspect and
 modify variables again.
+
+|[< Previous (Debugging)](Debugging.md) | [Day2](../README.md)| [Next (Modules) > ](Modules.md) |
+|----|----|----|

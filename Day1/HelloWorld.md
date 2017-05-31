@@ -1,4 +1,4 @@
-|[< Previous (Setup Environment)](Setup.md) | [Day1](../README.md)| [Next (Variables) >](Variables.md) |
+|[< Previous (Setup Environment)](Setup.md) | [Day1](../README.md)| [Next (Whitespace) >](Whitespace.md) |
 |----|----|----|
 # Hello World
 
@@ -48,3 +48,6 @@ Notice in the bottom pane of your IDE, you see the console showing your programs
 
 ![](.HelloWorld_images/results.png)
 
+
+|[< Previous (Setup Environment)](Setup.md) | [Day1](../README.md)| [Next (Whitespace) >](Whitespace.md) |
+|----|----|----|

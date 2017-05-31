@@ -41,3 +41,6 @@ else:
 
 Modify the variable x's value to trigger different conditional paths.
 
+
+|[< Previous (Lists)](Lists.md) | [Day1](../README.md)| [Next (Day2) >](../README.md) |
+|----|----|----|

@@ -53,3 +53,6 @@ Item: bread cost: 3.09
 Item: milk cost: 2.29
 Item: bananas cost: 2.33
 ```
+
+|[< Previous (Loops)](Loops.md) | [Day2](../README.md)| [Next (Debugging) >](Debugging.md) |
+|----|----|----|

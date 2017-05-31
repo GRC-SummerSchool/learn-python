@@ -17,3 +17,6 @@ print("Hello ", name)
 
 Now modify your Hello World program to prompt the user for their name
 and output a message customized to that individual.
+
+|[< Previous (Variables)](Variables.md) | [Day1](../README.md)| [Next (Conditionals) > ](Conditionals.md) |
+|----|----|----|

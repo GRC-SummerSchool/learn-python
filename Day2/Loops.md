@@ -51,3 +51,6 @@ while count < 10:
     print(count)
     count = count + 1
 ```
+
+|[< Previous (Day2)](../README.md) | [Day2](../README.md)| [Next (Dictionaries) >](Dictionaries.md) |
+|----|----|----|

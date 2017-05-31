@@ -16,6 +16,7 @@ and cover the basics of the Python language.
 1. [Setup Environment](Day1/Setup.md)
 1. Instructor Demo
 1. [Hello World](Day1/HelloWorld.md)
+1. [Whitespace](Day1/Whitespace.md)
 1. [Variables](Day1/Variables.md)
 1. [Input](Day1/Input.md)
 1. [Conditionals](Day1/Conditionals.md)

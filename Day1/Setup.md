@@ -14,3 +14,5 @@ course.
 1. Download and install [PyCharm Community Edition](https://www.jetbrains.com/pycharm/download/)
 
 
+| [< Previous (Intro)](../README.md)  | [Day1](../README.md)| [Next (Hello World) >](HelloWorld.md) |
+|----|----|----|

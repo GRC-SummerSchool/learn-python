@@ -78,3 +78,6 @@ Running the above example will produce the following output:
 ```
 ['front of list', 'cat', 3, 'dog', 5, 6, 7, 8]
 ```
+
+|[< Previous (Variables)](Variables.md) | [Day1](../README.md)| [Next (Conditionals) >](Conditionals.md) |
+|----|----|----|

@@ -64,9 +64,8 @@ with my-module/submodule/\_\_init\_\_.py.
 
 
 
-
-
-
+|[< Previous (Debugging)](Debugging.md) | [Day2](../README.md)| [Next (Day3) >](../README.md) |
+|----|----|----|
 
 
 

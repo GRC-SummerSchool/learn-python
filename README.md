@@ -25,7 +25,7 @@ and cover the basics of the Python language.
 ## Day 2
 
 1. [Loops](Day2/Loops.md)
-1. [Dictionaries](Day2/Dictionaries)
+1. [Dictionaries](Day2/Dictionaries.md)
 1. [Debugging](Day2/Debugging.md)
 1. [Modules](Day2/Modules.md)
 1. Git Overview

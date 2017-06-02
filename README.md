@@ -41,7 +41,6 @@ and cover the basics of the Python language.
 ## Day 4
 
 1. Git
-1. Obtaining user input: [Prompting](Day4/Prompting.md)
 1. Data Analysis
 1. Tests
 1. Additional Resources

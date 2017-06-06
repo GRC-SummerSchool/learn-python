@@ -61,22 +61,23 @@ are 100% certain that everyone in your project will always have their tabstops a
 no-one will ever add spaces with using the wrong tabstop - then go ahead...  
 __But don't say I didn't warn you!__
 
-## Underscore
+## Naming variables
+Always start variable names with a lower case letter.
 
-Avoid using underscore(s)  '_'  at the beginning or end of variable names. 
+Avoid using special characters  ("$", "*", "_" , etc.)  at the beginning or end of variable names.
 
-Single underscores and double underscores have different meanings.   These are not just conventions. They have special meaning to the interpreter. 
+Underscores have special significance in Python. Single underscores and double underscores have different meanings.
+These are not just conventions. They have special meaning to the interpreter.
 
-For example
+    For example
 
-\_myVariable\_ denotes a private variable
+    \_myVariable\_ denotes a private variable
 
-\__init__ is used to avoid name clashes across classes
+    \_\_init\_\_ is used to avoid name clashes across classes
 
-\_  by itself is used to access the results of the last executed statement
+    \_  by itself is used to access the results of the last executed statement
 
-These are advanced concepts and may not be used in this class but it is useful to be aware of this "special" character.
-
+These are advanced concepts and may not be used in this class but it is useful to be aware of the rules and conventions.
 
 
 |[< Previous (HelloWorld)](HelloWorld.md) | [Day1](../README.md)| [Next (Variables) > ](Variables.md) |

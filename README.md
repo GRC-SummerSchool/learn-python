@@ -42,5 +42,5 @@ and cover the basics of the Python language.
 1. Git
 2. Data Analysis
 3. Tests
-4. Additional Resources
+4. [Additional Resources](AdditionalResources.md)
 

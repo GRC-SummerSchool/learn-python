@@ -21,7 +21,7 @@ There are many ways to load data in Python. One way is to represent the data in 
 ## Reading data from a CSV file: Array of Dictionary Elements
 
 Python routine to load weather CSV file into a python array of dictionary elements:
-```
+```python
 def load_data_objects (filename):
     data = []
     with open(filename) as csvfile:
@@ -37,3 +37,36 @@ def load_data_objects (filename):
             data.append(object)
     return data
 ```
+
+
+## Reading data from a CSV file: Dictionary or Map
+
+The weather data contains data for weatehr stations throughout New York State. These weatehr stations are called Divisions. Below we still load the data into an array of Dictionary objects, but we create a map based on Division to store each array.
+
+Python routine to load weather CSV file into a python dictionary (map) using Division as key
+```python
+def load_data_objects_into_map (filename):
+    map = {}
+    with open(filename) as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            row_division = row['Division']
+            if (row_division not in map):
+                data = []
+                map[row_division] = data
+
+            data = map[row_division]
+
+            object = {
+                'StateCode' : int(row['StateCode']),
+                'Division' : int(row['Division']),
+                'YearMonth' : convert_yearmonth_to_date(row['YearMonth']),
+                'PCP' : float(row['PCP']),
+                'TAVG' : float(row['TAVG'])
+            }
+
+            data.append(object)
+
+    return map
+```
+

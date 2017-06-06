@@ -1,15 +1,15 @@
-|[< Previous (Variables)](Variables.md) | [Day1](../README.md)| [Next (Conditionals) >](Conditionals.md) |
+|[< Previous (Input)](Input.md) | [Day1](../README.md)| [Next (Conditionals) >](Conditionals.md) |
 |----|----|----|
 # Lists
 
-In Python a list is an order collection of elements of any type. To define a list, simply include a 
+In Python a list is an ordered collection of elements of any type. To define a list, simply include a 
 comma separated list of elements between square brackets.
 ```python
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 print(numbers)      # prints the entire list on one line
 ```
-Lists are indexed by numerical position, starting from 0, and going to (number elements-1). To access 
+Lists are indexed by numerical position, starting from 0, and going to (number of elements-1). To access 
 the first element in the list
 
 ```python
@@ -79,5 +79,5 @@ Running the above example will produce the following output:
 ['front of list', 'cat', 3, 'dog', 5, 6, 7, 8]
 ```
 
-|[< Previous (Variables)](Variables.md) | [Day1](../README.md)| [Next (Conditionals) >](Conditionals.md) |
+|[< Previous (Input)](Input.md) | [Day1](../README.md)| [Next (Conditionals) >](Conditionals.md) |
 |----|----|----|

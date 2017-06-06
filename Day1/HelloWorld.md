@@ -8,7 +8,7 @@ python programs.
 ## Creating a first project
 
 Our first program will be the traditional "Hello World" program. This program is traditionally
-first program used to introduce language, syntax and environment to people learning to program.
+first program used to introduce language, syntax and environment to people learning to program. Select File->New Project to create a new project.
 
 ### Creating a new python file
 

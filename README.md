@@ -19,15 +19,14 @@ and cover the basics of the Python language.
 1. [Whitespace](Day1/Whitespace.md)
 1. [Variables](Day1/Variables.md)
 1. [Input](Day1/Input.md)
-1. [Conditionals](Day1/Conditionals.md)
 1. [Lists](Day1/Lists.md)
+1. [Conditionals](Day1/Conditionals.md)
 
 ## Day 2
 
 1. [Loops](Day2/Loops.md)
 1. [Dictionaries](Day2/Dictionaries.md)
 1. [Debugging](Day2/Debugging.md)
-1. [Modules](Day2/Modules.md)
 1. Git Overview
 
 ## Day 3

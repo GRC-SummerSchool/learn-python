@@ -2,7 +2,7 @@
 |----|----|----|
 # Loops
 
-In Python supports for loops and while loops.
+Python supports for loops and while loops.
 
 ### For Loop
 You can iterate through all the elements in a list using a for loop:
@@ -25,8 +25,8 @@ will produce the following output:
 9
 ```
 
-You specify a range of numbers to iterate over using the range function:
-Note - you can leave off the step if you choose to increment by 1
+You may specify a range of numbers to iterate over using the range function:
+Note - you can leave off the step parameter if you choose to increment by 1
 
 ```python
 for n in range(2,12,2):   # Starts at 2, less than 12, step by 2

@@ -1,7 +1,7 @@
-| [< Previous (Whitespace)](Whitespace.md) | [Day1](../README.md)| [Next (Lists)>](Lists.md) |
+| [< Previous (Whitespace)](Whitespace.md) | [Day1](../README.md)| [Next (Input)>](Input.md) |
 |----|----|----|
 ### Single Line Comments
-You can add comments to your code by using a few ways.
+You can add comments to your code in several ways.
 Single line comments start with a # and go until the end of the line
 
 ```python
@@ -9,7 +9,7 @@ Single line comments start with a # and go until the end of the line
 print("Hello World")  # This is also a comment
 ```
 ### Multi Line Comments
-If you want a to extend for multiple lines, you can use tipple quotes (single or double)
+If you want to extend a comment for multiple lines, you can use triple quotes (single or double)
 
 ```python
 ''' This is a comment that
@@ -29,7 +29,7 @@ In Python every variable is an object and there is no need to declare the variab
 
 ### Numbers
 
-Python supports 3 types of numbers (int, float and complex).  
+Python supports 3 types of numbers (int, float and complex).
 
 ```python
 i = 5       # integer arbitrary length 
@@ -90,5 +90,5 @@ print("The length of string1 is ", len(string1))
 
 Modify your Hello World program to greet you by name, where your name is stored in a variable.
 
-| [< Previous (Whitespace)](Whitespace.md) | [Day1](../README.md)| [Next (Lists)>](Lists.md) |
+| [< Previous (Whitespace)](Whitespace.md) | [Day1](../README.md)| [Next (Input)>](Input.md) |
 |----|----|----|

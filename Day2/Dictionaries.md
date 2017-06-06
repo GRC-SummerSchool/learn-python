@@ -2,7 +2,7 @@
 |----|----|----|
 # Dictionaries
 
-In Python, a dictionary is an unordered collection of elements indexed by a non-numeric key.  A dictionary can be thought of as a list where the index is string rather than a number, e.g. myDict["bread"] rather than myList[2].
+In Python, a dictionary is an unordered collection of elements indexed by a non-numeric key.  A dictionary can be thought of as a list where the index is a string rather than a number, e.g. myDict["bread"] rather than myList[2].
 ```python
 dict = {
     "bread" : 3.09,
@@ -32,7 +32,7 @@ for item, price in dict.items():
 
 ### Adding and Removing Elements
 
-Dictionaries can be iterated
+Items may be added or removed from dictionaries.
 
 ```python
 dict = {

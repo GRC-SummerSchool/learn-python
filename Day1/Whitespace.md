@@ -2,12 +2,12 @@
 |----|----|----|
 # Whitespace
 Python takes a minimalist approach to typing and prefers to avoid unnecessary typing.
-Many languages use uses curly braces {} to denote groping of statements or blocks;
+Many languages use curly braces {} to denote grouping of statements or blocks;
 however, Python has chosen to represent the block structure of a program with simple indentation.
 
 ### Indentation
 
-The leading spaces and tabs (BUT DON'T USE THEM) provide the statement grouping or block definition.
+The leading 4 spaces (or tabs, BUT DON'T USE THEM) provide the statement grouping or block definition.
 Empty lines may appear anywhere, and can aid in the readability of your program.
 
 ```python
@@ -20,11 +20,11 @@ print("This statement does not belong to the conditional and will always execute
 ```
 
 Some people don't like the forced indentation style, but it is required to use Python.
-The benefit to this structure is the code written by different teams has a similar style.
+The benefit to this structure is that code written by different teams has a similar style.
 
 ### Long Lines
 
-Often times for readability its desirable to break up a long line across multiple statements.
+Often times for readability it's desirable to break up a long line across multiple statements.
 Python has a few ways to handle this...  You can break any statement in the middle of matching
 braces (parenthesis, square brackets and curly braces).
 

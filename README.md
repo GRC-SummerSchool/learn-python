@@ -14,33 +14,33 @@ On the first day, the class will setup a python environment on your laptop
 and cover the basics of the Python language.
 
 1. [Setup Environment](Day1/Setup.md)
-1. [Session Objectives] (Day1/SessionObjectives.md)
-1. [Hello World](Day1/HelloWorld.md)
-1. [Whitespace](Day1/Whitespace.md)
-1. [Variables](Day1/Variables.md)
-1. [Input](Day1/Input.md)
-1. [Lists](Day1/Lists.md)
-1. [Conditionals](Day1/Conditionals.md)
+2. [Session Objectives](Day1/SessionObjectives.md)
+3. [Hello World](Day1/HelloWorld.md)
+4. [Whitespace](Day1/Whitespace.md)
+5. [Variables](Day1/Variables.md)
+6. [Input](Day1/Input.md)
+7. [Lists](Day1/Lists.md)
+8. [Conditionals](Day1/Conditionals.md)
 
 ## Day 2
 
 1. [Loops](Day2/Loops.md)
-1. [Dictionaries](Day2/Dictionaries.md)
-1. [Debugging](Day2/Debugging.md)
-1. Git Overview
+2. [Dictionaries](Day2/Dictionaries.md)
+3. [Debugging](Day2/Debugging.md)
+4. Git Overview
 
 ## Day 3
 
 1. Git Changes
-1. Arrays
-1. Functions: [Temperature Conversion](Day3/TemperatureConversion.md)
-1. File I/O: [CSV Files](Day3/CSVFiles.md)
-1. [Simple Plotting](Day3/SimplePlotting.md)
+2. Arrays
+3. Functions: [Temperature Conversion](Day3/TemperatureConversion.md)
+4. File I/O: [CSV Files](Day3/CSVFiles.md)
+5. [Simple Plotting](Day3/SimplePlotting.md)
 
 ## Day 4
 
 1. Git
-1. Data Analysis
-1. Tests
-1. Additional Resources
+2. Data Analysis
+3. Tests
+4. Additional Resources
 

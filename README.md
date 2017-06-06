@@ -14,7 +14,7 @@ On the first day, the class will setup a python environment on your laptop
 and cover the basics of the Python language.
 
 1. [Setup Environment](Day1/Setup.md)
-1. Instructor Demo
+1. [Session Objectives] (Day1/SessionObjectives.md)
 1. [Hello World](Day1/HelloWorld.md)
 1. [Whitespace](Day1/Whitespace.md)
 1. [Variables](Day1/Variables.md)

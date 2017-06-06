@@ -35,7 +35,7 @@ and cover the basics of the Python language.
 1. Arrays
 1. Functions: [Temperature Conversion](Day3/TemperatureConversion.md)
 1. File I/O: [CSV Files](Day3/CSVFiles.md)
-1. Simple Graphing
+1. [Simple Plotting](Day3/SimplePlotting.md)
 
 ## Day 4
 

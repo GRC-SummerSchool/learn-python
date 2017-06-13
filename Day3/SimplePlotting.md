@@ -1,4 +1,4 @@
-[< Previous (Debugging)](Debugging.md) | [Day2](../README.md)| [Next (Day3) >](../README.md) |
+[< Previous (CSV Files)](CSVFiles.md) | [Day3](../README.md)| [Next (Day4)](../README.md)| |
 |----|----|----|
 
 # Simple Plotting

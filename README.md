@@ -40,7 +40,7 @@ and cover the basics of the Python language.
 ## Day 4
 
 1. Git
-2. Data Analysis
-3. Tests
+2. [Data Analysis](Day4/DataAnalysis.md)
+3. [Software Testing](Day4/Testing.md)
 4. [Additional Resources](AdditionalResources.md)
 

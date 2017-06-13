@@ -17,23 +17,23 @@ inspected and improved, just by being used so often.
 ```python
 import numpy
 ```
-    _Imports all functions from the "number python" module_
+_Imports all functions from the "number python" module_
 
 ```python
 import numpy as np
 ```
-    _Imports all functions, and names the module "np"_
+_Imports all functions, and names the module "np"_
 
 ```python
 from numpy import matrix
 ```
-    _Only imports the parts of the module that the code uses_
+_Only imports the parts of the module that the code uses_
     
 ```python
 from numpy import *
 ```
-    _Imports the whole module without giving it a name. *Not recommended!* Doing this can
-    cause issues down the line!_
+_Imports the whole module without giving it a name. *Not recommended!* Doing this can
+cause issues down the line!_
     
 Depending on the method you imported it with, you can then access the functions and
 structures in the module with:
@@ -53,7 +53,7 @@ deviation.
 3. _scipy_ stands for "science python", and has many efficient packages for
 curve-fitting, optimization, and image processing.
 
-##pip
+## pip
 
 Many modules come already installed in the Anaconda distribution of Python that you
 downloaded prior to the class. However, if you ever come across a module that you'd

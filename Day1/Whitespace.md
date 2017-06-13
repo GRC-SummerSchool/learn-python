@@ -81,7 +81,4 @@ These are advanced concepts and may not be used in this class but it is useful t
 
 
 |[< Previous (HelloWorld)](HelloWorld.md) | [Day1](../README.md)| [Next (Variables) > ](Variables.md) |
-
-| ---- | ---- | ---- |
-| ---- | ---- | ---- |
-|      |      |      |
+|----|----|----|

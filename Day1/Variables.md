@@ -90,5 +90,7 @@ print("The length of string1 is ", len(string1))
 
 Modify your Hello World program to greet you by name, where your name is stored in a variable.
 
+Also, add some variables with different types and print them (as shown in the printing section above).
+
 | [< Previous (Whitespace)](Whitespace.md) | [Day1](../README.md)| [Next (Input)>](Input.md) |
 |----|----|----|

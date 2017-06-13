@@ -54,5 +54,11 @@ Item: milk cost: 2.29
 Item: bananas cost: 2.33
 ```
 
+### Exercise
+
+Create a new python file - groceries.py.
+Copy the code above and run. Add some additional print statements so you can see the original dictionary contents and the new dictionary contents. Include a separation between the two parts.
+
+
 |[< Previous (Loops)](Loops.md) | [Day2](../README.md)| [Next (Debugging) >](Debugging.md) |
 |----|----|----|

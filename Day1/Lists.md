@@ -79,5 +79,9 @@ Running the above example will produce the following output:
 ['front of list', 'cat', 3, 'dog', 5, 6, 7, 8]
 ```
 
+### Exercise
+
+Create a new python file (play-with-lists.py). Copy the above code into the new file and run it to see if you get the same results.
+
 |[< Previous (Input)](Input.md) | [Day1](../README.md)| [Next (Conditionals) >](Conditionals.md) |
 |----|----|----|

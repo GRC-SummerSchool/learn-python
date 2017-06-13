@@ -52,5 +52,10 @@ while count < 10:
     count = count + 1
 ```
 
+### Exercise
+
+Modify your practice-conditionals.py file from Day 1 to run the code in a loop.
+
+
 |[< Previous (Day2)](../README.md) | [Day2](../README.md)| [Next (Dictionaries) >](Dictionaries.md) |
 |----|----|----|

@@ -24,8 +24,29 @@ def plot_tavg(array_YEARMONTH, array_TAVG):
     plt.title('Average Temperature')
     plt.show()
 ```
+![](.SimplePlotting_images/ec4101b5.png)
 
-![](.SimplePlotting_images\ec4101b5.png)
+To use this function, we need to get the data from our map into arrays. This little function will loop through our dictionary and pull out data from a particular attribute.
+
+```python
+# Extract attribuve from dictionary as an array
+def create_attribute_array (data, attribute):
+    a = []
+    for x in data:
+        a.append( x[attribute] )
+    return a
+```
+### Exercise
+
+Add the import statement to the top of your readweather.py file.
+Add the plot_tavg function to the file.
+Add the create_attribute_array function to the file.
+Update your main section to
+1) Select one of the divisions from the data map.
+2) Create attribute array objects for the YearMonth attribute and the TAVG attribute.
+3) Call the plot_tavg function with the YearMonth as first input and TAVG as second.
+
+The plot shown above is for division 10.
 
 ## Multiple sub-plots
 
@@ -52,4 +73,15 @@ def plot_division (division_data):
     plt.show()
 ```
 
-![](.SimplePlotting_images\52bf7c6c.png)
+![](.SimplePlotting_images/52bf7c6c.png)
+
+### Exercise
+
+Add the plot_division function to the file.
+Update your main section to call the plot_division function instead of create_attribute_array and plot_tavg.
+
+
+### Exercise
+
+Modify your program to plot your data in Celsius units instead of Fahrenheit.
+

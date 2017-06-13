@@ -2,7 +2,7 @@
 
 This course is designed to provide an introduction to programming using Python. The 
 course is geared toward folks with a scientific background and structured to be 
-completed over a four x 45 minute sessions.
+completed approximately four 45 minute sessions.
 
 Over the four sessions, the class will build from the basics of the Python
 language to using more advanced modules capable of plotting and analyzing 

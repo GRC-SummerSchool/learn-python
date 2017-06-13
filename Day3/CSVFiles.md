@@ -4,7 +4,7 @@
 
 Data is often stored in a type of filed called a CSV file. CSV stands for comma separated value file, where data has been organized into columns, and are separated by delimiter, usually a comma.
 
-For example, the first few rows of the weather data CSV file looks like:
+For example, the first few rows of the weather data CSV file (../examples/weather/nystate_climate_indices_2010_2017.csv) looks like:
 ```
 StateCode,Division,YearMonth,PCP,TAVG,PDSI,PHDI,ZNDX,PMDI,CDD,HDD,SP01,SP02,SP03,SP06,SP09,SP12,SP24,TMIN,TMAX
 30,1,201001,2.8,21.8,0.59,2.19,0.95,2.1,0,1339,0.45,0.56,-0.26,0.44,0.75,0.41,1.01,14.5,29.2
@@ -41,7 +41,7 @@ def load_data_objects (filename):
 
 ## Reading data from a CSV file: Dictionary or Map
 
-The weather data contains data for weatehr stations throughout New York State. These weatehr stations are called Divisions. Below we still load the data into an array of Dictionary objects, but we create a map based on Division to store each array.
+The weather data contains data for weather stations throughout New York State. These weatehr stations are called Divisions. Below we still load the data into an array of Dictionary objects, but we create a map based on Division to store each array.
 
 Python routine to load weather CSV file into a python dictionary (map) using Division as key
 ```python
@@ -69,6 +69,13 @@ def load_data_objects_into_map (filename):
 
     return map
 ```
+
+### Exercise
+
+Create a new file, readweather.py. Copy the two function definitions into your file.
+
+Create a main section to call one or the other and print some information so that you are confident the function worked. Use the debugger to also check the data is loaded.
+
 
 [< Previous (Functions)](TemperatureConversion.md) | [Day3](../README.md)| [Next (Plotting) >](SimplePlotting.md) |
 |----|----|----|

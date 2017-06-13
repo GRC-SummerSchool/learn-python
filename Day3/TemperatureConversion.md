@@ -1,4 +1,4 @@
-[< Previous (Debugging)](Debugging.md) | [Day2](../README.md)| [Next (Day3) >](../README.md) |
+[< Previous (Debugging)](Debugging.md) | [Day3](../README.md)| [Next (File I/O) >](CSVFiles.md) |
 |----|----|----|
 # Temperature Conversion
 
@@ -27,3 +27,5 @@ def convertFtoC (temperatureF):
 In the above example, the input argment ```temperatureF``` is a string type. The ```float()``` operator is used to convert the string to a float before performing the conversion calculation.
 
 
+[< Previous (Debugging)](Debugging.md) | [Day3](../README.md)| [Next (File I/O) >](CSVFiles.md) |
+|----|----|----|

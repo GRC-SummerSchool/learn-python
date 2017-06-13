@@ -1,4 +1,4 @@
-[< Previous (Debugging)](Debugging.md) | [Day2](../README.md)| [Next (Day3) >](../README.md) |
+[< Previous (Functions)](TemperatureConversion.md) | [Day3](../README.md)| [Next (Plotting) >](SimplePlotting.md) |
 |----|----|----|
 # CSV Files
 
@@ -70,3 +70,5 @@ def load_data_objects_into_map (filename):
     return map
 ```
 
+[< Previous (Functions)](TemperatureConversion.md) | [Day3](../README.md)| [Next (Plotting) >](SimplePlotting.md) |
+|----|----|----|

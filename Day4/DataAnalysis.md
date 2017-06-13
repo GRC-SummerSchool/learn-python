@@ -1,4 +1,4 @@
-[< Previous (Git)](Git.md) | [Day4](../README.md)| [Next (Software Testing) >](Testing.md) |
+[< Previous (Git - Collaboration)](GitBranch.md) | [Day4](../README.md)| [Next (Software Testing) >](Testing.md) |
 |----|----|----|
 
 # Data Analysis
@@ -109,3 +109,6 @@ def plot_min_max (station_stats):
 The resulting chart:
 
 ![](.DataAnalysis_images/4cceee54.png)
+
+[< Previous (Git - Collaboration)](GitBranch.md) | [Day4](../README.md)| [Next (Software Testing) >](Testing.md) |
+|----|----|----|

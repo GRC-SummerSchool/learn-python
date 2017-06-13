@@ -35,7 +35,7 @@ def test_squared():
 
 When we run the program using py.test in PyCharm, we see that the tests execute successfully
 
-![](.Testing_images\1d1bb584.png)
+![](.Testing_images/1d1bb584.png)
 
 ## Writing a Unit Test for Temperature Conversion
 
@@ -58,4 +58,4 @@ def test_conversion():
 
 Tests can also be run from a command shell by executing ```py.test``` from the same folder as the test source files. For example:
 
-![](.Testing_images\0d7d4c6c.png)
+![](.Testing_images/0d7d4c6c.png)

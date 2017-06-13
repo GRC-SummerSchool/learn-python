@@ -1,4 +1,4 @@
-|[< Previous (Debugging)](Debugging.md) | [Day2](../README.md)| [Next (Day3) >](../README.md) |
+|[< Previous (Dictionaries)](Dictionaries.md) | [Day2](../README.md)| [Next (Git Overview) >](GitOverview.md) |
 |----|----|----|
 # Debugging
 
@@ -84,5 +84,5 @@ The program will then resume running normally unless it encounters another
 breakpoint, at which point the program will pause and allow you to inspect and
 modify variables again.
 
-|[< Previous (Debugging)](Debugging.md) | [Day2](../README.md)| [Next (Day3) >](../README.md) |
+|[< Previous (Dictionaries)](Dictionaries.md) | [Day2](../README.md)| [Next (Git Overview) >](GitOverview.md) |
 |----|----|----|

@@ -27,11 +27,11 @@ and cover the basics of the Python language.
 1. [Loops](Day2/Loops.md)
 2. [Dictionaries](Day2/Dictionaries.md)
 3. [Debugging](Day2/Debugging.md)
-4. Git Overview
+4. [Git Overview] (Day2/GitOverview.md)
 
 ## Day 3
 
-1. Git Changes
+1. [Git Changes] (Day3/GitChanges.md)
 2. Arrays
 3. Functions: [Temperature Conversion](Day3/TemperatureConversion.md)
 4. File I/O: [CSV Files](Day3/CSVFiles.md)

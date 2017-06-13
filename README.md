@@ -32,9 +32,8 @@ and cover the basics of the Python language.
 ## Day 3
 
 1. [Git - Saving your work](Day3/GitChanges.md)
-2. [Modules](Day3/Modules.md)
-3. Functions: [Temperature Conversion](Day3/TemperatureConversion.md)
-4. [Modules] (Day3/Modules.md)
+2. Functions: [Temperature Conversion](Day3/TemperatureConversion.md)
+3. [Modules](Day3/Modules.md)
 4. File I/O: [CSV Files](Day3/CSVFiles.md)
 5. [Simple Plotting](Day3/SimplePlotting.md)
 

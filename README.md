@@ -32,7 +32,7 @@ and cover the basics of the Python language.
 ## Day 3
 
 1. [Git Changes] (Day3/GitChanges.md)
-2. Arrays
+2. [Modules](Day3/Modules.md)
 3. Functions: [Temperature Conversion](Day3/TemperatureConversion.md)
 4. File I/O: [CSV Files](Day3/CSVFiles.md)
 5. [Simple Plotting](Day3/SimplePlotting.md)

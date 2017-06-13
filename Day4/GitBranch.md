@@ -4,7 +4,7 @@
 
 Git is a powerful tool for collaboration. It allows team members to work on their own copies and then easily combine or ```merge``` their work together.
 
-The biggest challenge of collaboration is making sure everyone's contributions are correctly combined in an orderly fashion. Git enforces this my making sure you commit your changes on the latest version.
+The biggest challenge of collaboration is making sure everyone's contributions are correctly combined in an orderly fashion. Git enforces this by making sure you commit your changes on the latest version.
 
 If you already have the code cloned, you can get the latest version by using the ```git pull``` command. This is also equivalent to using ```git fetch``` and ```git merge```.
 

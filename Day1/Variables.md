@@ -25,11 +25,19 @@ print("Hello World")
 
 ## Variables
 
-In Python every variable is an object and there is no need to declare the variable before their use.
+In Python, a ***variable*** is the name of a computer memory location that can store a certain value.
+
+In manner of speaking, we say things like :
+
+- "A variable stores/holds a value or object"
+- "A value is assigned to a variable"
+- "The (value of a) variable may change or can remain constant"
+
+In Python, every variable is an object and there is no need to declare the variable before their use.
 
 ### Numbers
 
-Python supports 3 types of numbers (int, float and complex).
+Python supports 3 **types** of numbers (int, float and complex).
 
 ```python
 i = 5       # integer arbitrary length 
@@ -60,6 +68,25 @@ string3 = "I'm also a string"   # No need to escape the single quote, because st
 string4 = 'I\'m also a string'  # Here a single quote appearing inside a single quoted string needs to be escaped
 ```
 
+
+
+### Dynamic Type
+
+Often, you may hear people say, *"Python is a dynamically-typed language"*. This means that the same variable can hold different types of objects during the course of execution of a program. In the example below, observe how the same variable holds different types of objects !
+
+``` python
+temp = 30		# integer
+print(type(temp))	# type (variablename) is a special built-in function
+
+temp = 133.3	# float
+print(type(temp))
+
+temp = "Very hot !"	# string
+print(type(temp))
+```
+
+
+
 ### Printing
 
 Python allows variables to be passed to print statements using commas to separate items 
@@ -85,7 +112,7 @@ print(string1 + " " + string2)
 
 print("The length of string1 is ", len(string1))
 ```
- 
+
 ### Exercise
 
 Modify your Hello World program to greet you by name, where your name is stored in a variable.

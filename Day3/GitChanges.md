@@ -1,6 +1,6 @@
-|[< Previous (Git Overview)](../Day2/GitOverview.md) | [Day3](../README.md)| [Next (Arrays) >](../README.md) |
+|[< Previous (Source Code Management)](../Day2/GitOverview.md) | [Day3](../README.md)| [Next (Functions: Temperature Conversion) >](TemperatureConversion.md) |
 |----|----|----|
-# Saving your work
+# Git - Saving your work
 
 We will need to do three things to save your work:
 1) Create a place (repository) to save work.
@@ -79,5 +79,5 @@ From now on, just use git add, git commit and git push
 https://education.github.com/git-cheat-sheet-education.pdf
 
 
-|[< Previous (Git Overview)](../Day2/GitOverview.md) | [Day3](../README.md)| [Next (Arrays) >](../README.md) |
+|[< Previous (Source Code Management)](../Day2/GitOverview.md) | [Day3](../README.md)| [Next (Functions: Temperature Conversion) >](TemperatureConversion.md) |
 |----|----|----|

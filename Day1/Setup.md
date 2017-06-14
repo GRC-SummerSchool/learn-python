@@ -30,7 +30,7 @@ course.
 
 
 
-![ana440_64_win](images\ana440_64_win.jpg)
+![ana440_64_win](images/ana440_64_win.jpg)
 
 
 | [< Previous (Intro)](../README.md) | [Day1](../README.md) | [Next (Session Objectives) >](SessionObjectives.md) |

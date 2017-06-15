@@ -143,7 +143,4 @@ The important thing to note is that once an assignment is done, the two variable
 
 
 | [< Previous (Whitespace)](Whitespace.md) | [Day1](../README.md) | [Next (Input)>](Input.md) |
-| ---------------------------------------- | -------------------- | ------------------------- |
-|                                          |                      |                           |
-
 |----|----|----|

@@ -2,13 +2,13 @@
 |----|----|----|
 # Hello World
 
-The Pycharm IDE provides the development environment to create, edit, run and debug your
-python programs.
+The Pycharm IDE provides the development environment to create, edit, run, and debug your python programs. 
+On the left is a tree view of your project structure and files.  On the right is an editor window for typing 
+code.
 
 ## Creating a first project
 
-Our first program will be the traditional "Hello World" program. This program is traditionally
-first program used to introduce language, syntax and environment to people learning to program. Select File->New Project to create a new project.
+Our first program will be the "Hello World" program. This is traditionally the first program used to introduce language, syntax, and environment to people learning to program. Select File->New Project to create a new project.
 
 ### Creating a new python file
 
@@ -22,7 +22,7 @@ You will then be prompted for a file name. Enter hello-world.py:
 ![](.HelloWorld_images/new_file.png)
 
 You will now see a blank editor window (hello-world.py). This is where we type our first 
-program. Notice the project tree on the left shows that hello-world.py is part of your project.
+program. Notice that the project tree on the left shows hello-world.py as part of your project.
 
 ![](.HelloWorld_images/empty_file.png)
 
@@ -38,13 +38,13 @@ print("Hello World")
 
 ### Ready to Run
 
-Right click on your file in the project tree, and select "Run"
+Right-click on your file in the project tree, and select "Run"
 
 ![](.HelloWorld_images/run_first_program.png)
 
 ### Results
 
-Notice in the bottom pane of your IDE, you see the console showing your programs output.
+Notice in the bottom pane of your IDE, you see the console showing your program's output.
 
 ![](.HelloWorld_images/results.png)
 

@@ -27,7 +27,7 @@ print("Hello World")
 
 In Python, a ***variable*** is the name of a computer memory location that can store a certain value.
 
-In manner of speaking, we say things like :
+In manner of speaking, we say things like:
 
 - "A variable stores/holds a value or object"
 - "A value is assigned to a variable"
@@ -68,11 +68,9 @@ string3 = "I'm also a string"   # No need to escape the single quote, because st
 string4 = 'I\'m also a string'  # Here a single quote appearing inside a single quoted string needs to be escaped
 ```
 
-
-
 ### Dynamic Type
 
-Often, you may hear people say, *"Python is a dynamically-typed language"*. This means that the same variable can hold different types of objects during the course of execution of a program. In the example below, observe how the same variable holds different types of objects !
+Often, you may hear people say, *"Python is a dynamically-typed language"*. This means that the same variable can hold different types of objects during the course of execution of a program. In the example below, observe how the same variable holds different types of objects!
 
 ``` python
 temp = 30		# integer
@@ -85,11 +83,9 @@ temp = "Very hot !"	# string
 print(type(temp))
 ```
 
-
-
 ### Printing
 
-Python allows variables to be passed to print statements using commas to separate items 
+Python allows variables to be passed to print statements using commas to separate items.
 
 ```python
 i = 5       # integer
@@ -104,7 +100,7 @@ print("The value of i = ", i, ", f=", f)
 print("The sum of 1 + f + j ", i + f + j)  # The numbers are added together and then printed out
 ```
 
-Strings may be concatenated together using the + operator
+Strings may be concatenated together using the + operator.
 ```python
 string1 = 'Hello'       
 string2 = "World"

@@ -5,7 +5,7 @@
 Conditionals allow you to execute a portion of code when a condition is satisfied.
 
 ### If Statements
-You can add an if clause to execute when the condition is satisfied:
+You can add an *if* clause to execute when the condition is satisfied:
 
 ```python
 x = 5
@@ -13,7 +13,7 @@ if x < 10:
   print("x is < 10")
 ```
 
-You can add else clause to execute when the condition is not satisfied:
+You can add an *else* clause to execute when the condition is not satisfied:
 
 ```python
 x = 15
@@ -23,8 +23,8 @@ else:
   print("x is not < 10")
 ```
 
-You can add additional elif (else if) clauses that are also evaluated. Only one condition 
-will execute. Each condition is evaluated in the order listed.  Once a condition evaluates
+You can add additional *elif* (else if) clauses that are also evaluated. Only one condition 
+will execute. Each condition is evaluated in the order listed. Once a condition evaluates
 true, any remaining conditions are skipped.
 
 ```python

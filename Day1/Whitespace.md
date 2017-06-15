@@ -28,10 +28,10 @@ The benefit to this structure is that code written by different teams has a simi
 
 Often times for readability it's desirable to break up a long line across multiple statements.
 Python has a few ways to handle this...  You can break any statement in the middle of matching
-braces (parenthesis, square brackets and curly braces).
+braces (parenthesis, square brackets, and curly braces).
 
 ```python
-if ( some_long_expression == some_long_condtion and        # line continuation automatic
+if (some_long_expression == some_long_condtion and        # line continuation automatic
   some_other_long_expression == some_other_long_condtion):  
     print("Condition was true")
 
@@ -44,8 +44,8 @@ dict = {                                                  # continues naturally 
     "milk" : 2.29
 }
 
-# But if you want to break up a statement that doesn't fall within braces
-# you can use the \ at the end of the line to signify the continuation onto the next line
+# If you want to break up a statement that doesn't fall within braces you can
+# use the \ at the end of the line to signify the continuation onto the next line
 
 if some_long_expression == some_long_condtion and         \
   some_other_long_expression == some_other_long_condtion: 
@@ -69,13 +69,15 @@ Avoid using special characters  ("$", "*", "_" , etc.)  at the beginning or end 
 Underscores have special significance in Python. Single underscores and double underscores have different meanings.
 These are not just conventions. They have special meaning to the interpreter.
 
-    For example
+For example:
 
-    \_myVariable\_ denotes a private variable
+*_myVariable* denotes a private variable
 
-    \_\_init\_\_ is used to avoid name clashes across classes
+*__myMethod* is used to avoid name clashes across classes
 
-    \_  by itself is used to access the results of the last executed statement
+*\__nativeMethod__* is used for native methods called by Python and not the user
+
+*_*  by itself is used to access the results of the last executed statement
 
 These are advanced concepts and may not be used in this class but it is useful to be aware of the rules and conventions.
 

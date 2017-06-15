@@ -1,8 +1,8 @@
 # GRC-SummerSchool Learn Python.
 
 This course is designed to provide an introduction to programming using Python. The 
-course is geared toward folks with a scientific background and structured to be 
-completed approximately four 45 minute sessions.
+course is geared toward folks with a scientific background and is structured to be 
+completed in approximately four 45 minute sessions.
 
 Over the four sessions, the class will build from the basics of the Python
 language to using more advanced modules capable of plotting and analyzing 
@@ -10,7 +10,7 @@ data.
 
 ## Day 1
 
-On the first day, the class will setup a python environment on your laptop
+On the first day, the class will setup a Python environment on your laptop
 and cover the basics of the Python language.
 
 1. [Setup Environment](Day1/Setup.md)
@@ -24,12 +24,18 @@ and cover the basics of the Python language.
 
 ## Day 2
 
+On the second day, the class will introduce looping and an additional data 
+structure. More advanced features of the development environment will be shown.
+
 1. [Loops](Day2/Loops.md)
 2. [Dictionaries](Day2/Dictionaries.md)
 3. [Debugging](Day2/Debugging.md)
-4. [Source code management](Day2/GitOverview.md)
+4. [Source Code Management](Day2/GitOverview.md)
 
 ## Day 3
+
+On the third day, more advanced operations will be covered allowing for reading 
+data files and generating plots.
 
 1. [Git - Saving your work](Day3/GitChanges.md)
 2. Functions: [Temperature Conversion](Day3/TemperatureConversion.md)
@@ -38,6 +44,9 @@ and cover the basics of the Python language.
 5. [Simple Plotting](Day3/SimplePlotting.md)
 
 ## Day 4
+
+On the fourth day, previous topics will be combined to build a simple 
+analytic for processing data and displaying the results.
 
 1. [Git - Collaborating](Day4/GitBranch.md)
 2. [Data Analysis](Day4/DataAnalysis.md)

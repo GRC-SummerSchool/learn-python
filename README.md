@@ -15,12 +15,15 @@ and cover the basics of the Python language.
 
 1. [Setup Environment](Day1/Setup.md)
 2. [Session Objectives](Day1/SessionObjectives.md)
-3. [Hello World](Day1/HelloWorld.md)
-4. [Python Specifics](Day1/Whitespace.md)
-5. [Variables](Day1/Variables.md)
-6. [Input](Day1/Input.md)
-7. [Lists](Day1/Lists.md)
-8. [Conditionals](Day1/Conditionals.md)
+3. [Quick Intro to Python](Day1/PythonIntro.md)
+4. [Hello World](Day1/HelloWorld.md)
+5. [Python Specifics](Day1/Whitespace.md)
+6. [Variables](Day1/Variables.md)
+7. [Input](Day1/Input.md)
+8. [Lists](Day1/Lists.md)
+9. [Conditionals](Day1/Conditionals.md)
+
+
 
 ## Day 2
 

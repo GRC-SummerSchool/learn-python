@@ -21,7 +21,7 @@ Python is a high-level general-purpose programming language that can be applied 
 
 5. Python is Open Source and has a [large community](https://www.python.org/) 
 
-6. Guido is named **BDFL** for Python
+6. Guido is named [**BDFL**](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life) for Python
 
 7. Most popular coding language, [5 years in a row](http://blog.codeeval.com/codeevalblog/2016/2/2/most-popular-coding-languages-of-2016)
 

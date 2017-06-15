@@ -1,9 +1,9 @@
-|[< Previous (Dictionaries)](Dictionaries.md) | [Day2](../README.md)| [Next (Git Overview) >](GitOverview.md) |
+|[< Previous (Dictionaries)](Dictionaries.md) | [Day2](../README.md)| [Next (Source Control Management) >](GitOverview.md) |
 |----|----|----|
 # Debugging
 
-The Pycharm IDE provides a full GUI debugger that allows the developer to step through the 
-execution of their program, set breakpoints, inspect and modify variables.  A debugger
+The PyCharm IDE provides a full GUI debugger that allows the developer to step through the 
+execution of their program, set breakpoints, inspect, and modify variables.  A debugger
 provides a powerful tool that every developer should know how to use.
 
 ## Setting breakpoints
@@ -13,21 +13,21 @@ Consider the following program:
 
 ```python
 name = input("Please enter your name: ")
-print("Hello ", name, "! Nice to meet you.")
+print("Hello", name, "nice to meet you.")
 
 while(True) :
     number = int(input("Please enter a number between 1 and 10: "))
-    if number >= 1 and number <= 10 :
+    if number >= 1 and number <= 10:
         break
-    else :
+    else:
         print("Number out of range")
 
-print("Thank you for entering: ", number)
+print("Thank you for entering:", number)
 ```
 
 ### Create new program
 
-Create a new python file in your IDE, and enter the above program.
+Create a new python file, debugme.py, and enter the above program.
 
 ![](.Debugging_images/setup.png)
 
@@ -58,13 +58,13 @@ variables that are in scope.
 
 ![](.Debugging_images/break.png)
 
-We will right click on the name variable and change the contents of the variable from 'Walt'
-to 'Fred'
+We will right-click on the _name_ variable and change the contents of the variable from 'Walt'
+to 'Fred'.
 
 ![](.Debugging_images/fred.png)
 
 We can now single step over (F8) the statements in or program, or use the run menu to control 
-program execution
+program execution.
 
 ![](.Debugging_images/run_menu.png)
 
@@ -84,5 +84,5 @@ The program will then resume running normally unless it encounters another
 breakpoint, at which point the program will pause and allow you to inspect and
 modify variables again.
 
-|[< Previous (Dictionaries)](Dictionaries.md) | [Day2](../README.md)| [Next (Git Overview) >](GitOverview.md) |
+|[< Previous (Dictionaries)](Dictionaries.md) | [Day2](../README.md)| [Next (Source Control Management) >](GitOverview.md) |
 |----|----|----|

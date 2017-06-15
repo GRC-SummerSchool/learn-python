@@ -26,8 +26,9 @@ dict = {
     "eggs" : 2.19,
     "milk" : 2.29
 }
+
 for item, price in dict.items():
-    print("Item: %s cost: %4.2f" % (item, price))
+    print("Item: %s, cost: %4.2f" % (item, price))
 ```
 
 ### Adding and Removing Elements
@@ -43,7 +44,6 @@ dict = {
 dict.pop("eggs")        # Removes eggs from the dictionary
 dict["bananas"] = 2.33  # Add new item to dictionary 
 
-
 for item, price in dict.items():
     print("Item: %s cost: %4.2f" % (item, price))
 ```
@@ -56,7 +56,7 @@ Item: bananas cost: 2.33
 
 ### Exercise
 
-Create a new python file - groceries.py.
+Create a new python file, groceries.py.
 Copy the code above and run. Add some additional print statements so you can see the original dictionary contents and the new dictionary contents. Include a separation between the two parts.
 
 

@@ -2,10 +2,10 @@
 |----|----|----|
 # Loops
 
-Python supports for loops and while loops.
+Python supports _for_ loops and _while_ loops.
 
 ### For Loop
-You can iterate through all the elements in a list using a for loop:
+You can iterate through all the elements in a list using a _for_ loop:
 
 ```python
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -43,7 +43,7 @@ will produce the following output:
 
 ### While Loops
 
-A while loop will repeat until the loop condition isn't satisfied
+A _while_ loop will repeat until the loop condition isn't satisfied:
 
 ```python
 count = 1
@@ -51,11 +51,23 @@ while count < 10:
     print(count)
     count = count + 1
 ```
+will produce the following output:
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
 
 ### Infinite Loops
 
 If a chunk of code is taking much longer than you expected it to, it might be that you
-created an infinite loop- a loop whose ending condition will never be reached.
+created an infinite loop - a loop whose ending condition will never be reached.
 
 ```python
 count = 1
@@ -123,9 +135,9 @@ You can't make me say that number!
 
 ### Further Practice
 
-Write a guessing game that generates a random number, and prompts the user for input
-until they guess correctly. Generate a random number between 1 and 10 by using the 
-following code snippet:
+Create a new python file, guess.py. Write a guessing game that generates a random number, and prompts 
+the user for input until they guess correctly. Generate a random number between 1 and 10 by 
+using the following code snippet:
 
 ```python
 from random import randint

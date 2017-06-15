@@ -10,7 +10,7 @@ The input function will output a prompt, and capture the user supplied input up 
 
 ```python
 name = input("Enter the your name: ")
-print("Hello ", name)
+print("Hello", name)
 ```
 
 ### Excercise

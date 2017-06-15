@@ -61,26 +61,30 @@ are 100% certain that everyone in your project will always have their tabstops a
 no-one will ever add spaces with using the wrong tabstop - then go ahead...  
 __But don't say I didn't warn you!__
 
-## Naming variables
-Always start variable names with a lower case letter.
+## Comments
 
-Avoid using special characters  ("$", "*", "_" , etc.)  at the beginning or end of variable names.
+### Single Line Comments
+You can add comments to your code in several ways.
+Single line comments start with a # and go until the end of the line
 
-Underscores have special significance in Python. Single underscores and double underscores have different meanings.
-These are not just conventions. They have special meaning to the interpreter.
+```python
+# This is a comment
+print("Hello World")  # This is also a comment
+```
+### Multi Line Comments
+If you want to extend a comment for multiple lines, you can use triple quotes (single or double)
 
-For example:
-
-*_myVariable* denotes a private variable
-
-*__myMethod* is used to avoid name clashes across classes
-
-*\__nativeMethod__* is used for native methods called by Python and not the user
-
-*_*  by itself is used to access the results of the last executed statement
-
-These are advanced concepts and may not be used in this class but it is useful to be aware of the rules and conventions.
-
+```python
+''' This is a comment that
+    extends until the next triple
+    quote is encountered
+''' 
+print("Hello World")
+"""" 
+  You can also use double quotes to create a multi-line
+  comment block 
+"""   
+```
 
 |[< Previous (HelloWorld)](HelloWorld.md) | [Day1](../README.md)| [Next (Variables) > ](Variables.md) |
 |----|----|----|

@@ -113,11 +113,34 @@ print(string1 + " " + string2)
 print("The length of string1 is ", len(string1))
 ```
 
+
+
+### Assigning one variable to another
+
+Until now, we saw variables being assigned a value. Variables can also be assigned (the value of) another variable. Think of this as copying a variable.
+
+```python
+x1 = 50					# integer
+x2 = 60					# another integer
+title = "Shark Tank"	 # a string	
+x3 = x1 				# x3 now holds the value of x1
+x1 = 70					# now we changed the value of x1, should x3 change ?
+print(x1, x2, x3)		# note the values : 70, 60, 50
+x2 = title				# x2 held an integer (60) previously, now holds a string
+print(x2)				# "Shark Tank"
+```
+
+The important thing to note is that once an assignment is done, the two variables are NOT related, i.e their values do not follow or track each other. Each can be independently changed without affecting the other.
+
 ### Exercise
 
-Modify your Hello World program to greet you by name, where your name is stored in a variable.
+1. Modify your Hello World program to greet you by name, where your name is stored in a variable.
 
-Also, add some variables with different types and print them (as shown in the printing section above).
+2. Add some variables with different types and print them (as shown in the sections above).
+3. Extra credit : Store your first and last names in two different variables, and print out a concatenated line (e.g. "My name is Sherlock Holmes")
+4. More extra credit: Print the number of characters in your name (e.g. Number of characters in my name : 14). Be cognizant of the blank space.
 
-| [< Previous (Whitespace)](Whitespace.md) | [Day1](../README.md)| [Next (Input)>](Input.md) |
+
+
+| [< Previous (Whitespace)](Whitespace.md) | [Day1](../README.md) | [Next (Input)>](Input.md) |
 |----|----|----|

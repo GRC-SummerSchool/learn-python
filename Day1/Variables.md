@@ -69,7 +69,7 @@ Python has some rules that you need to observe while naming variables.
 | Basic Rules                              | Examples                                 |
 | ---------------------------------------- | ---------------------------------------- |
 | Names should start with a letter (or underscore) | ```surname, dollars, CapitalCity```      |
-| Names can contain CAPITAL LETTERS but varibale names are CaSe Sensitive | ```force``` is not the same as ```Force``` |
+| Names can contain CAPITAL LETTERS but variable names are CaSe Sensitive | ```force``` is not the same as ```Force``` |
 | Numbers are allowed in the middle or end | ```rogue1``` ```top10```                 |
 
 

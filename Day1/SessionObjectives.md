@@ -1,4 +1,4 @@
-| [< Previous (Setup)](Setup.md)  | [Day1](../README.md)| [Next (Hello World) >](HelloWorld.md) |
+| [< Previous (Setup)](Setup.md)  | [Day1](../README.md)| [Next (Quick Intro to Python) >](PythonIntro.md) |
 |----|----|----|
 # Session Objectives
 
@@ -16,5 +16,5 @@ To get here, we will go through
 -  Collaborating effectively with version control
 -  Understanding automated tests
 
-| [< Previous (Setup)](Setup.md)  | [Day1](../README.md)| [Next (Hello World) >](HelloWorld.md) |
+| [< Previous (Setup)](Setup.md)  | [Day1](../README.md)| [Next (Quick Intro to Python) >](PythonIntro.md) |
 |----|----|----|

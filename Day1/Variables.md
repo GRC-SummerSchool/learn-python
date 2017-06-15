@@ -1,27 +1,6 @@
 | [< Previous (Whitespace)](Whitespace.md) | [Day1](../README.md)| [Next (Input)>](Input.md) |
 |----|----|----|
-### Single Line Comments
-You can add comments to your code in several ways.
-Single line comments start with a # and go until the end of the line
 
-```python
-# This is a comment
-print("Hello World")  # This is also a comment
-```
-### Multi Line Comments
-If you want to extend a comment for multiple lines, you can use triple quotes (single or double)
-
-```python
-''' This is a comment that
-    extends until the next triple
-    quote is encountered
-''' 
-print("Hello World")
-"""" 
-  You can also use double quotes to create a multi-line
-  comment block 
-"""   
-```
 
 ## Variables
 
@@ -83,6 +62,40 @@ temp = "Very hot !"	# string
 print(type(temp))
 ```
 
+## Naming variables
+
+Python has some rules that you need to observe while naming variables. 
+
+| Basic Rules                              | Examples                                 |
+| ---------------------------------------- | ---------------------------------------- |
+| Names should start with a letter (or underscore) | ```surname, dollars, CapitalCity```      |
+| Names can contain CAPITAL LETTERS but variable names are CaSe Sensitive | ```force``` is not the same as ```Force``` |
+| Numbers are allowed in the middle or end | ```rogue1``` ```top10```                 |
+
+
+
+* Try using descriptive names: ```maxPersonsInElevator``` instead of ```m``` or ```mpie```
+
+* Avoid using special characters  ("$", "*", "_" , etc.)  at the beginning or end of variable names
+
+  ​
+
+**Underscores have special significance in Python**. Single underscores and double underscores have different meanings.
+These are not just conventions. They have special meaning to the interpreter.
+
+For example:
+
+| Variable with underscore (_) | Significance                             |
+| ---------------------------- | ---------------------------------------- |
+| *_myVariable*                | denotes a private variable               |
+| __myMethod                   | is used to avoid name clashes across classes |
+| *\__nativeMethod__*          | is used for native methods called by Python and not the user |
+| *_*                          | by itself is used to access the results of the last executed statement |
+
+​		
+These are advanced concepts and may not be used in this class but it is useful to be aware of the rules and conventions. [This article](https://hackernoon.com/understanding-the-underscore-of-python-309d1a029edc) provides a further treatment for explorers. 
+
+
 ### Printing
 
 Python allows variables to be passed to print statements using commas to separate items.
@@ -109,8 +122,6 @@ print(string1 + " " + string2)
 print("The length of string1 is ", len(string1))
 ```
 
-
-
 ### Assigning one variable to another
 
 Until now, we saw variables being assigned a value. Variables can also be assigned (the value of) another variable. Think of this as copying a variable.
@@ -128,14 +139,13 @@ print(x2)				# "Shark Tank"
 
 The important thing to note is that once an assignment is done, the two variables are NOT related, i.e their values do not follow or track each other. Each can be independently changed without affecting the other.
 
-### Exercise
+### Exercises
 
 1. Modify your Hello World program to greet you by name, where your name is stored in a variable.
 
 2. Add some variables with different types and print them (as shown in the sections above).
 3. Extra credit : Store your first and last names in two different variables, and print out a concatenated line (e.g. "My name is Sherlock Holmes")
 4. More extra credit: Print the number of characters in your name (e.g. Number of characters in my name : 14). Be cognizant of the blank space.
-
 
 
 | [< Previous (Whitespace)](Whitespace.md) | [Day1](../README.md) | [Next (Input)>](Input.md) |

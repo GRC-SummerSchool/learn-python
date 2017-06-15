@@ -18,6 +18,6 @@ As this site is  kept alive by programmers asking and answering questions, there
 
 There are lots of tutorials and git documentation is great, although sometimes it can have some jargon to learn.
 
-[Cheat Sheet] (https://education.github.com/git-cheat-sheet-education.pdf) has many common commands.
-[git] (https://git-scm.com/) The main git starting point web site.
-[github training] (https://services.github.com/on-demand/) Some on-line github training.
+[Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) has many common commands.
+[git](https://git-scm.com/) The main git starting point web site.
+[github training](https://services.github.com/on-demand/) Some on-line github training.

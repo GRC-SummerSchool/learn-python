@@ -1,4 +1,4 @@
-| [< Previous (Session Objectives)](Setup.md) | [Day1](../README.md) | [Next (Hello World) >](HelloWorld.md) |
+| [< Previous (Session Objectives)](SessionObjectives.md) | [Day1](../README.md) | [Next (Hello World) >](HelloWorld.md) |
 |---|---|---|
 
 # A Quick Introduction To Python
@@ -33,5 +33,5 @@ Python is a high-level general-purpose programming language that can be applied 
 
 
 
-| [< Previous (Session Objectives)](Setup.md) | [Day1](../README.md) | [Next (Hello World) >](HelloWorld.md) |
+| [< Previous (Session Objectives)](SessionObjectives.md) | [Day1](../README.md) | [Next (Hello World) >](HelloWorld.md) |
 |---|---|---|

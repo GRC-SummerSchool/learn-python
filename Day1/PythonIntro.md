@@ -7,7 +7,7 @@
 
 ## 9 Trivia Items
 
-![img](file:///C:/SHOURYA/DEV/GITHUB/learn-python/Day1/images/monty-python.jpg?lastModify=1497553725)
+![img](images/monty-python.jpg)
 
 Python is a high-level general-purpose programming language that can be applied to many different classes of problems.
 

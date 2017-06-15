@@ -1,5 +1,6 @@
-|[< Previous (Session Objectives)](SessionObjectives.md) | [Day1](../README.md)| [Next (Whitespace) >](Whitespace.md) |
+|[< Previous (Quick Intro to Python)](PythonIntro.md) | [Day1](../README.md)| [Next (Whitespace) >](Whitespace.md) |
 |----|----|----|
+
 # Hello World
 
 The Pycharm IDE provides the development environment to create, edit, run, and debug your python programs. 
@@ -49,5 +50,5 @@ Notice in the bottom pane of your IDE, you see the console showing your program'
 ![](.HelloWorld_images/results.png)
 
 
-|[< Previous (Session Objectives)](SessionObjectives.md) | [Day1](../README.md)| [Next (Whitespace) >](Whitespace.md) |
+|[< Previous (Quick Intro to Python)](PythonIntro.md) | [Day1](../README.md)| [Next (Whitespace) >](Whitespace.md) |
 |----|----|----|

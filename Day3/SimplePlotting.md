@@ -1,5 +1,6 @@
-[< Previous (CSV Files)](CSVFiles.md) | [Day3](../README.md)| [Next (Day4)](../README.md)| |
+|[< Previous (File I/O) >](CSVFiles.md) | [Day3](../README.md)|  [Next (Day4](../README.md) |
 |----|----|----|
+
 
 # Simple Plotting
 
@@ -16,7 +17,8 @@ import matplotlib.pyplot as plt
 
 ## Simple X, Y Plot
 
-To create an X, Y plot, the arrays of the X and Y values are simply passed to the ```plot()``` function
+To create an X, Y plot, the arrays of the X and Y values are simply passed to the ```plot()``` function.
+Below we define a function called ```plot_tavg``` which takes the 2 arguments which are the X and Y arrays passed to the ```plot``` function
 
 ```python
 def plot_tavg(array_YEARMONTH, array_TAVG):
@@ -24,9 +26,16 @@ def plot_tavg(array_YEARMONTH, array_TAVG):
     plt.title('Average Temperature')
     plt.show()
 ```
+
+The ```matplotlib.pyplot``` library contains many [functions](https://matplotlib.org/2.0.2/api/pyplot_summary.html) for plotting different kinds of
+plots (line, bar, contours) and for styling the plots with a title or different colors. In the example, we create a simple line plot and provide a title. If desired, you can pass addtional options to the ```plot``
+function to specify maerks rather than lines, as well as the styke and color of the lines or markers.
+
+Finally, the ```show()``` function is called to display the resulting plot (shown below).
+
 ![](.SimplePlotting_images/ec4101b5.png)
 
-To use this function, we need to get the data from our map into arrays. This little function will loop through our dictionary and pull out data from a particular attribute.
+Before calling the ```plot_tavg``` function, the data from the map must be placed into arrays. This little function will loop through our dictionary and pull out data from a particular attribute.
 
 ```python
 # Extract attribute from dictionary as an array
@@ -36,6 +45,7 @@ def create_attribute_array (data, attribute):
         a.append( x[attribute] )
     return a
 ```
+
 ### Exercise
 
 Add the import statement to the top of your readweather.py file.
@@ -85,3 +95,5 @@ Update your main section to call the plot_division function instead of create_at
 
 Modify your program to plot your data in Celsius units instead of Fahrenheit.
 
+|[< Previous (File I/O) >](CSVFiles.md) | [Day3](../README.md)|  [Next (Day4](../README.md) |
+|----|----|----|

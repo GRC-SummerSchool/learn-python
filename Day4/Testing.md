@@ -59,3 +59,5 @@ def test_conversion():
 Tests can also be run from a command shell by executing ```py.test``` from the same folder as the test source files. For example:
 
 ![](.Testing_images/0d7d4c6c.png)
+
+[< Previous (Data Analysus)](DataAnalysis.md) | [Day4](../README.md)| [Next (Additional Resources) >](../AdditionalResources.md) ||----|----|----|

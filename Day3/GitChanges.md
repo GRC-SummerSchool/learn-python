@@ -1,4 +1,4 @@
-|[< Previous (Source Code Management)](../Day2/GitOverview.md) | [Day3](../README.md)| [Next (Functions: Temperature Conversion) >](TemperatureConversion.md) |
+|[< Previous (Source Code Management)](../Day2/GitOverview.md) | [Day3](../README.md)| [Next (Weather Analysis Overview) >](WeatherAnalysisOverview.md) |
 |----|----|----|
 # Git - Saving your work
 
@@ -78,6 +78,5 @@ From now on, just use git add, git commit and git push
 ## Git references
 https://education.github.com/git-cheat-sheet-education.pdf
 
-
-|[< Previous (Source Code Management)](../Day2/GitOverview.md) | [Day3](../README.md)| [Next (Functions: Temperature Conversion) >](TemperatureConversion.md) |
+|[< Previous (Source Code Management)](../Day2/GitOverview.md) | [Day3](../README.md)| [Next (Weather Analysis Overview) >](WeatherAnalysisOverview.md) |
 |----|----|----|

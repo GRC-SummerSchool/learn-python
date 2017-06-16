@@ -1,8 +1,8 @@
-[< Previous (Git - Saving your work)](GitChanges.md) | [Day3](../README.md)| [Next (Modules) >](Modules.md) |
+[< Previous (Weather Analysis Overview)](WeatherAnalysisOverview.md) | [Day3](../README.md)| [Next (Modules) >](Modules.md) |
 |----|----|----|
 # Temperature Conversion
 
-Temperature is commonly represented in degrees in units of Fahrenheit (F) or Celsius. Below are formulaey for converting between the units.
+Temperature is commonly represented in degrees in units of Fahrenheit (F) or Celsius (C). Below are formulas for converting between the units.
 
 ## Conversion formulas
 
@@ -18,7 +18,7 @@ T(°C) = (T(°F) - 32) × 5/9
 
 ## Python Code to Convert Fahrenheit to Celsius
 
-```
+```python
 def convertFtoC (temperatureF):
     temperatureC = (float(temperatureF) - 32) * (5.0/9.0)
     return temperatureC
@@ -32,7 +32,7 @@ In the above example, the input argment ```temperatureF``` is a string type. The
 After defining the function, we can use it to perform calculations.
 ## Python Code to call the conversion function
 
-```
+```python
 freezing = convertFtoC('32')
 print 'freezing = ',freezing,'C'
 ```
@@ -48,7 +48,7 @@ Create a new file, temperatureConversion.py. Copy the function definition code a
 
 So far we have just run one python file at a time. As projects get complex, you may have several functions and put the definitions in separate files. When you want to run them, one file needs to be the starting point. This is __main__. To include code to run only when the file is the starting point add a section checking if this is the main program like this:
 
-```
+```python
 if __name__ == "__main++":
     print('this is the main program')
 ```
@@ -64,5 +64,5 @@ Divide the function and main into two python files and run again.
 
 Run this program and see the different output. 
 
-[< Previous (Git - Saving your work)](GitChanges.md) | [Day3](../README.md)| [Next (Modules) >](Modules.md) |
+[< Previous (Weather Analysis Overview)](WeatherAnalysisOverview.md) | [Day3](../README.md)| [Next (Modules) >](Modules.md) |
 |----|----|----|

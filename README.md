@@ -41,7 +41,7 @@ On the third day, more advanced operations will be covered allowing for reading
 data files and generating plots.
 
 1. [Git - Saving your work](Day3/GitChanges.md)
-2. [Weather Analysis Overview](Day3/WeatherAnalysisOverview.nd)
+2. [Weather Analysis Overview](Day3/WeatherAnalysisOverview.md)
 2. Functions: [Temperature Conversion](Day3/TemperatureConversion.md)
 3. [Modules](Day3/Modules.md)
 4. File I/O: [CSV Files](Day3/CSVFiles.md)

@@ -7,13 +7,13 @@
 
 ## 9 Trivia Items
 
-![img](images/monty-python.jpg)
+
 
 Python is a high-level general-purpose programming language that can be applied to many different classes of problems.
 
 1. Invented by Guido Van Rossum, CWI Netherlands, late 80's
 
-2. Named after Monty Python's Flying Circus
+2. Named after Monty Python's Flying Circus (a BBC comedy series)
 
 3. Guido worked at Google and now at Dropbox
 

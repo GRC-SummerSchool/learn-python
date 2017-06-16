@@ -10,7 +10,8 @@ You will need a python environment, Git version control client, and IDE to parti
 course.
 
 1. Download and install [Anaconda](https://www.continuum.io/downloads)
-2. Download and install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+2. Download and install [Git.](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+	If you are on Windows, [this is the preferred package.](http://git-scm.com/download/win) 
 3. Download and install [PyCharm Community Edition](https://www.jetbrains.com/pycharm/download/)
 
 

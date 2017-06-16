@@ -41,7 +41,7 @@ def load_data_objects (filename):
 
 ## Reading data from a CSV file: Dictionary or Map
 
-The weather data contains data for weather stations throughout New York State. These weatehr stations are called Divisions. Below we still load the data into an array of Dictionary objects, but we create a map based on Division to store each array.
+The weather data contains data for weather stations throughout New York State. These weather stations are called Divisions. Below we still load the data into an array of Dictionary objects, but we create a map based on Division to store each array.
 
 Python routine to load weather CSV file into a python dictionary (map) using Division as key
 ```python

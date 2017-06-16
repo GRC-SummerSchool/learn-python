@@ -29,7 +29,7 @@ def plot_tavg(array_YEARMONTH, array_TAVG):
 To use this function, we need to get the data from our map into arrays. This little function will loop through our dictionary and pull out data from a particular attribute.
 
 ```python
-# Extract attribuve from dictionary as an array
+# Extract attribute from dictionary as an array
 def create_attribute_array (data, attribute):
     a = []
     for x in data:

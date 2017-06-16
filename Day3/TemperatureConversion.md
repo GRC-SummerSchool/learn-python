@@ -49,7 +49,7 @@ Create a new file, temperatureConversion.py. Copy the function definition code a
 So far we have just run one python file at a time. As projects get complex, you may have several functions and put the definitions in separate files. When you want to run them, one file needs to be the starting point. This is __main__. To include code to run only when the file is the starting point add a section checking if this is the main program like this:
 
 ```python
-if __name__ == "__main++":
+if __name__ == "__main__":
     print('this is the main program')
 ```
 

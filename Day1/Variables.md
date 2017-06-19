@@ -85,14 +85,18 @@ These are not just conventions. They have special meaning to the interpreter.
 
 For example:
 
-| Variable with underscore (_) | Significance                             |
-| ---------------------------- | ---------------------------------------- |
-| *_myVariable*                | denotes a private variable               |
-| __myMethod                   | is used to avoid name clashes across classes |
-| *\__nativeMethod__*          | is used for native methods called by Python and not the user |
-| *_*                          | by itself is used to access the results of the last executed statement |
+```python
 
-​		
+# Variable names with underscores have special significance in Python
+
+_myVariable        # starts with a single underscore, denotes a private variable
+__myMethod         # starts with two underscores, used to avoid name clashes across classes
+__nativeMethod__   # starts & ends with two underscores, used for native methods called by Python & not the user
+_                  # an underscore by itself, used to access the results of the last executed statement
+
+
+```
+
 These are advanced concepts and may not be used in this class but it is useful to be aware of the rules and conventions. [This article](https://hackernoon.com/understanding-the-underscore-of-python-309d1a029edc) provides a further treatment for explorers. 
 
 

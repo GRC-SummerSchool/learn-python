@@ -60,5 +60,5 @@ Tests can also be run from a command shell by executing ```py.test``` from the s
 
 ![](.Testing_images/0d7d4c6c.png)
 
-[< Previous (Data Analysus)](DataAnalysis.md) | [Day4](../README.md)| [Next (Additional Resources) >](../AdditionalResources.md) |
+[< Previous (Data Analysis)](DataAnalysis.md) | [Day4](../README.md)| [Next (Additional Resources) >](../AdditionalResources.md) |
 |----|----|----|

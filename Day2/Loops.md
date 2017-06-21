@@ -1,4 +1,4 @@
-|[< Previous (Day2)](../README.md) | [Day2](../README.md)| [Next (Dictionaries) >](Dictionaries.md) |
+|[< Previous (Conditionals)](Conditionals.md) | [Day2](../README.md)| [Next (Dictionaries) >](Dictionaries.md) |
 |----|----|----|
 # Loops
 
@@ -145,5 +145,5 @@ from random import randint
 answer = randint(1,10)
 ```
 
-|[< Previous (Day2)](../README.md) | [Day2](../README.md)| [Next (Dictionaries) >](Dictionaries.md) |
+|[< Previous (Conditionals)](Conditionals.md) | [Day2](../README.md)| [Next (Dictionaries) >](Dictionaries.md) |
 |----|----|----|

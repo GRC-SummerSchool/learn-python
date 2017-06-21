@@ -1,4 +1,4 @@
-|[< Previous (Lists)](Lists.md) | [Day1](../README.md)| [Next (Day2) >](../README.md) |
+|[< Previous (Lists)](Lists.md) | [Day2](../README.md)| [Next (Loops) >](Loops.md) |
 |----|----|----|
 # Conditionals
 
@@ -42,5 +42,5 @@ else:
 Create a new python file, practice-conditionals.py. Copy the last block of code and then modify it to allow you to input a value for x. Run it several times and use different values of x to trigger different conditional paths.
 
 
-|[< Previous (Lists)](Lists.md) | [Day1](../README.md)| [Next (Day2) >](../README.md) |
+|[< Previous (Lists)](Lists.md) | [Day2](../README.md)| [Next (Loops) >](Loops.md) |
 |----|----|----|

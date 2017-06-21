@@ -1,4 +1,4 @@
-[< Previous (Weather Analysis Overview)](WeatherAnalysisOverview.md) | [Day3](../README.md)| [Next (Modules) >](Modules.md) |
+[< Previous (Debugging)](Debugging.md) | [Day3](../README.md)| [Next (Modules) >](Modules.md) |
 |----|----|----|
 # Temperature Conversion
 
@@ -64,5 +64,5 @@ Divide the function and main into two python files and run again.
 
 Run this program and see the different output. 
 
-[< Previous (Weather Analysis Overview)](WeatherAnalysisOverview.md) | [Day3](../README.md)| [Next (Modules) >](Modules.md) |
+[< Previous (Debugging)](Debugging.md) | [Day3](../README.md)| [Next (Modules) >](Modules.md) |
 |----|----|----|

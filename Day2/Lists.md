@@ -1,4 +1,4 @@
-|[< Previous (Input)](Input.md) | [Day1](../README.md)| [Next (Conditionals) >](Conditionals.md) |
+|[< Previous (Day1 Input)](../Day1/Input.md) | [Day2](../README.md)| [Next (Conditionals) >](Conditionals.md) |
 |----|----|----|
 # Lists
 
@@ -83,5 +83,5 @@ Running the above example will produce the following output:
 
 Create a new python file (play-with-lists.py). Copy the above code into the new file and run it to see if you get the same results.
 
-|[< Previous (Input)](Input.md) | [Day1](../README.md)| [Next (Conditionals) >](Conditionals.md) |
+|[< Previous (Day1 Input)](../Day1/Input.md) | [Day2](../README.md)| [Next (Conditionals) >](Conditionals.md) |
 |----|----|----|

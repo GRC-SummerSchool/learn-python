@@ -1,4 +1,4 @@
-|[< Previous (Debugging)](Debugging.md) | [Day2](../README.md)| [Next (Day 3) >](../README.md) |
+|[< Previous (Day2 - Dictionaries)](../Day2/Dictionaries.md) | [Day3](../README.md)| [Next (Debugging)](Debugging.md) |
 |----|----|----|
 # Source Code Management
 
@@ -59,5 +59,4 @@ This will return information about files you changed or added.
 https://education.github.com/git-cheat-sheet-education.pdf
 
 
-|[< Previous (Debugging)](Debugging.md) | [Day2](../README.md)| [Next (Day 3) >](../README.md) |
-|----|----|----|
+|[< Previous (Day2 - Dictionaries)](../Day2/Dictionaries.md) | [Day3](../README.md)| [Next (Debugging)](Debugging.md) ||----|----|----|

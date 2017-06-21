@@ -1,4 +1,4 @@
-|[< Previous (File I/O) >](CSVFiles.md) | [Day4](../README.md)|  [Next (Extra - Data Analysis](../Extra/DataAnalysis.md) |
+|[< Previous (File I/O) >](CSVFiles.md) | [Day4](../README.md)|  [Next (Extra - Data Analysis)](../Extra/DataAnalysis.md) |
 |----|----|----|
 
 
@@ -95,5 +95,5 @@ Update your main section to call the plot_division function instead of create_at
 
 Modify your program to plot your data in Celsius units instead of Fahrenheit.
 
-|[< Previous (File I/O) >](CSVFiles.md) | [Day4](../README.md)|  [Next (Extra - Data Analysis](../Extra/DataAnalysis.md) |
+|[< Previous (File I/O) >](CSVFiles.md) | [Day4](../README.md)|  [Next (Extra - Data Analysis)](../Extra/DataAnalysis.md) |
 |----|----|----|

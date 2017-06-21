@@ -1,4 +1,4 @@
-|[< Previous (Simple Plotting)](../Day3/SimplePlotting.md) | [Day4](../README.md)| [Next (Data Analysis) >](DataAnalysis.md) |
+|[< Previous (Git - Saving your work)](GitChanges.md) | [Extras](../README.md)| [Next (Additional Resources) >](../AdditionalResources.md) |
 |----|----|----|
 # Git - Collaboration
 
@@ -50,5 +50,5 @@ If you want to keep the changes, create a github pull request to see what the di
 To understand more about branching, and git, visit (https://services.github.com/on-demand/)
 and go through the lessons.
 
-|[< Previous (Simple Plotting)](../Day3/SimplePlotting.md) | [Day4](../README.md)| [Next (Data Analysis) >](DataAnalysis.md) |
+|[< Previous (Git - Saving your work)](GitChanges.md) | [Extras](../README.md)| [Next (Additional Resources) >](../AdditionalResources.md) |
 |----|----|----|

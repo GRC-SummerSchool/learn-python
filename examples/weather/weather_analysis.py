@@ -94,7 +94,7 @@ def create_attribute_array (data, attribute):
 # Print selected data
 def print_data (data):
     for i in range(0,data['numrows']):
-        print "{},{},{},{},{}".format(data['YearMonth'][i], data['StateCode'][i], data['Division'][i], data['PCP'][i], data['TAVG'][i])
+        print("{},{},{},{},{}".format(data['YearMonth'][i], data['StateCode'][i], data['Division'][i], data['PCP'][i], data['TAVG'][i]))
 
 # Convert Fahrenheight to Celsius
 def convertFtoC (temperatureF):
@@ -148,6 +148,7 @@ def plot_division (division_data):
 def mean(a):
     return sum(a) / float(len(a))
 
+# Calculate statistics for each station
 def perform_analysis(data_map):
 
     stats = []
@@ -165,9 +166,10 @@ def perform_analysis(data_map):
             "mean_PCP" : mean_PCP
         }
         stats.append(station_stats)
-    print stats
+    print (stats)
     return stats
 
+# Plot min/max TAVG by station as a bar chart
 def plot_min_max (station_stats):
     array_STATION = create_attribute_array(station_stats, 'station')
     array_MIN_TAVG = create_attribute_array(station_stats, 'min_TAVG')
@@ -190,7 +192,8 @@ def plot_min_max (station_stats):
     ax.legend((rects1[0], rects2[0]), ('Min', 'Max'))
     plt.show()
 
-def plot_statsX (station_stats):
+# Plot min and max TAVG by station as line charts
+def plot_stats_temps_by_station (station_stats):
     array_STATION = create_attribute_array(station_stats, 'station')
     array_MIN_TAVG = create_attribute_array(station_stats, 'min_TAVG')
     array_MAX_TAVG = create_attribute_array(station_stats, 'max_TAVG')
@@ -210,26 +213,19 @@ def plot_statsX (station_stats):
 
 if __name__ == "__main__":
 
+    # Load the data into a map/dictionary by by division/station
     weather_file_name = 'data/nystate_climate_indices_2010_2017.csv';
-    # data = load_data(weather_file_name);
-    # print_data(data)
-    # tempsC = convertTemperatureArray(data['TAVG'])
-    # thresholdC = prompt_for_threshold()
-    # print "Threshold (C) = " + str(thresholdC)
-
-    # data_objects = load_data_objects(weather_file_name)
-    # print data_objects
-
     data_map = load_data_objects_into_map(weather_file_name)
 
-    division10_data = data_map['10']
-
+    # Perform analysis: compute min(TAVG_, max(TAVG), mean (PCP) by division
     station_stats = perform_analysis(data_map)
 
-    # array_YEARMONTH = create_attribute_array(division10_data, 'YearMonth')
-    # array_TAVG = create_attribute_array(division10_data, 'TAVG')
-    # plot_tavg(array_YEARMONTH, array_TAVG)
+    # Extract the data for division 10
+    division10_data = data_map['10']
 
+    # TAVG and PCP for given division/station data
     plot_division(division10_data)
 
+    # Plot min and max TAVG by station/division
     plot_min_max(station_stats)
+

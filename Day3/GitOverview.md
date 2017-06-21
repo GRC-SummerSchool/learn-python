@@ -59,4 +59,5 @@ This will return information about files you changed or added.
 https://education.github.com/git-cheat-sheet-education.pdf
 
 
-|[< Previous (Day2 - Dictionaries)](../Day2/Dictionaries.md) | [Day3](../README.md)| [Next (Debugging)](Debugging.md) ||----|----|----|
+|[< Previous (Day2 - Dictionaries)](../Day2/Dictionaries.md) | [Day3](../README.md)| [Next (Debugging)](Debugging.md) |
+|----|----|----|

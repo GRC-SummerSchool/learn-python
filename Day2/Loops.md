@@ -28,16 +28,16 @@ will produce the following output:
 Even if the list contains different types, you can still iterate through all the elements in a list using a _for_ loop:
 
 ```python
-mix = [1, 'cat', ['list', 'in', 'a', 'list'], {'name' : 'matt', age : 30}]
+mix = [1, 'cat', ['list', 'in', 'a', 'list'], {'name' : 'matt', 'age' : 30}]
 for item in mix:
     print(item)
 ```
-will produce the following output:
+will produce the following output (note the reordering of the dictionary):
 ```
 1
 'cat'
 ['list', 'in', 'a', 'list']
-{'name' : 'matt', age : 30}
+{'age' : 30, 'name' : 'matt'}
 ```
 
 You may specify a range of numbers to iterate over using the range function:
@@ -64,6 +64,13 @@ for n in range(2,len(numbers),2):   # Starts at 2, less than 12, step by 2
     print(numbers[n])
 ```
 will produce the following output:
+```
+3
+5
+7
+9
+```
+Can you explain why it isn't
 ```
 20
 40

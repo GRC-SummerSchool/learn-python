@@ -44,8 +44,14 @@ Slices can also be used to update the list
 ```python
 numbers = [1, 20, 3, 40, 5, 60, 7, 80, 9]
 
-numbers[2:4] = [-3,-4]  # modify the 3rd and 4th element
+numbers[2:4] = [-3,-4]  # replace the elements starting at 
+                        # 3rd location through 4th (up to but not including 5th)
+                        # with the contents on right-hand side
 print(numbers[:])       # prints [1, 20, -3, -4, 5, 60, 7, 80, 9]
+#some more variations to try:
+numbers[2:4] = [-3,-4,-5,-6,-7]
+numbers[5:] = ['cat', 'dog', 100]
+numbers[4:4] = ['a', 'b', 'c']
 ```
 
 Lists can be heterogeneous, allowing you to mix types at will.

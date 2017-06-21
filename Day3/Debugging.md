@@ -1,4 +1,4 @@
-|[< Previous (Dictionaries)](Dictionaries.md) | [Day2](../README.md)| [Next (Source Control Management) >](GitOverview.md) |
+|[< Previous (Source Control Management) >](GitOverview.md) | [Day3](../README.md)| [Next (Functions - Temperature Conversion) >](TemperatureConversion.md) |
 |----|----|----|
 # Debugging
 
@@ -84,5 +84,5 @@ The program will then resume running normally unless it encounters another
 breakpoint, at which point the program will pause and allow you to inspect and
 modify variables again.
 
-|[< Previous (Dictionaries)](Dictionaries.md) | [Day2](../README.md)| [Next (Source Control Management) >](GitOverview.md) |
+|[< Previous (Source Control Management) >](GitOverview.md) | [Day3](../README.md)| [Next (Functions - Temperature Conversion) >](TemperatureConversion.md) |
 |----|----|----|

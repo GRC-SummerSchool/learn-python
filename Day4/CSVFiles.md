@@ -1,4 +1,4 @@
-[< Previous (Modules)](Modules.md) | [Day3](../README.md)| [Next (Plotting) >](SimplePlotting.md) |
+[< Previous (Weather Analysis Overview)](WeatherAnalysisOverview.md) | [Day4](../README.md)| [Next (Plotting) >](SimplePlotting.md) |
 |----|----|----|
 # CSV Files
 
@@ -77,5 +77,5 @@ Create a new file, readweather.py. Copy the two function definitions into your f
 Create a main section to call one or the other and print some information so that you are confident the function worked. Use the debugger to also check the data is loaded.
 
 
-[< Previous (Modules)](Modules.md) | [Day3](../README.md)| [Next (Plotting) >](SimplePlotting.md) |
+[< Previous (Weather Analysis Overview)](WeatherAnalysisOverview.md) | [Day4](../README.md)| [Next (Plotting) >](SimplePlotting.md) |
 |----|----|----|

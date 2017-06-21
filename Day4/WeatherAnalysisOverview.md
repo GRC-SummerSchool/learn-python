@@ -1,4 +1,4 @@
-[< Previous (Git - Saving your work)](GitChanges.md) | [Day3](../README.md)| [Next (Functions: Temperature Conversion) >](TemperatureConversion.md) |
+[< Previous (Testing)](Testing.md) | [Day4](../README.md)| [Next (File I/O) >](CSVFiles.md) |
 |----|----|----|
 
 # Weather Analysis
@@ -42,5 +42,5 @@ The CSV file contains the following columns with a header:
 |HDD | Heating Degree Days|
 |SPnn | Standard Precipitation Index|
 
-[< Previous (Git - Saving your work)](GitChanges.md) | [Day3](../README.md)| [Next (Functions: Temperature Conversion) >](TemperatureConversion.md) |
+[< Previous (Testing)](Testing.md) | [Day4](../README.md)| [Next (File I/O) >](CSVFiles.md) |
 |----|----|----|

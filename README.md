@@ -20,40 +20,39 @@ and cover the basics of the Python language.
 5. [Python Specifics](Day1/Whitespace.md)
 6. [Variables](Day1/Variables.md)
 7. [Input](Day1/Input.md)
-8. [Lists](Day1/Lists.md)
-9. [Conditionals](Day1/Conditionals.md)
-
-
 
 ## Day 2
 
 On the second day, the class will introduce looping and an additional data 
 structure. More advanced features of the development environment will be shown.
 
-1. [Loops](Day2/Loops.md)
-2. [Dictionaries](Day2/Dictionaries.md)
-3. [Debugging](Day2/Debugging.md)
-4. [Source Code Management](Day2/GitOverview.md)
+1. [Lists](Day2/Lists.md)
+2. [Conditionals](Day2/Conditionals.md)
+3. [Loops](Day2/Loops.md)
+4. [Dictionaries](Day2/Dictionaries.md)
 
 ## Day 3
 
 On the third day, more advanced operations will be covered allowing for reading 
 data files and generating plots.
 
-1. [Git - Saving your work](Day3/GitChanges.md)
-2. [Weather Analysis Overview](Day3/WeatherAnalysisOverview.md)
-2. Functions: [Temperature Conversion](Day3/TemperatureConversion.md)
-3. [Modules](Day3/Modules.md)
-4. File I/O: [CSV Files](Day3/CSVFiles.md)
-5. [Simple Plotting](Day3/SimplePlotting.md)
+1. [Source Code Management](Day3/GitOverview.md)
+2. [Debugging](Day3/Debugging.md)
+3. Functions: [Temperature Conversion](Day3/TemperatureConversion.md)
+4. [Modules](Day3/Modules.md)
 
 ## Day 4
 
 On the fourth day, previous topics will be combined to build a simple 
 analytic for processing data and displaying the results.
 
-1. [Git - Collaborating](Day4/GitBranch.md)
-2. [Data Analysis](Day4/DataAnalysis.md)
-3. [Software Testing](Day4/Testing.md)
-4. [Additional Resources](AdditionalResources.md)
+1. [Software Testing](Day4/Testing.md)
+2. [Weather Analysis Overview](Day4/WeatherAnalysisOverview.md)
+3. File I/O: [CSV Files](Day4/CSVFiles.md)
+4. [Simple Plotting](Day4/SimplePlotting.md)
 
+## Extra material
+1. [Git - Saving your work](Extra/GitChanges.md)
+2. [Git - Collaborating](Extra/GitBranch.md)
+3. [Data Analysis](Extra/DataAnalysis.md)
+4. [Additional Resources](AdditionalResources.md)

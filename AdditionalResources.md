@@ -21,3 +21,5 @@ There are lots of tutorials and git documentation is great, although sometimes i
 - The [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) has many common commands.
 - The [main git starting point web site](https://git-scm.com/).
 - Some [on-line GitHub training](https://services.github.com/on-demand/).
+
+[Course Content](README.md)

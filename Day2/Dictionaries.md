@@ -1,4 +1,4 @@
-|[< Previous (Loops)](Loops.md) | [Day2](../README.md)| [Next (Debugging) >](Debugging.md) |
+|[< Previous (Loops)](Loops.md) | [Day2](../README.md)| [Next (Day3 - Source Code Management) >](../Day3/GitOverview.md) |
 |----|----|----|
 # Dictionaries
 
@@ -60,5 +60,5 @@ Create a new python file, groceries.py.
 Copy the code above and run. Add some additional print statements so you can see the original dictionary contents and the new dictionary contents. Include a separation between the two parts.
 
 
-|[< Previous (Loops)](Loops.md) | [Day2](../README.md)| [Next (Debugging) >](Debugging.md) |
+|[< Previous (Loops)](Loops.md) | [Day2](../README.md)| [Next (Day3 - Source Code Management) >](../Day3/GitOverview.md) |
 |----|----|----|

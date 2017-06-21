@@ -8,21 +8,36 @@ Python supports _for_ loops and _while_ loops.
 You can iterate through all the elements in a list using a _for_ loop:
 
 ```python
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-for n in numbers:
-    print(n)
+numbers = [1, 20, 3, 40, 5, 60, 7, 80, 9]
+for item in numbers:
+    print(item)
 ```
 will produce the following output:
 ```
 1
-2
+20
 3
-4
+40
 5
-6
+60
 7
-8
+80
 9
+```
+
+Even if the list contains different types, you can still iterate through all the elements in a list using a _for_ loop:
+
+```python
+mix = [1, 'cat', ['list', 'in', 'a', 'list'], {'name' : 'matt', age : 30}]
+for item in mix:
+    print(item)
+```
+will produce the following output:
+```
+1
+'cat'
+['list', 'in', 'a', 'list']
+{'name' : 'matt', age : 30}
 ```
 
 You may specify a range of numbers to iterate over using the range function:
@@ -39,6 +54,21 @@ will produce the following output:
 6
 8
 10
+```
+
+You can use this to create index to a list
+
+```python
+numbers = [1, 20, 3, 40, 5, 60, 7, 80, 9]
+for n in range(2,len(numbers),2):   # Starts at 2, less than 12, step by 2
+    print(numbers[n])
+```
+will produce the following output:
+```
+20
+40
+60
+80
 ```
 
 ### While Loops

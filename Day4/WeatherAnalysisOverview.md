@@ -23,7 +23,7 @@ The weather data we will use for this exercise has been obtained
 
 Our data file contains [divisional](https://www7.ncdc.noaa.gov/CDO/CDODivisionalSelect.jsp#) data for the state of New York from January 2001 through April 2017.
 
-[Right click and save this link to download a copy of the CSV file to your computer](https://github.com/GRC-SummerSchool/learn-python/blob/master/examples/weather/nystate_climate_indices_2010_2017.csv)
+[Right click and save this link to download a copy of the CSV file to your computer](https://raw.githubusercontent.com/GRC-SummerSchool/learn-python/master/examples/weather/nystate_climate_indices_2010_2017.csv)
 
 The CSV file contains the following columns with a header:
 

@@ -46,7 +46,7 @@ however, Python has chosen to represent the block structure of a program with si
 ### Indentation
 
 The leading 4 spaces (or tabs, BUT DON'T USE THEM) provide the statement grouping or block definition.
-Empty lines may appear anywhere, and can aid in the readability of your program. You can choose the number of spaces in your code, but when working with others agree on a common style.
+Empty lines may appear anywhere, and can aid in the readability of your program. 
 
 ```python
 if 1 + 1 == 2:
@@ -59,6 +59,8 @@ print("This statement does not belong to the conditional and will always execute
 
 Some people don't like the forced indentation style, but it is required to use Python.
 The benefit to this structure is that code written by different teams has a similar style.
+
+You can choose the number of spaces in your code, but when working with others agree on a common style. Otherwise you can end up with code that looks like this and won't build!
 
 ```python
 if 1 + 1 == 2:
@@ -74,6 +76,9 @@ are 100% certain that everyone in your project will always have their tabstops a
 no-one will ever add spaces with using the wrong tabstop - then go ahead...  
 __But don't say I didn't warn you!__
 
+### IDE (Integrated Development Environment
+
+The editor you use, pyCharm or even Notepad++, often is setup to help you with indentation. You should check the settings and make sure it is set to replace tabs by spaces. When you hit return at the end of the line, the editor will "guess" what indentation you want. Many times it is correct, but sometimes, especially to END the block, you will need to change the indentation.
 
 ### Exercise
 

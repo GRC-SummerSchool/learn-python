@@ -1,6 +1,6 @@
 [< Previous (Debugging)](Debugging.md) | [Day3](../README.md)| [Next (Modules) >](Modules.md) |
 |----|----|----|
-# Temperature Conversion
+# Functions: Temperature Conversion
 
 Temperature is commonly represented in degrees in units of Fahrenheit (F) or Celsius (C). Below are formulas for converting between the units.
 

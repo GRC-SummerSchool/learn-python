@@ -38,7 +38,7 @@ data files and generating plots.
 
 1. [Source Code Management](Day3/GitOverview.md)
 2. [Debugging](Day3/Debugging.md)
-3. Functions: [Temperature Conversion](Day3/TemperatureConversion.md)
+3. [Functions](Day3/TemperatureConversion.md)
 4. [Modules](Day3/Modules.md)
 
 ## Day 4
@@ -48,7 +48,7 @@ analytic for processing data and displaying the results.
 
 1. [Software Testing](Day4/Testing.md)
 2. [Weather Analysis Overview](Day4/WeatherAnalysisOverview.md)
-3. File I/O: [CSV Files](Day4/CSVFiles.md)
+3. [File I/O](Day4/CSVFiles.md)
 4. [Simple Plotting](Day4/SimplePlotting.md)
 
 ## Extra material

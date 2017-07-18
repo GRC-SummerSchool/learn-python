@@ -10,7 +10,7 @@ You can add an *if* clause to execute when the condition is satisfied:
 ```python
 x = 5
 if x < 10:
-  print("x is < 10")
+    print("x is < 10")
 ```
 
 You can add an *else* clause to execute when the condition is not satisfied:
@@ -18,9 +18,9 @@ You can add an *else* clause to execute when the condition is not satisfied:
 ```python
 x = 15
 if x < 10:
-  print("x is < 10")
+    print("x is < 10")
 else:
-  print("x is not < 10")
+    print("x is not < 10")
 ```
 
 You can add additional *elif* (else if) clauses that are also evaluated. Only one condition 
@@ -30,11 +30,11 @@ true, any remaining conditions are skipped.
 ```python
 x = 10
 if x < 10:
-  print("x is < 10")
+    print("x is < 10")
 elif x > 10:
-  print("x is > 10") 
+    print("x is > 10") 
 else:
-  print("x is not < 10 and x is not > 10")
+    print("x is not < 10 and x is not > 10")
 ```
 
 ### Exercise

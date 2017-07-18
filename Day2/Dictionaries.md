@@ -2,14 +2,14 @@
 |----|----|----|
 # Dictionaries
 
-In Python, a dictionary is an unordered collection of elements indexed by a non-numeric key.  A dictionary can be thought of as a list where the index is a string rather than a number, e.g. myDict["bread"] rather than myList[2].
+In Python, a dictionary is an unordered collection of elements indexed by a non-numeric key.  A dictionary can be thought of as a list where the index is a string rather than a number, e.g. groceryDict["bread"] rather than myList[2].
 ```python
-dict = {
+groceryDict = {
     "bread" : 3.09,
     "eggs" : 2.19,
     "milk" : 2.29
 }
-print(dict)
+print(groceryDict)
 ```
 Which produces the following output:
 ```
@@ -21,13 +21,13 @@ Which produces the following output:
 Dictionaries can be iterated over, accessing each element; however, the dictionary is unordered
 so the order of iteration is subject to change as the contents of the dictionary change.
 ```python
-dict = {
+groceryDict = {
     "bread" : 3.09,
     "eggs" : 2.19,
     "milk" : 2.29
 }
 
-for item, price in dict.items():
+for item, price in groceryDict.items():
     print("Item: %s, cost: %4.2f" % (item, price))
 ```
 
@@ -36,15 +36,15 @@ for item, price in dict.items():
 Items may be added or removed from dictionaries.
 
 ```python
-dict = {
+groceryDict = {
     "bread" : 3.09,
     "eggs" : 2.19,
     "milk" : 2.29
 }
-dict.pop("eggs")        # Removes eggs from the dictionary
-dict["bananas"] = 2.33  # Add new item to dictionary 
+groceryDict.pop("eggs")        # Removes eggs from the dictionary
+groceryDict["bananas"] = 2.33  # Add new item to dictionary 
 
-for item, price in dict.items():
+for item, price in groceryDict.items():
     print("Item: %s cost: %4.2f" % (item, price))
 ```
 Running the above code will produce the following output:

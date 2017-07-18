@@ -1,4 +1,4 @@
-|[< Previous (Quick Intro to Python)](PythonIntro.md) | [Day1](../README.md)| [Next (Python Specifics) >](Whitespace.md) |
+|[< Previous (Quick Intro to Python)](PythonIntro.md) | [Day1](../README.md)| [Next (Python Editing) >](PythonEditing.md) |
 |----|----|----|
 
 # Hello World
@@ -50,5 +50,5 @@ Notice in the bottom pane of your IDE, you see the console showing your program'
 ![](.HelloWorld_images/results.png)
 
 
-|[< Previous (Quick Intro to Python)](PythonIntro.md) | [Day1](../README.md)| [Next (Python Specifics) >](Whitespace.md) |
+|[< Previous (Quick Intro to Python)](PythonIntro.md) | [Day1](../README.md)| [Next (Python Editing) >](PythonEditing.md) |
 |----|----|----|

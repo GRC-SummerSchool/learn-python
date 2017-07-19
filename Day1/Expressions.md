@@ -30,14 +30,16 @@ strlong = str1 + str2
 Sometimes you need to convert a variable from one data type to another. We saw that python will figure out the type by the assignment. If you need to change it you use a conversion function. For instance, to convert from a string to an integer, use the int() function.
 
 Some common and interesting conversion functions:
+
 | Function | Behavior |
+|----|----|
 | int | convert to an integer |
 | float | convert to a real number |
 | str | convert to a string (for printing or concatenating with other strings) |
 | hex | convert to a string in hexadecimal format prefixed by 0x |
 | ord | return the integer code for a single character |
 | chr | return the character for a given unicode integer value |
-|----|----|
+
 
 
 ```python

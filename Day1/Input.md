@@ -1,6 +1,7 @@
-|[< Previous (Variables)](Variables.md) | [Day1](../README.md)| [Next (Day2 - Lists) > ](../Day2/Lists.md) |
+|[< Previous (Expressions)](Expressions.md) | [Day1](../README.md)| [Next (Day2 - Lists) > ](../Day2/Lists.md) |
 |----|----|----|
-# Input
+
+## Input
 The input function captures user input from the console and returns the result, which
 may be assigned to a variable.
 
@@ -18,5 +19,5 @@ print("Hello", name)
 Now modify your Hello World program to prompt the user for their name
 and output a message customized to that individual.
 
-|[< Previous (Variables)](Variables.md) | [Day1](../README.md)| [Next (Day2 - Lists) > ](../Day2/Lists.md) |
+|[< Previous (Expressions)](Expressions.md) | [Day1](../README.md)| [Next (Day2 - Lists) > ](../Day2/Lists.md) |
 |----|----|----|

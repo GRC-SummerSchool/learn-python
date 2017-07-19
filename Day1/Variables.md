@@ -1,4 +1,4 @@
-| [< Previous (Python Editing)](PythonEditing.md) | [Day1](../README.md)| [Next (Input)>](Input.md) |
+| [< Previous (Python Editing)](PythonEditing.md) | [Day1](../README.md)| [Next (Expressions)>](Expressions.md) |
 |----|----|----|
 
 
@@ -152,5 +152,5 @@ The important thing to note is that once an assignment is done, the two variable
 4. More extra credit: Print the number of characters in your name (e.g. Number of characters in my name : 14). Be cognizant of the blank space.
 
 
-| [< Previous (Python Editing)](PythonEditing.md) | [Day1](../README.md)| [Next (Input)>](Input.md) |
+| [< Previous (Python Editing)](PythonEditing.md) | [Day1](../README.md)| [Next (Expressions)>](Expressions.md) |
 |----|----|----|

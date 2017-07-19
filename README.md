@@ -19,6 +19,7 @@ and cover the basics of the Python language.
 4. [Hello World](Day1/HelloWorld.md)
 5. [Python Editing](Day1/PythonEditing.md)
 6. [Variables](Day1/Variables.md)
+6. [Expressions](Day1/Expressions.md)
 7. [Input](Day1/Input.md)
 
 ## Day 2

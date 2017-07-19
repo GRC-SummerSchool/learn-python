@@ -170,7 +170,24 @@ if __name__ == "__main__":
    Divide the function and main into two python files and run again.
 
 4. Run this program and see the different output. 
+
 5. Write a program that calls two functions ```simpint()``` and ```compint()``` to calculate the Simple Interest and Compound Interest on a (common) Principal Amount, Rate of Interest and Number of Years. Print both the interest values and the difference between them.
+
+   $Simple Interest = \frac{P * R * N}{100}$
+
+   $CompoundInterest = P(1+\frac{R}{100})^N$
+
+   where 
+
+   P = Principal amount
+
+   R = Rate in % (e.g 5, 6.7, 9 etc)
+
+   N = No of time periods (assume years for simplicity) over which the interest accrues
+
+   ​
+
+   ​
 
 
 [< Previous (Debugging)](Debugging.md) | [Day3](../README.md)| [Next (Modules) >](Modules.md) |

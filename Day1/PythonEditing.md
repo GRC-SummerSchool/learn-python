@@ -1,6 +1,6 @@
 |[< Previous (HelloWorld)](HelloWorld.md) | [Day1](../README.md)| [Next (Variables) > ](Variables.md) |
 |----|----|----|
-# Python specifics
+# Python Editing
 ## Comments
 
 ### Single Line Comments

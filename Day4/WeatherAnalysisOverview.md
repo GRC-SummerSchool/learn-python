@@ -1,4 +1,4 @@
-[< Previous (Testing)](Testing.md) | [Day4](../README.md)| [Next (File I/O) >](CSVFiles.md) |
+|[< Previous (Source Code Mgmt)](GitOverview.md) | [Day4](../README.md)| [Next (File I/O) >](CSVFiles.md) |
 |----|----|----|
 
 # Weather Analysis
@@ -44,5 +44,5 @@ The CSV file contains the following columns with a header:
 |HDD | Heating Degree Days|
 |SPnn | Standard Precipitation Index|
 
-[< Previous (Testing)](Testing.md) | [Day4](../README.md)| [Next (File I/O) >](CSVFiles.md) |
+|[< Previous (Source Code Mgmt)](GitOverview.md) | [Day4](../README.md)| [Next (File I/O) >](CSVFiles.md) |
 |----|----|----|

@@ -37,7 +37,7 @@ structure. More advanced features of the development environment will be shown.
 On the third day, more advanced operations will be covered allowing for reading 
 data files and generating plots.
 
-1. [Functions](Day3/TemperatureConversion.md)
+1. [Functions](Day3/Functions.md)
 2. [Debugging](Day3/Debugging.md)
 3. [Software Testing](Day3/Testing.md)
 4. [Modules](Day3/Modules.md)

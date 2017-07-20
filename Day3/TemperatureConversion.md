@@ -53,11 +53,11 @@ Create a new file, temperatureConversion.py. Copy the function definition code a
 
 A  [quadratic equation](https://en.wikipedia.org/wiki/Quadratic_equation) can be represented as
 
-$ax^2 + bx + c = 0$
+![](http://latex.codecogs.com/gif.latex?ax%5E2%20&plus;%20bx%20&plus;%20c%20%3D%200)
 
 Such an equation has two roots, given by:
 
-$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
+![](http://latex.codecogs.com/gif.latex?x%20%3D%20%5Cfrac%7B-b%20%5Cpm%20%5Csqrt%7Bb%5E2%20-%204ac%7D%7D%7B2a%7D)
 
 
 
@@ -65,7 +65,8 @@ We will write a Python program to ask the user to input the values of coefficien
 
 
 
-Let us consider the mathematical expression :$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
+Let us consider the mathematical expression :
+![](http://latex.codecogs.com/gif.latex?x%20%3D%20%5Cfrac%7B-b%20%5Cpm%20%5Csqrt%7Bb%5E2%20-%204ac%7D%7D%7B2a%7D)
 
 In Python, this mathematical expression can be written as two separate expressions
 
@@ -74,7 +75,7 @@ x1 = (-b + (b ** 2 - 4*a*c) ** 0.5) / (2 * a)
 x2 = (-b - (b ** 2 - 4*a*c) ** 0.5) / (2 * a)
 ```
 
-Note that the ```**``` symbols is the exponentiation or "Raise to the power of" operator. Consequently, the square root of y, mathematically expressed as $\sqrt{y}$, is written in Python as ```y ** 0.5```.
+Note that the ```**``` symbols is the exponentiation or "Raise to the power of" operator. Consequently, the square root of y, mathematically expressed as ![](http://latex.codecogs.com/gif.latex?%5Csqrt%7By%7D), is written in Python as ```y ** 0.5```.
 
 Alternatively, we can also use Python's built in Math library's ```math.sqrt()``` function, as shown below
 
@@ -173,9 +174,9 @@ if __name__ == "__main__":
 
 5. Write a program that calls two functions ```simpint()``` and ```compint()``` to calculate the Simple Interest and Compound Interest on a (common) Principal Amount, Rate of Interest and Number of Years. Print both the interest values and the difference between them.
 
-   $Simple Interest = \frac{P * R * N}{100}$
+   ![](http://latex.codecogs.com/gif.latex?Simple%20Interest%20%3D%20%5Cfrac%7BP%20*%20R%20*%20N%7D%7B100%7D)
 
-   $CompoundInterest = P(1+\frac{R}{100})^N$
+   ![](http://latex.codecogs.com/gif.latex?CompoundInterest%20%3D%20P%281&plus;%5Cfrac%7BR%7D%7B100%7D%29%5EN)
 
    where 
 

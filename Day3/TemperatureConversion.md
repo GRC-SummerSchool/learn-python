@@ -1,4 +1,4 @@
-|[< Previous (Dictionaries)](../Day2/Dictionaries.md) | [Day3](../README.md)| [Next (Debugging) >](Debugging.md) |
+|[< Previous (Day2 - Dictionaries)](../Day2/Dictionaries.md) | [Day3](../README.md)| [Next (Debugging) >](Debugging.md) |
 |----|----|----|
 
 # Function: Temperature Conversion
@@ -190,5 +190,5 @@ if __name__ == "__main__":
 
    ​
 
-|[< Previous (Dictionaries)](../Day2/Dictionaries.md) | [Day3](../README.md)| [Next (Debugging) >](Debugging.md) |
+|[< Previous (Day2 - Dictionaries)](../Day2/Dictionaries.md) | [Day3](../README.md)| [Next (Debugging) >](Debugging.md) |
 |----|----|----|

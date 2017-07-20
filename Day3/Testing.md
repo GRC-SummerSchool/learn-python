@@ -1,4 +1,4 @@
-[< Previous (Day3 - Modules)](../Day3/Modules.md) | [Day4](../README.md)| [Next (Weather Analysis Overview) >](WeatherAnalysisOverview.md) |
+|[< Previous (Debugging)](Debugging.md) | [Day3](../README.md)| [Next (Modules) >](Modules.md) |
 |----|----|----|
 
 # Software Testing
@@ -60,5 +60,5 @@ Tests can also be run from a command shell by executing ```py.test``` from the s
 
 ![](.Testing_images/0d7d4c6c.png)
 
-[< Previous (Day3 - Modules)](../Day3/Modules.md) | [Day4](../README.md)| [Next (Weather Analysis Overview) >](WeatherAnalysisOverview.md) |
+|[< Previous (Debugging)](Debugging.md) | [Day3](../README.md)| [Next (Modules) >](Modules.md) |
 |----|----|----|

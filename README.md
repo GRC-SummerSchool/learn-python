@@ -37,9 +37,9 @@ structure. More advanced features of the development environment will be shown.
 On the third day, more advanced operations will be covered allowing for reading 
 data files and generating plots.
 
-1. [Source Code Management](Day3/GitOverview.md)
+1. [Functions](Day3/TemperatureConversion.md)
 2. [Debugging](Day3/Debugging.md)
-3. [Functions](Day3/TemperatureConversion.md)
+3. [Software Testing](Day3/Testing.md)
 4. [Modules](Day3/Modules.md)
 
 ## Day 4
@@ -47,7 +47,7 @@ data files and generating plots.
 On the fourth day, previous topics will be combined to build a simple 
 analytic for processing data and displaying the results.
 
-1. [Software Testing](Day4/Testing.md)
+1. [Source Code Management](Day4/GitOverview.md)
 2. [Weather Analysis Overview](Day4/WeatherAnalysisOverview.md)
 3. [File I/O](Day4/CSVFiles.md)
 4. [Simple Plotting](Day4/SimplePlotting.md)

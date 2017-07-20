@@ -1,4 +1,4 @@
-|[< Previous (Source Control Management) >](GitOverview.md) | [Day3](../README.md)| [Next (Functions) >](TemperatureConversion.md) |
+|[< Previous (Functions) >](TemperatureConversion.md) | [Day3](../README.md)| [Next (Software Testing) >](Testing.md) |
 |----|----|----|
 # Debugging
 
@@ -84,5 +84,5 @@ The program will then resume running normally unless it encounters another
 breakpoint, at which point the program will pause and allow you to inspect and
 modify variables again.
 
-|[< Previous (Source Control Management) >](GitOverview.md) | [Day3](../README.md)| [Next (Functions) >](TemperatureConversion.md) |
+|[< Previous (Functions) >](TemperatureConversion.md) | [Day3](../README.md)| [Next (Software Testing) >](Testing.md) |
 |----|----|----|

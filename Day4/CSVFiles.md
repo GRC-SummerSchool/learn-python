@@ -1,6 +1,6 @@
 [< Previous (Weather Analysis Overview)](WeatherAnalysisOverview.md) | [Day4](../README.md)| [Next (Plotting) >](SimplePlotting.md) |
 |----|----|----|
-# CSV Files
+# File I/O: CSV Files
 
 Data is often stored in a type of filed called a CSV file. CSV stands for comma separated value file, where data has been organized into columns, and are separated by delimiter, usually a comma.
 

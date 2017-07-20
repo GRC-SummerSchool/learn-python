@@ -39,6 +39,10 @@ There are Git tools to look back at past work and compare versions. Every versio
 ### Exercise - Browse history
 In GitHub, open the [presentation materials repository](https://github.com/GRC-SummerSchool/learn-python), click on the "<> Code" tab and then on the "## commits" to see the history or work creating this tutorial.
 
+You may also view a network diagram of branch history by clicking on the "Insights" tab, selecting "Graphs", and then selecting the "Network" option.
+
+![](.Git_images/network.png)
+
 From you Git bash shell, type gitk to open a client window to browse as well.
 
 ## Changing files

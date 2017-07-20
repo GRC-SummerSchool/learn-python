@@ -4,7 +4,7 @@
 
 At the end of this 4 day session, you will be able to read in data, perform analysis, and display both data and results as visually appealing plots, as shown below.  We will use weather data for our exercise.
 
-![](../Day3/.SimplePlotting_images/52bf7c6c.png)
+![](../Day4/.SimplePlotting_images/52bf7c6c.png)
 
 To get here, we will go through
 

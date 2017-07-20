@@ -49,7 +49,7 @@ analytic for processing data and displaying the results.
 
 1. [Software Testing](Day4/Testing.md)
 2. [Weather Analysis Overview](Day4/WeatherAnalysisOverview.md)
-3. File I/O: [CSV Files](Day4/CSVFiles.md)
+3. [File I/O](Day4/CSVFiles.md)
 4. [Simple Plotting](Day4/SimplePlotting.md)
 
 ## Extra material

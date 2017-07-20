@@ -39,7 +39,7 @@ data files and generating plots.
 
 1. [Source Code Management](Day3/GitOverview.md)
 2. [Debugging](Day3/Debugging.md)
-3. Functions: [Temperature Conversion](Day3/TemperatureConversion.md)
+3. [Functions](Day3/TemperatureConversion.md)
 4. [Modules](Day3/Modules.md)
 
 ## Day 4

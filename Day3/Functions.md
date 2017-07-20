@@ -1,6 +1,18 @@
 |[< Previous (Day2 - Dictionaries)](../Day2/Dictionaries.md) | [Day3](../README.md)| [Next (Debugging) >](Debugging.md) |
 |----|----|----|
 
+# Functions
+
+In programming, we may need to do the same calculation (or activity) multiple times. To encapsulate this calculation or activity, we use a function. A function takes zero or more input arguments, processes those arguments and returns zero or more values. Functions are also known as subroutines, routines, procedures in other programming languages.
+
+In general, many programming problems are easier to solve when decomposed into smaller problems or steps. Even if we do not need to call a particular function more than once, just decomposing the problem into smaller functions or sub-steps, improves the readability of the code.
+
+Functions can be thought of as black-boxes. They might be written by other people. We do not need to know how they work (though it is good to know), but only be concerned what what goes in (inputs) and what comes out (return values or outputs).
+
+Python gives you many built-in functions like print(), etc. but you can also create your own functions. These functions are called *user-defined functions*.
+
+
+
 # Function: Temperature Conversion
 
 Temperature is commonly represented in degrees in units of Fahrenheit (F) or Celsius (C). Below are formulas for converting between the units.

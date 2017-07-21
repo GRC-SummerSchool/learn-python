@@ -1,4 +1,4 @@
-|[< Previous (Software Testing)](Testing.md) | [Day3](../README.md)| [Next (Day 4 Source Code Mgmt) >](../Day4/GitOverview.md) |
+|[< Previous (Functions)](Functions.md) | [Day3](../README.md)| [Next (Software Testing) >](Testing.md) |
 |----|----|----|
 # Modules
 
@@ -125,5 +125,5 @@ with my-module/submodule/\_\_init\_\_.py.
 
 
 
-|[< Previous (Software Testing)](Testing.md) | [Day3](../README.md)| [Next (Day 4 Source Code Mgmt) >](../Day4/GitOverview.md) |
+|[< Previous (Functions)](Functions.md) | [Day3](../README.md)| [Next (Software Testing) >](Testing.md) |
 |----|----|----|

@@ -34,17 +34,17 @@ structure. More advanced features of the development environment will be shown.
 
 ## Day 3
 
-On the third day, more advanced operations will be covered allowing for reading 
-data files and generating plots.
+On the third day, the class will discuss basic code organization and some basics on how to troubleshoot and validate programs.
 
-1. [Functions](Day3/Functions.md)
-2. [Debugging](Day3/Debugging.md)
-3. [Software Testing](Day3/Testing.md)
-4. [Modules](Day3/Modules.md)
+1. [Debugging](Day3/Debugging.md)
+2. [Functions](Day3/Functions.md)
+3. [Modules](Day3/Modules.md)
+4. [Software Testing](Day3/Testing.md)
 
 ## Day 4
 
-On the fourth day, previous topics will be combined to build a simple 
+On the fourth day, more advanced operations will be covered allowing for reading 
+data files and generating plots. All the previous topics will be combined to build a simple 
 analytic for processing data and displaying the results.
 
 1. [Source Code Management](Day4/GitOverview.md)

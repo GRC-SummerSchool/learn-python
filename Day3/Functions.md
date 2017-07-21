@@ -1,4 +1,4 @@
-|[< Previous (Day2 - Dictionaries)](../Day2/Dictionaries.md) | [Day3](../README.md)| [Next (Debugging) >](Debugging.md) |
+|[< Previous (Debugging)](Debugging.md) | [Day3](../README.md)| [Next (Modules) >](Modules.md) |
 |----|----|----|
 
 # Functions
@@ -202,5 +202,5 @@ if __name__ == "__main__":
 
    ​
 
-|[< Previous (Day2 - Dictionaries)](../Day2/Dictionaries.md) | [Day3](../README.md)| [Next (Debugging) >](Debugging.md) |
+|[< Previous (Debugging)](Debugging.md) | [Day3](../README.md)| [Next (Modules) >](Modules.md) |
 |----|----|----|

@@ -1,4 +1,4 @@
-|[< Previous (Debugging)](Debugging.md) | [Day3](../README.md)| [Next (Modules) >](Modules.md) |
+|[< Previous (Modules)](Modules.md) | [Day3](../README.md)| [Next (Day 4 Source Code Mgmt) >](../Day4/GitOverview.md) |
 |----|----|----|
 
 # Software Testing
@@ -60,5 +60,5 @@ Tests can also be run from a command shell by executing ```py.test``` from the s
 
 ![](.Testing_images/0d7d4c6c.png)
 
-|[< Previous (Debugging)](Debugging.md) | [Day3](../README.md)| [Next (Modules) >](Modules.md) |
+|[< Previous (Modules)](Modules.md) | [Day3](../README.md)| [Next (Day 4 Source Code Mgmt) >](../Day4/GitOverview.md) |
 |----|----|----|

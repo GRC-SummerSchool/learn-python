@@ -1,5 +1,6 @@
-|[< Previous (Functions) >](Functions.md) | [Day3](../README.md)| [Next (Software Testing) >](Testing.md) |
+|[< Previous (Day2 - Dictionaries)](../Day2/Dictionaries.md) | [Day3](../README.md)| [Next (Functions) >](Functions.md) |
 |----|----|----|
+
 # Debugging
 
 The PyCharm IDE provides a full GUI debugger that allows the developer to step through the 
@@ -84,5 +85,5 @@ The program will then resume running normally unless it encounters another
 breakpoint, at which point the program will pause and allow you to inspect and
 modify variables again.
 
-|[< Previous (Functions) >](Functions.md) | [Day3](../README.md)| [Next (Software Testing) >](Testing.md) |
+|[< Previous (Day2 - Dictionaries)](../Day2/Dictionaries.md) | [Day3](../README.md)| [Next (Functions) >](Functions.md) |
 |----|----|----|

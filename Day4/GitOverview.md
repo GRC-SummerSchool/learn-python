@@ -1,4 +1,4 @@
-|[< Previous (Day3 - Modules)](../Day3/Modules.md) | [Day4](../README.md)| [Next (Weather Analysis Overview)](WeatherAnalysisOverview.md) |
+|[< Previous (Day3 - Software Testing)](../Day3/Testing.md) | [Day4](../README.md)| [Next (Weather Analysis Overview)](WeatherAnalysisOverview.md) |
 |----|----|----|
 # Source Code Management
 
@@ -62,6 +62,5 @@ This will return information about files you changed or added.
 ## Git references
 https://education.github.com/git-cheat-sheet-education.pdf
 
-
-|[< Previous (Day3 - Modules)](../Day3/Modules.md) | [Day4](../README.md)| [Next (Weather Analysis Overview)](WeatherAnalysisOverview.md) |
+|[< Previous (Day3 - Software Testing)](../Day3/Testing.md) | [Day4](../README.md)| [Next (Weather Analysis Overview)](WeatherAnalysisOverview.md) |
 |----|----|----|

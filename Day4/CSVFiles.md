@@ -77,7 +77,8 @@ The result will be data that looks like (formatted instead of one line...):
         'YearMonth': datetime.datetime(2010, 2, 1, 0, 0), 
         'PCP': 1.66, 
         'TAVG': 23.4}, 
-
+       
+       85 more entries...
         
        {'StateCode': 30, 
         'Division': 9, 

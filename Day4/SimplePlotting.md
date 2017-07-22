@@ -39,7 +39,7 @@ Finally, the ```show()``` function is called to display the resulting plot (show
 
 Before calling the ```plot_tavg``` function, the data from the map must be placed into arrays. Recall that our data loaded with load_data_objects_into_map will have a dictionary by division and then an array of the data for that division. We need to extract the values for the average temperature into an array. Since we may want to create many different plots for different types of data, we create a reusable utility where we will say which element of the dictionary in the arrays we want to get. 
 
-This function, create_attribute_array, will loop through the array for a division (based in as data) and extract each individual value identified as attribute and put into a new array called a that we return. 
+This function, create_attribute_array, will loop through the array for a division (passed in as data) and extract each individual value. The key to the values will be passed in as attribute. We'll put the values into a new array called a that we return. 
 
 ```python
 # Extract attribute from dictionary as an array

@@ -10,14 +10,16 @@ Here we are going to use the [matplotlib](https://matplotlib.org/) package to cr
 
 ## Using matplotlib
 
-Before we can use the matplotlib library, we must import it
+Before we can use the matplotlib library, we must import it. The as statement gives us a shorthand way to refer to the library in our functions.
+
 ```python
 import matplotlib.pyplot as plt
 ```
 
 ## Simple X, Y Plot
 
-To create an X, Y plot, the arrays of the X and Y values are simply passed to the ```plot()``` function.
+To create an X, Y plot, the arrays of the X and Y values are simply passed to the ```plot()``` function. We want to plot the average temperature (TAVG) for a given division over time.
+
 Below we define a function called ```plot_tavg``` which takes the 2 arguments which are the X and Y arrays passed to the ```plot``` function
 
 ```python
@@ -35,7 +37,9 @@ Finally, the ```show()``` function is called to display the resulting plot (show
 
 ![](.SimplePlotting_images/ec4101b5.png)
 
-Before calling the ```plot_tavg``` function, the data from the map must be placed into arrays. This little function will loop through our dictionary and pull out data from a particular attribute.
+Before calling the ```plot_tavg``` function, the data from the map must be placed into arrays. Recall that our data loaded with load_data_objects_into_map will have a dictionary by division and then an array of the data for that division. We need to extract the values for the average temperature into an array. Since we may want to create many different plots for different types of data, we create a reusable utility where we will say which element of the dictionary in the arrays we want to get. 
+
+This function, create_attribute_array, will loop through the array for a division (based in as data) and extract each individual value identified as attribute and put into a new array called a that we return. 
 
 ```python
 # Extract attribute from dictionary as an array
@@ -44,6 +48,14 @@ def create_attribute_array (data, attribute):
     for x in data:
         a.append( x[attribute] )
     return a
+
+So we can call it like this:
+
+```python
+data_5 = data['5']  # to get the 5th division
+arr_date = create_attribute_array(data_5, 'YEARMONTH')
+arr_tavg = create_attribute_array(data_5, 'TAVG')
+arr_pcp = create_attribute_array(data_5, 'PCP')
 ```
 
 ### Exercise
@@ -57,6 +69,9 @@ Update your main section to
 3) Call the plot_tavg function with the YearMonth as first input and TAVG as second.
 
 The plot shown above is for division 10.
+
+Modify your program to plot precipitation (PCP) instead of average temperature (TAVG). 
+Make your plot function more general by adding the title as an additional argument.
 
 ## Multiple sub-plots
 
@@ -93,7 +108,7 @@ Update your main section to call the plot_division function instead of create_at
 
 ### Exercise
 
-Modify your program to plot your data in Celsius units instead of Fahrenheit.
+Modify your program to plot your temperature data in Celsius units instead of Fahrenheit.
 
 |[< Previous (File I/O) >](CSVFiles.md) | [Day4](../README.md)|  [Next (Extra - Data Analysis)](../Extra/DataAnalysis.md) |
 |----|----|----|

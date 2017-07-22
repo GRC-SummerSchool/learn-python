@@ -3,9 +3,18 @@
 
 # Debugging
 
-The PyCharm IDE provides a full GUI debugger that allows the developer to step through the 
-execution of their program, set breakpoints, inspect, and modify variables.  A debugger
-provides a powerful tool that every developer should know how to use.
+There are 3 main types of programming errors:
+- syntax
+- semantic
+- logic
+
+Syntax errors are essentially bad grammar in your program where you don't follow the rules. The IDE (editor) or compiler will usually highlight these so you can fix them.
+
+Semantic errors cause the program to "crash" or have a runtime error. These occur when you "misuse" the language, like trying to read data from a variable that you haven't initialized or treating a string like a number.
+
+Logic errors are where the program executes and even gives a result, but is not doing what you intended. For instance, creating a function to sum two numbers, but implementing it as a - b. These can happen when programmers "cut & paste" similar code, don't understand the requirements, change the meaning of a function that someone else is using, and many, many more reasons. These can be especially difficult, because you may not even realize you have a problem - this is where software testing (we'll discuss later) can help.
+
+To get rid of Semantic and Logic errors, programmers "debug" the program. The PyCharm IDE provides a full GUI debugger that allows the developer to step through the execution of their program, set breakpoints, inspect, and modify variables.  A debugger provides a powerful tool that every developer should know how to use.
 
 ## Setting breakpoints
 

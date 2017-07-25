@@ -16,6 +16,8 @@ Along the way, we will leverage the python concepets you have learned so far and
 - Importing modules for plotting charts
 - Reading data from CSV files
 
+When we are done, you should have a file similar to the one in the examples/weather folder: [weather_analysis.py](../examples/weather/weather_analysis.py).
+
 ## Weather Data
 
 The weather data we will use for this exercise has been obtained

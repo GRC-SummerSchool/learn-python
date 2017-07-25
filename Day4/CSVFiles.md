@@ -130,7 +130,7 @@ The result will be data that looks like (formatted instead of one line...):
 }
 ```
 
-Below we still load the data into an array of Dictionary objects, but we create a dictionary (we'll call it map) with the Division as the key to store each array. If we haven't had read a row for that division, we need to put a new array with that key in the map first. Because our data is not ordered by division, each time we read a row, we need to get the object from our dictionary to append to. Then we can add the entry to that data array object. 
+Below we still load the data into an array of Dictionary objects, but we create a dictionary (we'll call it map) with the Division as the key to store each array. If we haven't yet read a row for that division, we need to put a new array with that key in the map first. Because our data is not ordered by division, each time we read a row, we need to get the object from our dictionary to append to. Then we can add the entry to that data array object. 
 
 Also, we want a nicer way to format the month, so we create a new function to convert the YearMonth from a number like 201004 to a string like '2010, 04'.
 

@@ -8,12 +8,13 @@ Now that we have loaded the weather data, let's create a few plots. There are ma
 Here we are going to use the [matplotlib](https://matplotlib.org/) package to create some plots.
 
 
-## Using matplotlib
+## Using matplotlib and datetime
 
-Before we can use the matplotlib library, we must import it. The as statement gives us a shorthand way to refer to the library in our functions.
+Before we can use the matplotlib and datetime libraries, we must import them. The as statement gives us a shorthand way to refer to the library in our functions.
 
 ```python
 import matplotlib.pyplot as plt
+import datetime
 ```
 
 ## Simple X, Y Plot
@@ -33,7 +34,7 @@ The ```matplotlib.pyplot``` library contains many [functions](https://matplotlib
 plots (line, bar, contours) and for styling the plots with a title or different colors. In the example, we create a simple line plot and provide a title. If desired, you can pass addtional options to the ```plot``
 function to specify maerks rather than lines, as well as the styke and color of the lines or markers.
 
-Finally, the ```show()``` function is called to display the resulting plot (shown below).
+Finally, the ```show()``` function is called to display the resulting plot (shown below). The plot is displayed in a modal dialog so your program will wait until you close the plot window before continuing execution.
 
 ![](.SimplePlotting_images/ec4101b5.png)
 
@@ -48,12 +49,11 @@ def create_attribute_array (data, attribute):
     for x in data:
         a.append( x[attribute] )
     return a
-
+```
 So we can call it like this:
-
 ```python
 data_5 = data['5']  # to get the 5th division
-arr_date = create_attribute_array(data_5, 'YEARMONTH')
+arr_date = create_attribute_array(data_5, 'YearMonth')
 arr_tavg = create_attribute_array(data_5, 'TAVG')
 arr_pcp = create_attribute_array(data_5, 'PCP')
 ```

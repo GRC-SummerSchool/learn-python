@@ -43,7 +43,7 @@ Some common and interesting conversion functions:
 
 
 ```python
-strNumber = 123
+strNumber = "123"
 a = int(strNumber)
 b = 7 * a
 print("7 * a = ", b)

@@ -60,7 +60,7 @@ You can use this to create index to a list
 
 ```python
 numbers = [1, 20, 3, 40, 5, 60, 7, 80, 9]
-for n in range(2,len(numbers),2):   # Starts at 2, less than 12, step by 2
+for n in range(2,len(numbers),2):   # Starts at 2, less than the length of the list (in this case 9), step by 2
     print(numbers[n])
 ```
 will produce the following output:

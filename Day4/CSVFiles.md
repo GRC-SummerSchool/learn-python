@@ -137,6 +137,8 @@ Also, we want a nicer way to format the month, so we create a new function to co
 Python routines to load weather CSV file into a python dictionary (map) using Division as key and convert yearmonth number into a string.
 
 ```python
+import datetime
+
 def load_data_objects_into_map (filename):
     map = {}
     with open(filename) as csvfile:

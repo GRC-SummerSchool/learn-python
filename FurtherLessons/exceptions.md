@@ -1,4 +1,4 @@
-|[< Previous (Git - Collaboration)](../Extra/GitBranch.md) | [Intermediate Python](README.md)| [Next (Args and Kwargs) >](Functions/args_kwargs.md)
+|[< Previous (Git - Collaboration)](../Extra/GitBranch.md) | [Intermediate Python](README.md)| [Next (Args and Kwargs) >](Functions/argskwargs.md)
 |----|----|----|
 
 # Exceptions
@@ -289,5 +289,5 @@ Python has two keywords for creating errors: `raise` and `assert`
 	assert factorial(3)==6
 	```
 	
-|[< Previous (Git - Collaboration)](../Extra/GitBranch.md) | [Intermediate Python](README.md)| [Next (Args and Kwargs) >](Functions/args_kwargs.md) |
+|[< Previous (Git - Collaboration)](../Extra/GitBranch.md) | [Intermediate Python](README.md)| [Next (Args and Kwargs) >](Functions/argskwargs.md) |
 |----|----|----|

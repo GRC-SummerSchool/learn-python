@@ -16,7 +16,7 @@ Since you never closed the file, your results so far never got saved, and you ha
 You rerun your code, and 4 hours later, you crash again because of something else. Your 5-hour calculation has now taken you at least 12 hours, plus time for re-writing and debugging.
 
 Now imagine that instead, when you hit that first `ZeroDivisionError`, your code first saved the file, and a couple of key variables. When you fixed the issue, you re-ran the code by loading those variables, and started right from where you left off.
-And that your code did that, not only with a `ZeroDivisionError`, but with _any_ fatal error or interruption. It's even possible to guard against `KeyboardInterrupt`s because you had to stop your code early since a college needed to use the computer.
+And that your code did that, not only with a `ZeroDivisionError`, but with _any_ fatal error or interruption. It's even possible to guard against `KeyboardInterrupt`s because you had to stop your code early since a colleague needed to use the computer.
 
 Exception handling is about expecting the unexpected, and keeping your code running regardless.
 
@@ -53,7 +53,7 @@ The basis of exception handling is the try-catch blocks. In python, there are 4 
 	
 	Generally, that last `except` block is considered bad programming practice, since it effectively hides any and all issues from the rest of the program- even if those issues would be better handled by other pieces of code. 
 	Just like with `if` statements and loops, try-catch blocks can be nested within each other, and an outer block might be prepared to deal with the exception that the inner block is not.
-	Or, in the case of a KeyboardInterrupt to stop a program early (because, during debugging, you accidentally made an infinite loop), since that counts as an exception which would be stopped by a generic catch-all block, it would not stop the program at all.
+	Or, in the case of a `KeyboardInterrupt` to stop a program early (because, during debugging, you accidentally made an infinite loop), since that counts as an exception which would be stopped by a generic catch-all block, it would not stop the program at all.
 	
 	With multiple `except` blocks, the order matters, since some errors are sub-types of other errors. In a case where an error could get handled by multiple blocks, the error goes to the first block that matches its type. 
 	For example, `ZeroDivisionError` is a type of `ArithmeticError`. If there was a block catching the `ArithmeticError`s before the block catching the `ZeroDivisionError`s, a `ZeroDivisionError` would get handled by that block instead.

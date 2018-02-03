@@ -1,4 +1,4 @@
-|[< Previous (Exceptions)](../exceptions.md) | [Intermediate Python](README.md)| [Next (Recursion) >](recursion.md) |
+|[< Previous (Exceptions)](../exceptions.md) | [Intermediate Python](../README.md)| [Next (Recursion) >](recursion.md) |
 |----|----|----|
 
 # Arguments and Keyword Arguments
@@ -229,6 +229,9 @@ But since file objects are pointers, operations that move the cursor, or save th
 (Plus, if multiple cursors were really desired, there's always the ability to use the `open` function multiple times.)
 
 ### Exercises
-Write a function that takes an arbitrary number of lists and pads each list in-place to the length of the longest one. The default padding should be `None`, but could be changed.
+- Write a function that takes an arbitrary number of lists and pads each list in-place to the length of the longest one. The default padding should be `None`, but could be changed.
 
-Change fo2 in the above example to `fo2 = open("data.txt",mode='w')`, and see what happens with two file objects. Can you mimic the behavior of having just one? You may want to use the `fo.flush()` (to save) and the `fo.seek()` (to move the cursor) functions.
+- Change fo2 in the above example to `fo2 = open("data.txt",mode='w')`, and see what happens with two file objects. Can you mimic the behavior of having just one? You may want to use the `fo.flush()` (to save) and the `fo.seek()` (to move the cursor) functions.
+
+|[< Previous (Exceptions)](../exceptions.md) | [Intermediate Python](../README.md)| [Next (Recursion) >](recursion.md) |
+|----|----|----|

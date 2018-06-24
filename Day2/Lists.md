@@ -29,7 +29,7 @@ print(numbers[len(numbers)-1])   # will output last element
 print(numbers[-1])               # also prints out last element
 ```
 
-Lists can be easily sliced using the [:] operator
+Lists can be easily sliced using the [:] operator, which returns a portion of a list as another list.
 ```python
 numbers = [1, 20, 3, 40, 5, 60, 7, 80, 9]
 
@@ -61,27 +61,32 @@ mix = [1, "cat", 3, "dog", 5, 6, 7, 8, "giraffe"]
 print(mix)
 ```
 
-To add to a list once its constructed, use the append(x) function
+To add elements to the end of a list once it is constructed, use the append(x) function.
 ```python
 mix = [1, "cat", 3, "dog", 5, 6, 7, 8, "giraffe"]
 
 mix.append(10)
 mix.append("lion")
 print(mix)
+[1, 'cat', 3, 'dog', 5, 6, 7, 8, 'giraffe', 10, 'lion']
 ```
 
-To remove elements from the list once its constructed, use the pop(x) function
+To remove elements from the list once it is constructed, use the pop(x) function.  Without an argument, pop removes the last element of the list.
 ```python
-mix = [1, "cat", 3, "dog", 5, 6, 7, 8, "giraffe"]
-
-mix.pop(0)  # removes the first element (1)
-mix.pop(-1) # removes the last element
 mix.insert(0, "front of list")  # inserts element at supplied position (0)
 print(mix)
+>>> mix = [1, "cat", 3, "dog", 5, 6, 7, 8, "giraffe"]
+>>> mix.pop(0)  # removes the first element
+1
+>>> mix.pop()  # removes the last element
+'giraffe'
+>>> print(mix)
+['cat', 3, 'dog', 5, 6, 7, 8]
 ```
-
-Running the above example will produce the following output:
+To insert elements in a list at a specific location, use the function insert(n, value).  Continuing with list "mix":
 ```
+>>> mix.insert(0, "front of list")  # inserts element at index 0
+>>> print(mix)
 ['front of list', 'cat', 3, 'dog', 5, 6, 7, 8]
 ```
 

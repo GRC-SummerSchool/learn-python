@@ -29,8 +29,8 @@ For example, let's write a unit test for our ```square(x)``` function above:
 
 ```python
 def test_squared():
-    assert( square(2) == 4)
-    assert( square(3) == 9)
+    assert(square(2) == 4)
+    assert(square(3) == 9)
 ```
 
 When we run the program using py.test in PyCharm, we see that the tests execute successfully
@@ -43,7 +43,7 @@ Next, let's write a unit test for the temperature conversion routine from the we
 
 ```python
 # Convert Fahrenheit to Celsius
-def convertFtoC (temperatureF):
+def convertFtoC(temperatureF):
     temperatureC = (float(temperatureF) - 32) * (5.0/9.0)
     return temperatureC
 ```
@@ -52,8 +52,8 @@ We know that 32 degrees Fahrenheit is the same as 0 degrees Celsius and that 212
 
 ```python
 def test_conversion():
-    assert (convertFtoC(32) == 0)
-    assert (convertFtoC(212) == 100)
+    assert(convertFtoC(32) == 0)
+    assert(convertFtoC(212) == 100)
 ```
 
 Tests can also be run from a command shell by executing ```py.test``` from the same folder as the test source files. For example:

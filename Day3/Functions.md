@@ -32,7 +32,7 @@ T(°C) = (T(°F) - 32) × 5/9
 ## Python Code to Convert Fahrenheit to Celsius
 
 ```python
-def convertFtoC (temperatureF):
+def convertFtoC(temperatureF):
     temperatureC = (float(temperatureF) - 32) * (5.0/9.0)
     return temperatureC
 ```
@@ -47,7 +47,7 @@ After defining the function, we can use it to perform calculations.
 
 ```python
 freezing = convertFtoC('32')
-print 'freezing = ',freezing,'C'
+print('freezing =', freezing, 'C')
 ```
 
 

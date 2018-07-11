@@ -80,5 +80,9 @@ If you're just starting a project, take the time before beginning to ask yoursel
   The above example is actual code from a generic [Tensorflow neural network](https://www.tensorflow.org/) for machine learning.
   Representing the model as an object means the user doesn't need to know how sessions get used, or what the optimizer is called.
 
+### Excerise
+Think about a project you've worked on or are planning, and see if you can find 2 or 3 classes that the project could use.
+If you've got a partner or a neighbor, discuss with them the potential benefits.
+
 |[< Previous (Generators)](../Functions/generators.md) | [Intermediate Python](../README.md)| [Next (Classes) >](classes.md) |
 |----|----|----|

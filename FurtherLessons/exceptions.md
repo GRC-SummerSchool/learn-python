@@ -1,4 +1,4 @@
-|[< Previous (Git - Collaboration)](../Extra/GitBranch.md) | [Intermediate Python](README.md)| [Next (Args and Kwargs) >](Functions/argskwargs.md)
+|[< Previous (Git - Collaboration)](../Extra/GitBranch.md) | [Intermediate Python](README.md)| [Next (Pointers) >](pointers.md)
 |----|----|----|
 
 # Exceptions
@@ -107,7 +107,7 @@ The basis of exception handling is the try-catch blocks. In python, there are 4 
 			print('5/%g = %g'%(divisor,answer))
 			break # Stops the loop
 	```
-
+	Remember that python blocks are defined by their indentation, so the `else` in the `if-else` statement is distinguished from the `else` that comes at the end of the `try` block.
 	
 4. `finally`
 	
@@ -223,6 +223,17 @@ except ZeroDivisionError as e:
 print("The program didn't crash though")
 ```
 
+### Exercises
+Use the following code snippet to open [exception_exercises.txt](exception_exercises.txt) and read in each line as a string.
+
+```python
+fin = open('exception_exercises.txt','r')
+numAsStr = fin.readlines()
+fin.close()
+```
+Loop through the entries and create two lists: one with the entries converted to integers, and one with the entries that 
+can only be converted to complex numbers. Count how many entries are neither intergers nor complex numbers. You can use `int(string)` and `complex(string)`
+to convert strings to the respective datatypes.
 
 ## Raising your own exceptions
 
@@ -288,6 +299,12 @@ Python has two keywords for creating errors: `raise` and `assert`
 	assert factorial(1)==1
 	assert factorial(3)==6
 	```
+	You can read more about code testing in the [original Day 3 lesson](../Day3/Testing.md).
 	
-|[< Previous (Git - Collaboration)](../Extra/GitBranch.md) | [Intermediate Python](README.md)| [Next (Args and Kwargs) >](Functions/argskwargs.md) |
+### Exercises
+Turn the previous exercise into a function. If the number of discarded entries is more than 40% of the total entries,
+raise an appropriate error. Try this with both [exception_exercises.txt](exception_exercises.txt) and [exception_exercises2.txt](exception_exercises2.txt)
+
+	
+|[< Previous (Git - Collaboration)](../Extra/GitBranch.md) | [Intermediate Python](README.md)| [Next (Pointers) >](pointers.md) |
 |----|----|----|

@@ -1,10 +1,17 @@
 from random import randint
 
-
 class ActionError(ValueError):
+    """A custom-made error created by inheriting the ValueError class.
+    Although the class 'does nothing', it can still be distingued from
+    a CharacterError or ValueError when using try-expect blocks
+    """
     pass
 
 class CharacterError(ValueError):
+    """A custom-made error created by inheriting the ValueError class.
+    Although the class 'does nothing', it can still be distingued from
+    an ActionError or ValueError when using try-expect blocks
+    """
     pass
 
 class GameCharacter:
@@ -28,8 +35,6 @@ class GameCharacter:
         self.player = player
         self.team = team
         self.alive = True
-        self.HP = 20
-
 
         # Dexterity set based on strength
         self.strength = min([max([strength,self.MIN_STR]), self.MAX_STR])
@@ -46,35 +51,40 @@ class GameCharacter:
 
 
     def attack(self,gamecharacter):
-        if not self.alive: raise CharacterError("%s is dead."%self.name)
+        """Attack another character"""
+
+        assert isinstance(gamecharacter,GameCharacter) # Must attack a character
+        if not self.alive: raise CharacterError("%s is dead."%self.name) # Must be alive
+
         if self.team == gamecharacter.team: raise ActionError("Cannot attack your own team")
 
         if gamecharacter.protected:
-            # Switch the target of the attack
+            # Switch the target of the attack because character was protected
             print("%s is protected by %s!"%(gamecharacter.name,gamecharacter.protected.name))
             gamecharacter = gamecharacter.protected
 
         if not gamecharacter.alive: raise ActionError("Can't beat a dead horse")
 
-        attack = self.roll20() + self.modifier(self.strength)
+        attack = self.roll20() + self.modifier(self.strength) # D&D Style mechanics
 
         if attack >= gamecharacter.AC:
             damage = self.roll(self.weapon) + self.modifier(self.strength)
-
             print("Attack successful! %s did %i damage to %s"%(self.name,damage,gamecharacter.name))
-
             gamecharacter.HP -= damage
+            return True
 
         else:
             print("Attack Misses!")
             return False
 
     def protect(self,gamecharacter):
-        if not self.alive: raise CharacterError("%s is dead."%self.name)
+        """Protect a teammate"""
+        assert isinstance(gamecharacter,GameCharacter) # Must protect a character
+        if not self.alive: raise CharacterError("%s is dead."%self.name) # Must be alive
 
         if self.team != gamecharacter.team: raise ActionError("Your team needs it more!")
 
-        if gamecharacter.protected:
+        if gamecharacter.protected: # Characters can only be protected by one person
             gamecharacter.protected.unprotect()
 
         self.protecting = gamecharacter
@@ -84,18 +94,20 @@ class GameCharacter:
         return True
 
     def unprotect(self):
+        """Removes a character's protection."""
         if self.protecting:
             print("%s stops protecting %s."%(self.name,self.protecting.name))
             self.protecting.protected = None
             self.protecting = None
 
     def initiative(self):
+        """Used for turn order"""
         return self.roll20() + self.modifier(self.dexterity)
 
-    def get_HP(self):
+    def _get_HP(self):
         return self._HP
 
-    def set_HP(self,hp):
+    def _set_HP(self,hp):
         self._HP = hp
 
         was_alive = self.alive
@@ -103,12 +115,14 @@ class GameCharacter:
 
         if was_alive and not self.alive:
             print("%s has died"%self.name)
+            if self.protected:
+                self.protected.unprotect()
             self.unprotect()
 
         if not was_alive and self.alive:
             print("%s has revived!"%self.name)
 
-    HP = property(get_HP,set_HP)
+    HP = property(_get_HP,_set_HP)
 
     @staticmethod
     def roll(dice):
@@ -120,6 +134,5 @@ class GameCharacter:
 
     @staticmethod
     def modifier(attr):
+        """D&D-style game mechanic"""
         return int((attr-10)/2)
-
-

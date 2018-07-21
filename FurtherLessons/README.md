@@ -4,6 +4,8 @@ Once you've got a grasp of the basics, here is some further reading of some more
 
 0. [Exceptions](exceptions.md)
 1. [Pointers](pointers.md)
+2. Context Managers
+3. Regular Expressions
 
 ## Functions
 

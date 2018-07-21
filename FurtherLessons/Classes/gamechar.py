@@ -2,14 +2,14 @@ from random import randint
 
 class ActionError(ValueError):
     """A custom-made error created by inheriting the ValueError class.
-    Although the class 'does nothing', it can still be distingued from
+    Although the class 'does nothing', it can still be distinguished from
     a CharacterError or ValueError when using try-expect blocks
     """
     pass
 
 class CharacterError(ValueError):
     """A custom-made error created by inheriting the ValueError class.
-    Although the class 'does nothing', it can still be distingued from
+    Although the class 'does nothing', it can still be distinguished from
     an ActionError or ValueError when using try-expect blocks
     """
     pass

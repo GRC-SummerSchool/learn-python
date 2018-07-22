@@ -74,7 +74,7 @@ When writing methods, aside from any arguments the user passes in, you also have
 
 You can also access a method by using the class name and explicitly passing in the instance: `MyClass.method_with_arg(myInstance, 2)`
 
-### Exercise
+### Exercises
 - Write a Rectangle class that has width, height, area, and perimeter attributes. Add a `grow` method that multiplies the area by a fixed amount
 by adjusting the width/height without changing the aspect ratio. Add a `isbigger` method that takes another rectangle as an input, and returns True if
 the current rectangle has a larger area, False otherwise.
@@ -151,7 +151,7 @@ if ClubMember.id_exists(alice_id, db_conn):
 else:
     alice = ClubMember.create_new("Alice", "1 First Street, 12345")
 ```
-### Excersices
+### Exercises
 Complete the Circle class to match the interface of the Rectangle class from earlier. The `isbigger` method for both classes should work regardless
 of whether the input was a Circle or a Rectangle instance.
 
@@ -209,7 +209,7 @@ print( t1.toCelcius )
 t1.T = -196.15 # Raises an error
 ```
 
-### Execerses
+### Exercises
 - Turn the `radius` of the circle into a property. When the radius of the circle changes, the area should automatically
 change with it. What small extra step do you need to do to make that work with the width/height of the Rectangle?
 

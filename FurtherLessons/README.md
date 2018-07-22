@@ -31,6 +31,7 @@ This section teaches the basics of classes and OOP in Python.
 Keep an eye out for the following topics in the future!
 
 - Miscellaneous Data structures: Queues, Stacks, and Graphs
+- Databases
 - Multi-threading and parallelism
 - Communicating with measurement instruments
 - Introduction to creating GUIs

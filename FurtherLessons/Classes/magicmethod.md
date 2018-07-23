@@ -1,9 +1,9 @@
-|[< Previous (Inheritance)](inheritance.md) | [Intermediate Python](../README.md)| [Next (Example) >](example.md) |
+|[< Previous (Inheritance)](inheritance.md) | [Intermediate Python](../README.md)| [Next (Example) >](example/README.md) |
 |----|----|----|
 
 # Magic Methods
 
 Coming soon
 
-|[< Previous (Inheritance)](inheritance.md) | [Intermediate Python](../README.md)| [Next (Example) >](example.md) |
+|[< Previous (Inheritance)](inheritance.md) | [Intermediate Python](../README.md)| [Next (Example) >](example/README.md) |
 |----|----|----|

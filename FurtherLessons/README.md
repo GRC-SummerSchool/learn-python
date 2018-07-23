@@ -24,7 +24,7 @@ This section teaches the basics of classes and OOP in Python.
 2. [Classes](Classes/classes.md)
 3. [Inheritance](Classes/inheritance.md)
 4. [Magic Methods](Classes/magicmethod.md)
-5. [In-Depth Example](Classes/example.md)
+5. [In-Depth Example](Classes/example/README.md)
 
 ## Future Lessons
 

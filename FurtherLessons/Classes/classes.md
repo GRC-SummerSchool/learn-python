@@ -71,6 +71,8 @@ The initilization function can be as simply or complex as needed, and not all th
   *A `Library` class takes the names of the librarians and a filename listing its books. It creates a `Librarian` instance for each of the librarians, and a `Book` instance for each book listed in the file. It has the attributes `myLibrary.librarians` and `myLibrary.catalog`, and a method `myLibrary.checkout(booktitle)`*
 
 When writing methods, aside from any arguments the user passes in, you also have access to any variables that have been assigned to `self`.
+A method can do anything that a regular function can do: it can be [recursive](../Functions/recursion.md), be a [generator](../Functions/generators.md),
+get [decorated](../Functions/functionhandles.md) (or be a decorator).
 
 You can also access a method by using the class name and explicitly passing in the instance: `MyClass.method_with_arg(myInstance, 2)`
 

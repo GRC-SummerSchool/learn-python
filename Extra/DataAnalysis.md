@@ -20,7 +20,7 @@ def perform_analysis(data_map):
         array_TAVG = create_attribute_array(division_data, 'TAVG')
         array_PCP = create_attribute_array(division_data, 'PCP')
 
-        # Calcualte stats for each station
+        # Calculate stats for each station
 
     return stats
 ```
@@ -44,7 +44,7 @@ def perform_analysis(data_map):
         array_TAVG = create_attribute_array(division_data, 'TAVG')
         array_PCP = create_attribute_array(division_data, 'PCP')
 
-        # Calcualte stats for each station
+        # Calculate stats for each station
         max_TAVG = max(array_TAVG)
         min_TAVG = min(array_TAVG)
         mean_PCP = mean(array_PCP)
@@ -62,7 +62,7 @@ def perform_analysis(data_map):
         array_TAVG = create_attribute_array(division_data, 'TAVG')
         array_PCP = create_attribute_array(division_data, 'PCP')
 
-        # Calcualte stats for each station
+        # Calculate stats for each station
         max_TAVG = max(array_TAVG)
         min_TAVG = min(array_TAVG)
         mean_PCP = mean(array_PCP)
@@ -74,7 +74,7 @@ def perform_analysis(data_map):
             "mean_PCP" : mean_PCP
         }
         stats.append(station_stats)
-    print stats
+    print(stats)
     return stats
 ```
 
@@ -83,6 +83,8 @@ def perform_analysis(data_map):
 Again, we leverage the  [matplotlib](https://matplotlib.org/) package to plot some charts.  Here we create a bar chart showing the min and max average temperatures for each station
 
 ```python
+import numpy as np
+
 def plot_min_max (station_stats):
     array_STATION = create_attribute_array(station_stats, 'station')
     array_MIN_TAVG = create_attribute_array(station_stats, 'min_TAVG')

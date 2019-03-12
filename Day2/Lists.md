@@ -75,18 +75,24 @@ To remove elements from the list once it is constructed, use the pop(x) function
 ```python
 mix.insert(0, "front of list")  # inserts element at supplied position (0)
 print(mix)
->>> mix = [1, "cat", 3, "dog", 5, 6, 7, 8, "giraffe"]
->>> mix.pop(0)  # removes the first element
+mix = [1, "cat", 3, "dog", 5, 6, 7, 8, "giraffe"]
+mix.pop(0)  # removes the first element
 1
->>> mix.pop()  # removes the last element
+```
+
+```python
+mix.pop()  # removes the last element
 'giraffe'
->>> print(mix)
+```
+
+```python
+print(mix)
 ['cat', 3, 'dog', 5, 6, 7, 8]
 ```
 To insert elements in a list at a specific location, use the function insert(n, value).  Continuing with list "mix":
-```
->>> mix.insert(0, "front of list")  # inserts element at index 0
->>> print(mix)
+```python
+mix.insert(0, "front of list")  # inserts element at index 0
+print(mix)
 ['front of list', 'cat', 3, 'dog', 5, 6, 7, 8]
 ```
 

@@ -30,7 +30,7 @@ to configure the Python interpreter. Or you can follow the instructions below.
 under the menu `File`.
 ![settings](images/settings.png)
 - Once in settings, click on `Project Interpreter` under `Project: [YOUR PROJECT NAME]` from the left.
-Click the gear icon and select `Add`.
+Click the gear icon ![gear](images/icons.general.gearPlain.svg@2x.png) and select `Add`.
 ![project_interpreter](images/project_interpreter.png)
 - Select `System Interpreter` from the left menu, choose the Anaconda3 from the dropdown list, and the click `OK`.
 ![conda_interpreter](images/add_project_interpreter.png)

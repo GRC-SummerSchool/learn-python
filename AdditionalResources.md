@@ -6,7 +6,8 @@
 
 ## Python
 
-[Getting started with Python](https://www.python.org/about/gettingstarted/)
+- [Getting started with Python](https://www.python.org/about/gettingstarted/)
+- [Python Cheat Sheets](http://ehmatthes.github.io/pcc/cheatsheets/README.html)
 
 ## Debugging
 

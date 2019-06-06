@@ -10,7 +10,7 @@ Original error was: DLL load failed: The specified module could not be found.
 ```
 
 This may occur only on Win/10 and specific versions of Pycharm. The same code may work fine when importing from python console outside of Pycharm.
-See https://intellij-support.jetbrains.com/hc/en-us/community/posts/360001194720-Numpy-import-error-in-PyCharm-Importing-the-multiarray-numpy-extension-module-failed- for complete description of problem and possible solutions.
+See this [link](https://intellij-support.jetbrains.com/hc/en-us/community/posts/360001194720-Numpy-import-error-in-PyCharm-Importing-the-multiarray-numpy-extension-module-failed-) for complete description of problem and possible solutions.
 
 
 ### Solution 1:

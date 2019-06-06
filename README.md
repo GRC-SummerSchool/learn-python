@@ -57,3 +57,4 @@ analytic for processing data and displaying the results.
 2. [Git - Collaborating](Extra/GitBranch.md)
 3. [Data Analysis](Extra/DataAnalysis.md)
 4. [Additional Resources](AdditionalResources.md)
+5. [Troubleshooting](Troubleshooting.md)

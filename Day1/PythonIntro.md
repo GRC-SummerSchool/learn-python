@@ -21,11 +21,13 @@ Python is a high-level general-purpose programming language that can be applied 
 
 5. Python is Open Source and has a [large community](https://www.python.org/) 
 
-6. Guido is named [**BDFL**](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life) for Python
+6. Guido was the [**BDFL**](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life) for Python until he
+[stepped down](https://www.mail-archive.com/python-committers@python.org/msg05628.html) in July 2018.
 
-7. Most popular coding language, [5 years in a row](http://blog.codeeval.com/codeevalblog/2016/2/2/most-popular-coding-languages-of-2016)
+7. Among the top 5 of the most popular coding languages in recent years according to [GitHub](https://octoverse.github.com/projects#languages)
 
-8. Has two stable versions : Version 2 & Version 3 (And can cause heated debates in organizations :-)
+8. Has two stable versions : Version 2 & Version 3 (Python 2.7 reaching End of Life on Jan. 1, 2020,
+so go with Python 3)
 
 9. Used in movie production (LucasFilms) to drug discovery (AstraZeneca) to the IndustrialInternet (GE Predix) to Social Media (Instagram)!
 

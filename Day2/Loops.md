@@ -118,7 +118,7 @@ happens!
 
 ### Exercise
 
-Modify your practice-conditionals.py file from Day 1 to run the code in a loop.
+Modify the conditionals exercise to run the code in a loop.
 
 ### Additional Information
 

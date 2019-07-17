@@ -16,18 +16,20 @@ Below we will show how to write unit tests using [pytest](https://docs.pytest.or
 
 [pytest](https://docs.pytest.org/en/latest/) is a framework for writing tests. The framework provides tools to execute your code and validate that the values returned have the correct values.
 
-As an example, suppose we have defined the following function for the square of a number:
+As an example, suppose we have defined the following function for the square of a number in a file sq.py:
 
 ```python
 def square(x):
     return x*x
 ```
 
-```pytest``` provides a library of assertion functions to help check return values and ensure they are returning proper values. Assert functions are used to verify expectations and values in Python tests.
+```pytest``` provides a library of assertion functions to help check return values and ensure they are returning proper values. Assert functions are used to verify expectations and values in Python tests. ```pytest``` will find the tests in files that start with the prefix ```test_``` (or end with the suffix ```_test```). The test function must start with ```test_```.
 
-For example, let's write a unit test for our ```square(x)``` function above:
+For example, let's write a unit test for our ```square(x)``` function above (in a file call ```test_examples.py```:
 
 ```python
+import sq
+
 def test_squared():
     assert(square(2) == 4)
     assert(square(3) == 9)
@@ -51,9 +53,11 @@ def convertFtoC(temperatureF):
 We know that 32 degrees Fahrenheit is the same as 0 degrees Celsius and that 212 degrees Fahrenheit is 100 degrees Celsius. So, we have the following unit test:
 
 ```python
+import temperature_converter as tc
+
 def test_conversion():
-    assert(convertFtoC(32) == 0)
-    assert(convertFtoC(212) == 100)
+    assert(tc.convertFtoC(32) == 0)
+    assert(tc.convertFtoC(212) == 100)
 ```
 
 Tests can also be run from a command shell by executing ```py.test``` from the same folder as the test source files. For example:

@@ -38,6 +38,9 @@ Click the gear icon ![gear](images/icons.general.gearPlain.svg@2x.png) and selec
 Anaconda3 interpreter from the dropdown list. Click on `OK` to close the Settings menu, and now you should be all set.
 ![select_interpreter](images/select_project_interpreter.png)
 
+Note that you can also set up a virtual environment so that you can manage dependencies of a particular project regardless of your base Python interpreter and other Python projects. 
+You can choose "Virtualenv" in the dropdown menu as shown in the figure below.
+![virtual_env](images/new_env_venv.png)
 
 | [< Previous (Intro)](../README.md) | [Day1](../README.md) | [Next (Session Objectives) >](SessionObjectives.md) |
 | ---- | ---- | ---- |

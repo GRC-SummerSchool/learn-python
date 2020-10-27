@@ -37,7 +37,9 @@ Click the gear icon ![gear](images/icons.general.gearPlain.svg@2x.png) and selec
 - The Anaconda interpreter should be automatically populated under `Project Interpreter`. If not, select the 
 Anaconda3 interpreter from the dropdown list. Click on `OK` to close the Settings menu, and now you should be all set.
 ![select_interpreter](images/select_project_interpreter.png)
-
+- Sometimes, the Anaconda interpreter may not be automatically populated in the dropdown list. In this case, you will 
+need to manually select it from the Anaconda installation directory.
+![select_anaconda](images/select_anaconda.png)
 
 | [< Previous (Intro)](../README.md) | [Day1](../README.md) | [Next (Session Objectives) >](SessionObjectives.md) |
 | ---- | ---- | ---- |

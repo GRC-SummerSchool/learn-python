@@ -180,7 +180,7 @@ if __name__ == "__main__":
 ### Exercise
 1. Move the calls to the temperature function into a `__main__` section. Leave the def part of the function outside the if statement block. Run this program.
 
-2. Create a new program with just an `if __name__ == "__main__"`: block. Put different code in this main section. Some suggestions:
+2. Create a new program with just an `if __name__ == "__main__":` block. Put different code in this main section. Some suggestions:
    Create a loop to ask the user for input values and then call the convert function.
 
 3. Use conditionals to print comment about the temperatures, like "that is cold!", "that is a nice temperature for playing golf", "that is hot, let's go swimming", etc.

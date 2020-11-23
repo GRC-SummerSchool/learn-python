@@ -1,7 +1,8 @@
 |[< Previous (Functions)](Functions.md) | [Day3](../README.md)| [Next (Software Testing) >](Testing.md) |
 |----|----|----|
-# Modules
+# Modules & Packages
 
+## Modules
 ```python
 import antigravity
 ```
@@ -105,25 +106,27 @@ import mymodule as m
 m.myfunction()
 ```
 
-### Defining modules from directory
+## Packages
 
-More advanced modules may be broken up into several files. These may be imported by referring to the directory
-containing the module.
+More advanced modules may be broken up into several files, and a Python **Package** is simply a collection of 
+many modules. These may be imported by referring to the directory containing the module.
 
 Consider the following directory tree:
 ```
-my-module
-    __init__.py  # Special file that runs when module is loaded
-    a.py
-    submodule    # Modules may include submodules, which have their own __init__.py file
+my_package
+    __init__.py       # Special file that Python interpreter inteprets this as a package
+    a.py              # Module 1
+    sub_package       # Sub package may include submodules, which have their own __init__.py file
         __init__.py
-    b.py
+        sub1.py       # Submodule 1
+    b.py              # Module b
 ```
 
-If Python program imports my-module.submodule, my-module/__init__.py will execute implicitly along
-with my-module/submodule/\_\_init\_\_.py. 
+If Python program imports my_package.sub_package, `my_package/__init__.py` will execute implicitly along
+with `my_package/sub_package/__init__.py`. 
 
-
+Here are a couple of external references for more information on modules and packages:
+- [Python Modules and Packages – An Introduction](https://realpython.com/python-modules-packages/)
 
 |[< Previous (Functions)](Functions.md) | [Day3](../README.md)| [Next (Software Testing) >](Testing.md) |
 |----|----|----|

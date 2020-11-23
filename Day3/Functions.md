@@ -32,28 +32,30 @@ T(°C) = (T(°F) - 32) × 5/9
 ## Python Code to Convert Fahrenheit to Celsius
 
 ```python
-def convertFtoC(temperatureF):
-    temperatureC = (float(temperatureF) - 32) * (5.0/9.0)
-    return temperatureC
+def convert_F_to_C(temperature_F):
+    temperature_C = (float(temperature_F) - 32) * (5.0/9.0)
+    return temperature_C
 ```
 
-The keyword ```def``` defines the function name: ```convertFtoC```.
-```temperatureF``` is an input argument to the function. We will call this function with different values.
-```return temperatureC``` is the syntax to send the calculation back to the calling program.
-In the above example, the input argment ```temperatureF``` is a string type. The ```float()``` operator is used to convert the string to a float before performing the conversion calculation.
+The keyword ```def``` defines the function name: ```convert_F_to_C```.
+```temperature_F``` is an input argument to the function. We will call this function with different values.
+```return temperature_C``` is the syntax to send the calculation back to the calling program.
+In the above example, the input argument ```temperature_F``` is a string type. The ```float()``` operator 
+is used to convert the string to a float before performing the conversion calculation.
 
 After defining the function, we can use it to perform calculations.
 ## Python Code to call the conversion function
 
 ```python
-freezing = convertFtoC('32')
+freezing = convert_F_to_C('32')
 print('freezing =', freezing, 'C')
 ```
 
 
 ### Exercise
 
-Create a new file, temperatureConversion.py. Copy the function definition code above to your file. Add some calls to convert selected temperatures and print the results.
+Create a new file, `temperature_conversion.py`. Copy the function definition code above to your file. 
+Add some calls to convert selected temperatures and print the results.
 
 
 

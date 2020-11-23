@@ -38,7 +38,7 @@ On the third day, the class will discuss basic code organization and some basics
 
 1. [Debugging](Day3/Debugging.md)
 2. [Functions](Day3/Functions.md)
-3. [Modules](Day3/Modules.md)
+3. [Modules & Packages](Day3/Modules.md)
 4. [Software Testing](Day3/Testing.md)
 
 ## Day 4

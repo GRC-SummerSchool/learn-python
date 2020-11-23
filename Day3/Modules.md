@@ -1,6 +1,11 @@
 |[< Previous (Functions)](Functions.md) | [Day3](../README.md)| [Next (Software Testing) >](Testing.md) |
 |----|----|----|
 # Modules & Packages
+Here are a couple of external references for more information on modules and packages:
+- [Python Modules and Packages – An Introduction](https://realpython.com/python-modules-packages/)
+- [Python Modules](https://www.programiz.com/python-programming/modules) and [Python Packages](https://www.programiz.com/python-programming/package)
+- (Interactive) [Modules and Packages](https://www.learnpython.org/en/Modules_and_Packages)
+
 
 ## Modules
 ```python
@@ -95,15 +100,15 @@ if __name__ == '__main__':
 When you encounter an import statement, it searches for the named module, then it binds the results of that 
 search to a name in the local scope.
 
-if you have a python file named mymodule.py, you can import that file and bind to a variable.
+if you have a python file named `my_module.py`, you can import that file and bind to a variable.
 ```python
-def myfunction() :
+def my_function() :
     print("my function was called")
 ```
 ```python
-import mymodule as m
+import my_module as m
 
-m.myfunction()
+m.my_function()
 ```
 
 ## Packages
@@ -115,18 +120,16 @@ Consider the following directory tree:
 ```
 my_package
     __init__.py       # Special file that Python interpreter inteprets this as a package
-    a.py              # Module 1
+    mod_a.py          # Module a
     sub_package       # Sub package may include submodules, which have their own __init__.py file
         __init__.py
-        sub1.py       # Submodule 1
-    b.py              # Module b
+        submod_1.py   # Submodule 1
+    mod_b.py          # Module b
 ```
 
-If Python program imports my_package.sub_package, `my_package/__init__.py` will execute implicitly along
+If Python program `imports my_package.sub_package`, `my_package/__init__.py` will execute implicitly along
 with `my_package/sub_package/__init__.py`. 
 
-Here are a couple of external references for more information on modules and packages:
-- [Python Modules and Packages – An Introduction](https://realpython.com/python-modules-packages/)
 
 |[< Previous (Functions)](Functions.md) | [Day3](../README.md)| [Next (Software Testing) >](Testing.md) |
 |----|----|----|

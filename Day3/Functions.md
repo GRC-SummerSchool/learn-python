@@ -9,7 +9,7 @@ In general, many programming problems are easier to solve when decomposed into s
 
 Functions can be thought of as black-boxes. They might be written by other people. We do not need to know how they work (though it is good to know), but only be concerned what what goes in (inputs) and what comes out (return values or outputs).
 
-Python gives you many built-in functions like print(), etc. but you can also create your own functions. These functions are called *user-defined functions*.
+Python gives you many built-in functions like `print()`, etc. but you can also create your own functions. These functions are called *user-defined functions*.
 
 
 
@@ -146,7 +146,7 @@ print("Roots are:", roots[0], roots[1])
 
 ### Exercise
 
-Test your program with the following inputs : a = 1, b = -8, c = 15. You should get roots of 5.0 and 3.0 (similar to what is shown below)
+Test your program with the following inputs : `a = 1, b = -8, c = 15`. You should get roots of `5.0` and `3.0` (similar to what is shown below).
 
 ```
 Solve for the quadratic equation ax^2 + bx + c = 0
@@ -163,6 +163,8 @@ Process finished with exit code 0
 
 ```
 
+_**What will happen if you input invalid coefficients (that make b^2-4ac negative)?**_
+
 ----
 
 
@@ -176,9 +178,9 @@ if __name__ == "__main__":
 ```
 
 ### Exercise
-1. Move the calls to the temperature function into a __main__ section. Leave the def part of the function outside the if statement block. Run this program.
+1. Move the calls to the temperature function into a `__main__` section. Leave the def part of the function outside the if statement block. Run this program.
 
-2. Create a new program with just an if __name__ == "__main__": block. Put different code in this main section. Some suggestions:
+2. Create a new program with just an `if __name__ == "__main__"`: block. Put different code in this main section. Some suggestions:
    Create a loop to ask the user for input values and then call the convert function.
 
 3. Use conditionals to print comment about the temperatures, like "that is cold!", "that is a nice temperature for playing golf", "that is hot, let's go swimming", etc.

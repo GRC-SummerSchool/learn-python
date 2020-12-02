@@ -177,6 +177,11 @@ if __name__ == "__main__":
     print('this is the main program')
 ```
 
+You can read more about this from the following links:
+
+- [Python if __name__ == __main__ Explained with Code Examples](https://www.freecodecamp.org/news/if-name-main-python-example/)
+- [Understanding if __name__ == “__main__” in Python](https://medium.com/python-features/understanding-if-name-main-in-python-a37a3d4ab0c3)
+
 ### Exercise
 1. Move the calls to the temperature function into a `__main__` section. Leave the def part of the function outside the if statement block. Run this program.
 

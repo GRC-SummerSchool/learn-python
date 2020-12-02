@@ -58,7 +58,7 @@ We know that 32 degrees Fahrenheit is the same as 0 degrees Celsius and that 212
 Celsius. So, we have the following unit test:
 
 ```python
-import temperature_convertion as tc
+import temperature_conversion as tc
 
 def test_conversion():
     assert(tc.convert_F_to_C(32) == 0)

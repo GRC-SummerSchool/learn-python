@@ -68,7 +68,7 @@ Python has some [rules](https://www.python.org/dev/peps/pep-0008/#prescriptive-n
 
 | Basic Rules                              | Examples                                 |
 | ---------------------------------------- | ---------------------------------------- |
-| Variable names should lowercase with words separated by underscores (a.k.a., [snake_case](https://en.wikipedia.org/wiki/Snake_case)) | `surname`, `dollars`, `capital_city`      |
+| Variable names should use lowercase with words separated by underscores (a.k.a., [snake_case](https://en.wikipedia.org/wiki/Snake_case)) | `surname`, `dollars`, `capital_city`      |
 | Names can contain CAPITAL LETTERS (e.g., class names) but variable names are CaSe Sensitive | ```force``` is not the same as ```Force``` |
 | Numbers are allowed in the middle or end | ```rogue1``` ```top10```                 |
 

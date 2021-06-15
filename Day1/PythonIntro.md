@@ -28,7 +28,7 @@ Python is a high-level general-purpose programming language that can be applied 
 
 8. Currently (June 2021), Python is the 2nd most popular programming languages according to [TIOBE Index](https://www.tiobe.com/tiobe-index/), and it has been among the top 5 of the most popular coding languages in recent years according to [GitHub](https://octoverse.github.com/projects#languages)
 
-9. Used in movie production (LucasFilms) to drug discovery (AstraZeneca) to Social Media (Instagram) to to industrial software at GE!
+9. Used in movie production (LucasFilms) to drug discovery (AstraZeneca) to Social Media (Instagram) to industrial software at GE!
 
    ​
 

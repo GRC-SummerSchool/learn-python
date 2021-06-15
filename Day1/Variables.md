@@ -62,19 +62,19 @@ temp = "Very hot !"	# string
 print(type(temp))
 ```
 
-## Naming variables
+## Naming Variables
 
-Python has some rules that you need to observe while naming variables. 
+Python has some [rules](https://www.python.org/dev/peps/pep-0008/#prescriptive-naming-conventions) that you need to observe while naming variables. 
 
 | Basic Rules                              | Examples                                 |
 | ---------------------------------------- | ---------------------------------------- |
-| Names should start with a letter (or underscore) | ```surname, dollars, CapitalCity```      |
-| Names can contain CAPITAL LETTERS but variable names are CaSe Sensitive | ```force``` is not the same as ```Force``` |
+| Variable names should use lowercase with words separated by underscores (a.k.a., [snake_case](https://en.wikipedia.org/wiki/Snake_case)) | `surname`, `dollars`, `capital_city`      |
+| Names can contain CAPITAL LETTERS (e.g., class names) but variable names are CaSe Sensitive | ```force``` is not the same as ```Force``` |
 | Numbers are allowed in the middle or end | ```rogue1``` ```top10```                 |
 
 
 
-* Try using descriptive names: ```maxPersonsInElevator``` instead of ```m``` or ```mpie```
+* Try using descriptive names to improve readability: `max_persons_in_elevator` instead of `m` or `mpie`
 
 * Avoid using special characters  ("$", "*", "_" , etc.)  at the beginning or end of variable names
 
@@ -89,9 +89,9 @@ For example:
 
 # Variable names with underscores have special significance in Python
 
-_myVariable        # starts with a single underscore, denotes a private variable
-__myMethod         # starts with two underscores, used to avoid name clashes across classes
-__nativeMethod__   # starts & ends with two underscores, used for native methods called by Python & not the user
+_my_variable        # starts with a single underscore, denotes a private variable
+__my_method         # starts with two underscores, used to avoid name clashes across classes
+__native_method__   # starts & ends with two underscores, used for native methods called by Python & not the user
 _                  # an underscore by itself, used to access the results of the last executed statement
 
 

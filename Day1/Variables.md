@@ -141,7 +141,7 @@ x2 = title				# x2 held an integer (60) previously, now holds a string
 print(x2)				# "Shark Tank"
 ```
 
-The important thing to note is that once an assignment is done, the two variables are NOT related, i.e their values do not follow or track each other. Each can be independently changed without affecting the other.
+The important thing to note is that once an assignment is done, the two variables are NOT related, i.e their values do not follow or track each other. Each can be independently changed without affecting the other (except for *mutable objects* - read more from [here](https://www.freecodecamp.org/news/mutable-vs-immutable-objects-python/) and [here](https://www.geeksforgeeks.org/mutable-vs-immutable-objects-in-python/)).
 
 ### Exercises
 

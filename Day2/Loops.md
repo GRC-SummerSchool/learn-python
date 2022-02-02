@@ -5,7 +5,7 @@
 Python supports _for_ loops and _while_ loops.
 
 ### For Loop
-You can iterate through all the elements in a list using a _for_ loop:
+You can iterate through all the elements in a list using a ```for``` loop:
 
 ```python
 numbers = [1, 20, 3, 40, 5, 60, 7, 80, 9]
@@ -25,7 +25,7 @@ will produce the following output:
 9
 ```
 
-Even if the list contains different types, you can still iterate through all the elements in a list using a _for_ loop:
+Even if the list contains different types, you can still iterate through all the elements in a list using a ```for``` loop:
 
 ```python
 mix = [1, 'cat', ['list', 'in', 'a', 'list'], {'name' : 'matt', 'age' : 30}]
@@ -40,7 +40,7 @@ will produce the following output (note the reordering of the dictionary):
 {'age' : 30, 'name' : 'matt'}
 ```
 
-You may specify a range of numbers to iterate over using the range function:
+You may specify a range of numbers to iterate over using the ```range``` function:
 Note - you can leave off the step parameter if you choose to increment by 1
 
 ```python
@@ -80,7 +80,7 @@ Can you explain why it isn't
 
 ### While Loops
 
-A _while_ loop will repeat until the loop condition isn't satisfied:
+A ```while``` loop will repeat until the loop condition isn't satisfied:
 
 ```python
 count = 1
@@ -110,7 +110,7 @@ created an infinite loop - a loop whose ending condition will never be reached.
 count = 1
 while count < 10:
     print(count)
-    #Oops! I forgot to add one!
+    # Oops! I forgot to add one!
 ```
 
 It's always useful to know ahead of time how to stop your code from running if this
@@ -124,7 +124,7 @@ Modify the conditionals exercise to run the code in a loop.
 
 There are two keywords you can use inside a loop to change how it operates.
 
-_break_ will exit the loop immediately, skipping any conditions or the remainder
+```break``` will exit the loop immediately, skipping any conditions or the remainder
 of the list:
 
 ```python
@@ -145,8 +145,8 @@ will produce the following output:
 I hate the number 6! I quit!
 ```
 
-_continue_ will skip the rest of the code inside the loop, and move immediately to the
-next iteration of the loop, either moving to the next item on the list, or re-evaluation
+```continue``` will skip the rest of the code inside the loop, and move immediately to the
+next iteration of the loop, either moving to the next item on the list, or re-evaluating
 the condition:
 
 ```python

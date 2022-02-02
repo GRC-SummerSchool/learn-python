@@ -5,7 +5,7 @@
 Conditionals allow you to execute a portion of code when a condition is satisfied.
 
 ### If Statements
-You can add an *if* clause to execute when the condition is satisfied:
+You can add an ```if``` clause to execute when the condition is satisfied:
 
 ```python
 x = 5
@@ -13,7 +13,7 @@ if x < 10:
     print("x is < 10")
 ```
 
-You can add an *else* clause to execute when the condition is not satisfied:
+You can add an ```else``` clause to execute when the condition is not satisfied:
 
 ```python
 x = 15
@@ -23,7 +23,7 @@ else:
     print("x is not < 10")
 ```
 
-You can add additional *elif* (else if) clauses that are also evaluated. Only one condition 
+You can add additional ```elif``` (else if) clauses that are also evaluated. Only one condition 
 will execute. Each condition is evaluated in the order listed. Once a condition evaluates
 true, any remaining conditions are skipped.
 
@@ -40,7 +40,7 @@ else:
 ## White Spaces
 
 Python takes a minimalist approach to typing and prefers to avoid unnecessary typing.
-Many languages use curly braces {} to denote grouping of statements or blocks;
+Many languages use curly braces ```{}``` to denote grouping of statements or blocks;
 however, Python has chosen to represent the block structure of a program with simple indentation.
 
 ### Indentation
@@ -78,7 +78,7 @@ __But don't say I didn't warn you!__
 
 ### IDE (Integrated Development Environment
 
-The editor you use, pyCharm or even Notepad++, often is setup to help you with indentation. You should check the settings and make sure it is set to replace tabs by spaces. When you hit return at the end of the line, the editor will "guess" what indentation you want. Many times it is correct, but sometimes, especially to END the block, you will need to change the indentation.
+The editor you use, PyCharm or even Notepad++, often is setup to help you with indentation. You should check the settings and make sure it is set to replace tabs by spaces. When you hit return at the end of the line, the editor will "guess" what indentation you want. Many times it is correct, but sometimes, especially to END the block, you will need to change the indentation.
 
 ### Exercise
 

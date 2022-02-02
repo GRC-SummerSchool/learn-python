@@ -2,24 +2,26 @@
 |----|----|----|
 # Dictionaries
 
-In Python, a dictionary is an unordered collection of elements indexed by a key.  A dictionary can be thought of as a list where the index may be a string rather than a number, e.g. groceryDict["bread"] rather than myList[2]. 
+In Python, a dictionary is an unordered collection of elements indexed by a key.  A dictionary can be thought of as a 
+list where the index may be a string rather than a number, e.g., ```grocery_dict["bread"]``` rather than ```my_list[2]```. 
 
-Note, a key can be an integer, but it still acts as a look-up key. That is while both lists and dictionaries can be indexed with positive integers, only lists are ordered. Test the code below to see the output.
+Note, a key can be an integer, but it still acts as a look-up key. That is while both lists and dictionaries can be 
+indexed with positive integers, only lists are ordered. Test the code below to see the output.
 
 ```python
-a = {}
+a = {}   # Another way to declare a dictionary: a = dict()
 a["a"] = "A"
 a[65] = "A"
 print(a)
 ```
 Consider the example dictionary:
 ```python
-groceryDict = {
-    "bread" : 3.09,
-    "eggs" : 2.19,
-    "milk" : 2.29
+grocery_dict = {
+    "bread": 3.09,
+    "eggs": 2.19,
+    "milk": 2.29
 }
-print(groceryDict)
+print(grocery_dict)
 ```
 Which produces the following output:
 ```
@@ -31,14 +33,14 @@ Which produces the following output:
 Dictionaries can be iterated over, accessing each element; however, the dictionary is unordered
 so the order of iteration is subject to change as the contents of the dictionary change.
 ```python
-groceryDict = {
+grocery_dict = {
     "bread" : 3.09,
     "eggs" : 2.19,
     "milk" : 2.29
 }
 
-for item, price in groceryDict.items():
-    print("Item: %s, cost: %4.2f" % (item, price))
+for item, price in grocery_dict.items():
+    print(f"Item: {item}, cost: {price:.2f}")
 ```
 
 ### Adding and Removing Elements
@@ -46,16 +48,16 @@ for item, price in groceryDict.items():
 Items may be added or removed from dictionaries.
 
 ```python
-groceryDict = {
-    "bread" : 3.09,
-    "eggs" : 2.19,
-    "milk" : 2.29
+grocery_dict = {
+    "bread": 3.09,
+    "eggs": 2.19,
+    "milk": 2.29
 }
-groceryDict.pop("eggs")        # Removes eggs from the dictionary
-groceryDict["bananas"] = 2.33  # Add new item to dictionary 
+grocery_dict.pop("eggs")        # Removes eggs from the dictionary
+grocery_dict["bananas"] = 2.33  # Add new item to dictionary 
 
-for item, price in groceryDict.items():
-    print("Item: %s cost: %4.2f" % (item, price))
+for item, price in grocery_dict.items():
+    print(f"Item: {item}, cost: {price:.2f}")
 ```
 Running the above code will produce the following output:
 ```

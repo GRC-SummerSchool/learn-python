@@ -51,8 +51,8 @@ dict = {                                                  # continues naturally 
 # If you want to break up a statement that doesn't fall within braces you can
 # use the \ at the end of the line to signify the continuation onto the next line
 
-if some_long_expression == some_long_condtion and         \
-  some_other_long_expression == some_other_long_condtion: 
+if some_long_expression == some_long_condition and         \
+  some_other_long_expression == some_other_long_condition: 
     print("Condition was true")
 ```
 

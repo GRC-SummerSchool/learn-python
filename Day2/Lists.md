@@ -8,7 +8,7 @@ comma separated list of elements between square brackets.
 ```python
 numbers = [1, 20, 3, 40, 5, 60, 7, 80, 9]
 
-print(numbers)      # prints the entire list on one line
+print(numbers)  # prints the entire list on one line
 ```
 
 Lists can be **heterogeneous**, allowing you to mix types at will.
@@ -24,7 +24,7 @@ the first element in the list
 ```python
 numbers = [1, 20, 3, 40, 5, 60, 7, 80, 9]
 
-print(numbers[0])   # prints out just the first element
+print(numbers[0])  # prints out just the first element
 ```
 
 Lists may also be indexed from the end, using a **negative index**.  To access the last element in the 
@@ -34,8 +34,8 @@ backwards from the end of the list.
 ```python
 numbers = [1, 20, 3, 40, 5, 60, 7, 80, 9]
 
-print(numbers[len(numbers)-1])   # will output last element
-print(numbers[-1])               # also prints out last element
+print(numbers[len(numbers)-1])  # will output last element
+print(numbers[-1])              # also prints out last element
 ```
 
 
@@ -44,11 +44,11 @@ Lists can be easily sliced using the **[:]** operator, which returns a portion o
 ```python
 numbers = [1, 20, 3, 40, 5, 60, 7, 80, 9]
 
-print(numbers[:])    # will print the entire list
-print(numbers[5:])   # will print from the 6th element to end of list
-print(numbers[:5])   # will print from the first element up to but not including the 6th element
-print(numbers[1:3])  # will print [ 20, 3 ]
-print(numbers[9:10]) # will print [ ]
+print(numbers[:])     # will print the entire list
+print(numbers[5:])    # will print from the 6th element to end of list
+print(numbers[:5])    # will print from the first element up to but not including the 6th element
+print(numbers[1:3])   # will print [ 20, 3 ]
+print(numbers[9:10])  # will print [ ]
 ```
 
 Slices can also be used to update the list
@@ -59,6 +59,7 @@ numbers[2:4] = [-3,-4]  # replace the elements starting at
                         # 3rd location through 4th (up to but not including 5th)
                         # with the contents on right-hand side
 print(numbers[:])       # prints [1, 20, -3, -4, 5, 60, 7, 80, 9]
+
 #some more variations to try:
 numbers[2:4] = [-3,-4,-5,-6,-7]
 numbers[5:] = ['cat', 'dog', 100]

@@ -20,13 +20,13 @@ Temperature is commonly represented in degrees in units of Fahrenheit (F) or Cel
 ## Conversion formulas
 
 Celsius to Fahrenheit:
-```
-T(°F) = T(°C) × 9/5 + 32
+```math
+T_F = T_C \times \frac{9}{5} + 32
 ```
 
 Fahrenheit to Celsius:
-```
-T(°C) = (T(°F) - 32) × 5/9
+```math
+T_C = (T_F - 32) \times \frac{5}{9}
 ```
 
 ## Python Code to Convert Fahrenheit to Celsius
@@ -67,20 +67,21 @@ Add some calls to convert selected temperatures and print the results.
 
 A  [quadratic equation](https://en.wikipedia.org/wiki/Quadratic_equation) can be represented as
 
-![](http://latex.codecogs.com/gif.latex?ax%5E2%20&plus;%20bx%20&plus;%20c%20%3D%200)
-
+```math
+ax^2+bx+c=0
+```
 Such an equation has two roots, given by:
 
-![](http://latex.codecogs.com/gif.latex?x%20%3D%20%5Cfrac%7B-b%20%5Cpm%20%5Csqrt%7Bb%5E2%20-%204ac%7D%7D%7B2a%7D)
-
-
+```math
+x = \frac{{ - b \pm \sqrt {b^2 - 4ac} }}{{2a}}
+```
 
 We will write a Python program to ask the user to input the values of coefficients a, b and c. Then we will calculate and print the two values of x (the roots). For the purpose of simplicity and understanding in class, we will use a very simple equation with non-imaginary roots. 
 
 
 
-Let us consider the mathematical expression :
-![](http://latex.codecogs.com/gif.latex?x%20%3D%20%5Cfrac%7B-b%20%5Cpm%20%5Csqrt%7Bb%5E2%20-%204ac%7D%7D%7B2a%7D)
+Let us consider the mathematical expression:
+$x = \frac{{ - b \pm \sqrt {b^2 - 4ac} }}{{2a}}$
 
 In Python, this mathematical expression can be written as two separate expressions
 
@@ -89,7 +90,7 @@ x1 = (-b + (b ** 2 - 4*a*c) ** 0.5) / (2 * a)
 x2 = (-b - (b ** 2 - 4*a*c) ** 0.5) / (2 * a)
 ```
 
-Note that the ```**``` symbols is the exponentiation or "Raise to the power of" operator. Consequently, the square root of y, mathematically expressed as ![](http://latex.codecogs.com/gif.latex?%5Csqrt%7By%7D), is written in Python as ```y ** 0.5```.
+Note that the ```**``` symbols is the exponentiation or "Raise to the power of" operator. Consequently, the square root of y, mathematically expressed as $\sqrt{y}$, is written in Python as ```y ** 0.5```.
 
 Alternatively, we can also use Python's built in Math library's ```math.sqrt()``` function, as shown below
 
@@ -130,9 +131,9 @@ def quad_roots(a, b, c):
 
 # Main part of the program
 print("Solve for the quadratic equation ax^2 + bx + c = 0")
-a = input("Enter the value of a : ")
-b = input("Enter the value of b : ")
-c = input("Enter the value of c : ")
+a = input("Enter the value of a: ")
+b = input("Enter the value of b: ")
+c = input("Enter the value of c: ")
 
 # Convert the user inputs from string to float
 a = float(a)
@@ -151,16 +152,13 @@ Test your program with the following inputs : `a = 1, b = -8, c = 15`. You shoul
 ```
 Solve for the quadratic equation ax^2 + bx + c = 0
 
-Enter the value of a : 1
+Enter the value of a: 1
 
-Enter the value of b : -8
+Enter the value of b: -8
 
-Enter the value of c : 15
+Enter the value of c: 15
 
 Roots are: 5.0 3.0
-
-Process finished with exit code 0
-
 ```
 
 _**What will happen if you input invalid coefficients (that make b^2-4ac negative)?**_
@@ -195,9 +193,13 @@ You can read more about this from the following links:
 
 5. Write a program that calls two functions ```simpint()``` and ```compint()``` to calculate the Simple Interest and Compound Interest on a (common) Principal Amount, Rate of Interest and Number of Years. Print both the interest values and the difference between them.
 
-   ![](http://latex.codecogs.com/gif.latex?Simple%20Interest%20%3D%20%5Cfrac%7BP%20*%20R%20*%20N%7D%7B100%7D)
+   ```math
+   SimpleInterest = \frac{P \times R \times N}{100}
+   ```
 
-   ![](http://latex.codecogs.com/gif.latex?CompoundInterest%20%3D%20P%281&plus;%5Cfrac%7BR%7D%7B100%7D%29%5EN)
+   ```math
+   CompoundInterest = P \times (1 + \frac{R}{100})^N
+   ```
 
    where 
 
@@ -205,11 +207,8 @@ You can read more about this from the following links:
 
    R = Rate in % (e.g 5, 6.7, 9 etc)
 
-   N = No of time periods (assume years for simplicity) over which the interest accrues
+   N = Number of time periods (assume years for simplicity) over which the interest accrues
 
-   ​
-
-   ​
 
 |[< Previous (Debugging)](Debugging.md) | [Day3](../README.md)| [Next (Modules) >](Modules.md) |
 |----|----|----|

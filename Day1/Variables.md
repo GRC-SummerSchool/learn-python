@@ -55,7 +55,7 @@ Often, you may hear people say, *"Python is a dynamically-typed language"*. This
 temp = 30		# integer
 print(type(temp))	# type (variablename) is a special built-in function
 
-temp = 133.3	# float
+temp = 133.3	        # float
 print(type(temp))
 
 temp = "Very hot !"	# string
@@ -86,15 +86,12 @@ These are not just conventions. They have special meaning to the interpreter.
 For example:
 
 ```python
-
 # Variable names with underscores have special significance in Python
 
 _my_variable        # starts with a single underscore, denotes a private variable
 __my_method         # starts with two underscores, used to avoid name clashes across classes
 __native_method__   # starts & ends with two underscores, used for native methods called by Python & not the user
-_                  # an underscore by itself, used to access the results of the last executed statement
-
-
+_                   # an underscore by itself, used to access the results of the last executed statement
 ```
 
 These are advanced concepts and may not be used in this class but it is useful to be aware of the rules and conventions. [This article](https://hackernoon.com/understanding-the-underscore-of-python-309d1a029edc) provides a further treatment for explorers. 
@@ -131,14 +128,14 @@ print("The length of string1 is ", len(string1))
 Until now, we saw variables being assigned a value. Variables can also be assigned (the value of) another variable. Think of this as copying a variable.
 
 ```python
-x1 = 50					# integer
-x2 = 60					# another integer
-title = "Shark Tank"	 # a string	
-x3 = x1 				# x3 now holds the value of x1
-x1 = 70					# now we changed the value of x1, should x3 change ?
-print(x1, x2, x3)		# note the values : 70, 60, 50
-x2 = title				# x2 held an integer (60) previously, now holds a string
-print(x2)				# "Shark Tank"
+x1 = 50                 # integer
+x2 = 60                 # another integer
+title = "Shark Tank"    # a string	
+x3 = x1                 # x3 now holds the value of x1
+x1 = 70                 # now we changed the value of x1, should x3 change ?
+print(x1, x2, x3)       # note the values : 70, 60, 50
+x2 = title              # x2 held an integer (60) previously, now holds a string
+print(x2)               # "Shark Tank"
 ```
 
 The important thing to note is that once an assignment is done, the two variables are NOT related, i.e their values do not follow or track each other. Each can be independently changed without affecting the other (except for *mutable objects* - read more from [here](https://www.freecodecamp.org/news/mutable-vs-immutable-objects-python/) and [here](https://www.geeksforgeeks.org/mutable-vs-immutable-objects-in-python/)).

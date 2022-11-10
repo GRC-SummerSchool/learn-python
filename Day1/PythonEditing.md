@@ -35,29 +35,28 @@ Python has a few ways to handle this...  You can break any statement in the midd
 braces (parenthesis, square brackets, and curly braces).
 
 ```python
-if (some_long_expression == some_long_condtion and        # line continuation automatic
-  some_other_long_expression == some_other_long_condtion):  
+if (some_long_expression == some_long_condtion and  # line continuation automatic
+        some_other_long_expression == some_other_long_condtion):
     print("Condition was true")
 
-mylist = [ 1, 2, 3, 4, 5, 6, 7,                           # this also continues naturally
-           8, 9, 10]
+mylist = [1, 2, 3, 4, 5, 6, 7,  # this also continues naturally
+          8, 9, 10]
 
-dict = {                                                  # continues naturally too
-    "bread" : 3.09,
-    "eggs" : 2.19,
-    "milk" : 2.29
+dict = {  # continues naturally too
+    "bread": 3.09,
+    "eggs": 2.19,
+    "milk": 2.29
 }
 
 # If you want to break up a statement that doesn't fall within braces you can
 # use the \ at the end of the line to signify the continuation onto the next line
 
-if some_long_expression == some_long_condition and         \
-  some_other_long_expression == some_other_long_condition: 
+if some_long_expression == some_long_condition and \
+        some_other_long_expression == some_other_long_condition:
     print("Condition was true")
 ```
 
 *__NOTE: Nothing else can follow the line continuation character (not even comments).__*
-
 
 
 |[< Previous (HelloWorld)](HelloWorld.md) | [Day1](../README.md)| [Next (Variables) > ](Variables.md) |

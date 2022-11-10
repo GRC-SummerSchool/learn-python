@@ -10,7 +10,7 @@ may be assigned to a variable.
 The input function will output a prompt, and capture the user supplied input up through the end of line.
 
 ```python
-name = input("Enter the your name: ")
+name = input("Enter your name: ")
 print("Hello", name)
 ```
 

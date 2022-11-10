@@ -61,9 +61,9 @@ for item, price in grocery_dict.items():
 ```
 Running the above code will produce the following output:
 ```
-Item: bread cost: 3.09
-Item: milk cost: 2.29
-Item: bananas cost: 2.33
+Item: bread, cost: 3.09
+Item: milk, cost: 2.29
+Item: bananas, cost: 2.33
 ```
 
 ### Exercise

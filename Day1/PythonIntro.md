@@ -26,7 +26,7 @@ Python is a high-level general-purpose programming language that can be applied 
 
 7. Python 2 is NO longer supported by the Python Software Foundation (Python 2.7 reaching End of Life on Jan. 1, 2020) - so go with Python 3.
 
-8. Currently (June 2021), Python is the 2nd most popular programming languages according to [TIOBE Index](https://www.tiobe.com/tiobe-index/), and it has been among the top 5 of the most popular coding languages in recent years according to [GitHub](https://octoverse.github.com/)
+8. Currently (October 2023), Python is the most popular programming languages according to [TIOBE Index](https://www.tiobe.com/tiobe-index/), and it has been among the top 5 of the most popular coding languages in recent years according to [GitHub](https://octoverse.github.com/)
 
 9. Used in movie production (LucasFilms) to drug discovery (AstraZeneca) to Social Media (Instagram) to industrial software at GE!
 

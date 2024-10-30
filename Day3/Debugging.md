@@ -48,54 +48,51 @@ print("Thank you for entering:", number)
 
 Create a new Python file, `debug_me.py`, and enter the above program.
 
-![](.Debugging_images/setup.png)
+![Debug Setup](.Debugging_images/setup.png)
 
 ### Set Breakpoint
 
 To set a breakpoint, click in the margin between the line number and the statement. A breakpoint
 is indicated by a red circle.
 
-![](.Debugging_images/setBreakpoint.png)
+![Set Breakpoint](.Debugging_images/set_breakpoint.png)
 
 ### Start Debugger
 
 To start the debugger, right-click on the file in your project tree. Instead of selecting
 "Run", as we did last time, this time select "Debug"
 
-![](.Debugging_images/debug.png)
-
-###
+![Debug Menu](.Debugging_images/debug.png)
 
 Your application will start, and you will see the console at the bottom of the screen
 prompting the user to enter their name:
 
-![](.Debugging_images/debugRunning.png)
+![Debugging](.Debugging_images/debug_running.png)
 
 After entering your name, the program continues until it hits the defined breakpoint, which
 happens to be the very next line. You will see in Debugger tab, we can inspect and modify
 variables that are in scope.
 
-![](.Debugging_images/break.png)
+![Breakpoint](.Debugging_images/break.png)
 
-We will right-click on the *name* variable and change the contents of the variable from 'Walt'
-to 'Fred'.
+We will right-click on the `name` variable, select `Set Value...`, and change the contents of the variable to `Fred`.
 
-![](.Debugging_images/fred.png)
+![Set Value](.Debugging_images/fred.png)
 
 We can now single step over (F8) the statements in or program, or use the run menu to control
 program execution.
 
-![](.Debugging_images/run_menu.png)
+![Run Menu](.Debugging_images/run_menu.png)
 
-After stepping over (F8)(F8), the highlighted line shows we are about to execute the
+After stepping over (F8)(F8), the highlighted line shows we are about to execute the number
 input statement...
 
-![](.Debugging_images/about_to_enter.png)
+![Stepping](.Debugging_images/about_to_enter.png)
 
 Stepping over again (F8) will prompt the user to enter the number. You will have to
 switch from the Debugger tab to the Console tab in order to enter the number.
 
-![](.Debugging_images/number.png)
+![Number Prompt](.Debugging_images/number.png)
 
 You can continue to single step over (F8) and follow the flow of the program.
 Once you are finished stepping, you can tell the program to continue (F9).

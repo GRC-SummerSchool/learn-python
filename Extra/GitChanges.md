@@ -33,7 +33,6 @@ is called ```staging```.
 
 ```
 git add hello-world.py
-
 git status
 ```
 
@@ -44,7 +43,6 @@ your history to find certain changes.
 
 ```
 git commit -m "learn python examples from day 1 and day 2"
-
 git status
 ```
 

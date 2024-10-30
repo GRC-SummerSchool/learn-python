@@ -15,8 +15,8 @@ Below we will show how to write unit tests using [pytest](https://docs.pytest.or
 
 ## Writing Unit Tests in Python
 
-[pytest](https://docs.pytest.org/en/latest/) is a framework for writing tests. The framework provides tools to execute
-your code and validate that the values returned have the correct values.
+Pytest is a framework for writing tests and provides tools to execute our code and validate that the values returned 
+have the correct values.
 
 As an example, suppose we have defined the following function for the square of a number in a file `sq.py`:
 
@@ -25,11 +25,11 @@ def square(x):
     return x * x
 ```
 
-`pytest` provides a library of assertion functions to help check return values and ensure they are returning proper
-values. Assert functions are used to verify expectations and values in Python tests. `pytest` will find the tests in
+Pytest provides a library of assertion functions to help check return values and ensure they are returning proper
+values. Assert functions are used to verify expectations and values in Python tests. Pytest will find the tests in
 files that start with the prefix `test_` (or end with the suffix `_test`).
 
-For example, let's write a unit test for our `square(x)` function above (in a file call `test_examples.py`:
+For example, let's write a unit test for our `square(x)` function above (in a file call `test_sq.py`:
 
 ```python
 import sq
@@ -40,13 +40,32 @@ def test_squared():
     assert (sq.square(3) == 9)
 ```
 
-When we run the program using `py.test` in PyCharm, we see that the tests execute successfully
+## Running pytest
 
-![](.Testing_images/1d1bb584.png)
+To run tests in PyCharm using pytest you may need to manually add a run configuration. You can do so by clicking on the 
+run configuration dropdown in the upper-right and selecting `Edit Configurations...`.
+
+![Run Configuration Menu](.Testing_images/configuration_menu.png)
+
+In the `Run/Debug Configurations`, click on the plus sign in the upper-left and select the `pytest` option. Ensure that 
+the correct Python interpreter is selected, set `script` to the path of your test file, and set `Working directory` to 
+the directory of your project. Click `Apply`/`OK` or `Run` to close the dialog.
+
+![Run Configuration Dialog](.Testing_images/configuration.png)
+
+When we run the program using pytest in PyCharm, we see that the test executes successfully.
+
+![Test Results](.Testing_images/results.png)
+
+Tests can also be run from a command shell by activating the Python virtual environment (with `venv\Scripts\activate`) 
+and executing `pytest` from the same folder as the test source files. For example:
+
+![Command Prompt](.Testing_images/prompt.png)
 
 ## Writing a Unit Test for Temperature Conversion
 
-Next, let's write a unit test for the temperature conversion routine from the previous example in the Function chapter:
+Next, let's write a unit test for the temperature conversion routine from the previous example in the Function chapter, 
+`temperature_conversion.py`:
 
 ```python
 # Convert Fahrenheit to Celsius
@@ -56,7 +75,7 @@ def convert_f_to_c(temperature_f):
 ```
 
 We know that 32 degrees Fahrenheit is the same as 0 degrees Celsius and that 212 degrees Fahrenheit is 100 degrees
-Celsius. So, we have the following unit test:
+Celsius. So, we have the following unit test in `test_temperature_conversion.py`:
 
 ```python
 import temperature_conversion as tc
@@ -67,10 +86,7 @@ def test_conversion():
     assert (tc.convert_f_to_c(212) == 100)
 ```
 
-Tests can also be run from a command shell by executing `pytest` from the same folder as the test source files. For
-example:
-
-![](.Testing_images/0d7d4c6c.png)
+Run the test and observe the result.
 
 | [< Previous (Modules)](Modules.md) | [Day3](../README.md) | [Next (Day 4 Source Code Mgmt) >](../Day4/GitOverview.md) |
 |------------------------------------|----------------------|-----------------------------------------------------------|

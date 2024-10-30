@@ -55,7 +55,7 @@ the "<> Code" tab and then on the "## commits" to see the history or work creati
 You may also view a network diagram of branch history by clicking on the "Insights" tab and then selecting the "Network"
 option.
 
-![](.Git_images/network.png)
+![Git Network](.Git_images/network.png)
 
 From you Git bash shell, type gitk to open a client window to browse as well.
 

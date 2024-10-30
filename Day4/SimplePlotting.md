@@ -40,7 +40,7 @@ function to specify marks rather than lines, as well as the style and color of t
 Finally, the `show()` function is called to display the resulting plot (shown below). The plot is displayed in a
 modal dialog so your program will wait until you close the plot window before continuing execution.
 
-![](.SimplePlotting_images/ec4101b5.png)
+![Simple Plot](.SimplePlotting_images/simple.png)
 
 Before calling the `plot_tavg` function, the data from the map must be placed into arrays. Recall that our data
 loaded with load_data_objects_into_map will have a dictionary by division and then an array of the data for that
@@ -111,7 +111,7 @@ def plot_division(division_data):
     plt.show()
 ```
 
-![](.SimplePlotting_images/52bf7c6c.png)
+![Multiple Sub-plots](.SimplePlotting_images/subplots.png)
 
 ### Exercise
 

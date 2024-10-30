@@ -71,7 +71,7 @@ Copy each command to your git bash shell.
 
 ```
 git remote add origin https://github.com/yourgithubusername/your-new-repo-name.git
-git push -u origin master
+git push -u origin main
 ```
 
 You should be prompted for your username and password.

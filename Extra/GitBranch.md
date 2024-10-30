@@ -61,7 +61,7 @@ git status
 
 Check your GitHub repository and see you have branches. Click around the repository to see how to look at the branches.
 
-If you want to keep the changes, create a GitHub pull request to see what the differences from your master branch are.
+If you want to keep the changes, create a GitHub pull request to see what the differences from your main branch are.
 
 To understand more about branching, and git, visit (https://services.github.com/on-demand/)
 and go through the lessons.

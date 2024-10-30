@@ -1,16 +1,16 @@
-# GRC-SummerSchool Learn Python.
+# GRC-SummerSchool Learn Python
 
-This course is designed to provide an introduction to programming using Python. The 
-course is geared toward folks with a scientific background and is structured to be 
-completed in approximately four 45 minute sessions.
+This course is designed to provide an introduction to programming using Python. The
+course is geared toward folks with a scientific background and is structured to be
+completed in approximately four 45-minute sessions.
 
 Over the four sessions, the class will build from the basics of the Python
-language to using more advanced modules capable of plotting and analyzing 
+language to using more advanced modules capable of plotting and analyzing
 data.
 
 ## Day 1
 
-On the first day, the class will setup a Python environment on your laptop
+On the first day, the class will set up a Python environment on your laptop
 and cover the basics of the Python language.
 
 1. [Setup Environment](Day1/Setup.md)
@@ -19,12 +19,12 @@ and cover the basics of the Python language.
 4. [Hello World](Day1/HelloWorld.md)
 5. [Python Editing](Day1/PythonEditing.md)
 6. [Variables](Day1/Variables.md)
-6. [Expressions](Day1/Expressions.md)
-7. [Input](Day1/Input.md)
+7. [Expressions](Day1/Expressions.md)
+8. [Input](Day1/Input.md)
 
 ## Day 2
 
-On the second day, the class will introduce looping and an additional data 
+On the second day, the class will introduce looping and an additional data
 structure. More advanced features of the development environment will be shown.
 
 1. [Lists](Day2/Lists.md)
@@ -34,7 +34,8 @@ structure. More advanced features of the development environment will be shown.
 
 ## Day 3
 
-On the third day, the class will discuss basic code organization and some basics on how to troubleshoot and validate programs.
+On the third day, the class will discuss basic code organization and some basics on how to troubleshoot and validate
+programs.
 
 1. [Debugging](Day3/Debugging.md)
 2. [Functions](Day3/Functions.md)
@@ -43,8 +44,8 @@ On the third day, the class will discuss basic code organization and some basics
 
 ## Day 4
 
-On the fourth day, more advanced operations will be covered allowing for reading 
-data files and generating plots. All the previous topics will be combined to build a simple 
+On the fourth day, more advanced operations will be covered allowing for reading
+data files and generating plots. All the previous topics will be combined to build a simple
 analytic for processing data and displaying the results.
 
 1. [Source Code Management](Day4/GitOverview.md)
@@ -53,6 +54,7 @@ analytic for processing data and displaying the results.
 4. [Simple Plotting](Day4/SimplePlotting.md)
 
 ## Extra material
+
 1. [Git - Saving your work](Extra/GitChanges.md)
 2. [Git - Collaborating](Extra/GitBranch.md)
 3. [Data Analysis](Extra/DataAnalysis.md)

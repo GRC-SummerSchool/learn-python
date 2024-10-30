@@ -1,18 +1,22 @@
-|[< Previous (Conditionals)](Conditionals.md) | [Day2](../README.md)| [Next (Dictionaries) >](Dictionaries.md) |
-|----|----|----|
+| [< Previous (Conditionals)](Conditionals.md) | [Day2](../README.md) | [Next (Dictionaries) >](Dictionaries.md) |
+|----------------------------------------------|----------------------|------------------------------------------|
+
 # Loops
 
-Python supports _for_ loops and _while_ loops.
+Python supports *for* loops and *while* loops.
 
 ### For Loop
-You can iterate through all the elements in a list using a ```for``` loop:
+
+You can iterate through all the elements in a list using a `for` loop:
 
 ```python
 numbers = [1, 20, 3, 40, 5, 60, 7, 80, 9]
 for item in numbers:
     print(item)
 ```
+
 will produce the following output:
+
 ```
 1
 20
@@ -25,14 +29,17 @@ will produce the following output:
 9
 ```
 
-Even if the list contains different types, you can still iterate through all the elements in a list using a ```for``` loop:
+Even if the list contains different types, you can still iterate through all the elements in a list using a `for`
+loop:
 
 ```python
-mix = [1, 'cat', ['list', 'in', 'a', 'list'], {'name' : 'matt', 'age' : 30}]
+mix = [1, 'cat', ['list', 'in', 'a', 'list'], {'name': 'matt', 'age': 30}]
 for item in mix:
     print(item)
 ```
+
 will produce the following output (note the reordering of the dictionary):
+
 ```
 1
 'cat'
@@ -40,14 +47,16 @@ will produce the following output (note the reordering of the dictionary):
 {'age' : 30, 'name' : 'matt'}
 ```
 
-You may specify a range of numbers to iterate over using the ```range``` function:
+You may specify a range of numbers to iterate over using the `range` function:
 Note - you can leave off the step parameter if you choose to increment by 1
 
 ```python
-for n in range(2,12,2):   # Starts at 2, less than 12, step by 2
+for n in range(2, 12, 2):  # Starts at 2, less than 12, step by 2
     print(n)
 ```
+
 will produce the following output:
+
 ```
 2
 4
@@ -60,17 +69,21 @@ You can use this to create index to a list
 
 ```python
 numbers = [1, 20, 3, 40, 5, 60, 7, 80, 9]
-for n in range(2,len(numbers),2):   # Starts at 2, less than the length of the list (in this case 9), step by 2
+for n in range(2, len(numbers), 2):  # Starts at 2, less than the length of the list (in this case 9), step by 2
     print(numbers[n])
 ```
+
 will produce the following output:
+
 ```
 3
 5
 7
 9
 ```
+
 Can you explain why it isn't
+
 ```
 20
 40
@@ -80,7 +93,7 @@ Can you explain why it isn't
 
 ### While Loops
 
-A ```while``` loop will repeat until the loop condition isn't satisfied:
+A `while` loop will repeat until the loop condition isn't satisfied:
 
 ```python
 count = 1
@@ -88,7 +101,9 @@ while count < 10:
     print(count)
     count = count + 1
 ```
+
 will produce the following output:
+
 ```
 1
 2
@@ -124,7 +139,7 @@ Modify the conditionals exercise to run the code in a loop.
 
 There are two keywords you can use inside a loop to change how it operates.
 
-```break``` will exit the loop immediately, skipping any conditions or the remainder
+`break` will exit the loop immediately, skipping any conditions or the remainder
 of the list:
 
 ```python
@@ -135,7 +150,9 @@ for n in numbers:
         break
     print(n)
 ```
+
 will produce the following output:
+
 ```
 1
 2
@@ -145,7 +162,7 @@ will produce the following output:
 I hate the number 6! I quit!
 ```
 
-```continue``` will skip the rest of the code inside the loop, and move immediately to the
+`continue` will skip the rest of the code inside the loop, and move immediately to the
 next iteration of the loop, either moving to the next item on the list, or re-evaluating
 the condition:
 
@@ -157,7 +174,9 @@ for n in numbers:
         continue
     print(n)
 ```
+
 will produce the following output:
+
 ```
 1
 2
@@ -172,15 +191,15 @@ You can't make me say that number!
 
 ### Further Practice
 
-Create a new python file, guess.py. Write a guessing game that generates a random number, and prompts 
-the user for input until they guess correctly. Generate a random number between 1 and 10 by 
+Create a new Python file, `guess.py`. Write a guessing game that generates a random number, and prompts
+the user for input until they guess correctly. Generate a random number between 1 and 10 by
 using the following code snippet:
 
 ```python
 from random import randint
 
-answer = randint(1,10)
+answer = randint(1, 10)
 ```
 
-|[< Previous (Conditionals)](Conditionals.md) | [Day2](../README.md)| [Next (Dictionaries) >](Dictionaries.md) |
-|----|----|----|
+| [< Previous (Conditionals)](Conditionals.md) | [Day2](../README.md) | [Next (Dictionaries) >](Dictionaries.md) |
+|----------------------------------------------|----------------------|------------------------------------------|

@@ -17,21 +17,11 @@ k = 7 * 45 + 5 ** 3  # ** is the power operation, so 5 cubed.
 w = (7 * (45 + 5)) ** 3  # note the reordering of operations.
 ```
 
-### String operations
-
-String variables also have operations, like concatenation. This is indicated by the `+` symbol.
-
-```python
-str1 = "abc"
-str2 = "defghij"
-str3 = str1 + str2    
-```
-
 ### Conversion operations
 
 Sometimes you need to convert a variable from one data type to another. We saw that Python will figure out the type by
-the assignment. If you need to change it you use a conversion function. For instance, to convert from a string to an
-integer, use the int() function.
+the assignment. If you need to change it you can use a conversion function. For instance, to convert from a string to an
+integer, use the `int()` function.
 
 Some common and interesting conversion functions:
 

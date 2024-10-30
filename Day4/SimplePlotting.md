@@ -16,13 +16,13 @@ import matplotlib.pyplot as plt
 import datetime
 ```
 
-## Simple X, Y Plot
+## Simple XY Plot
 
-To create an X, Y plot, the arrays of the X and Y values are simply passed to the `plot()` function. We want to plot
-the average temperature (TAVG) for a given division over time.
+To create an XY plot, the arrays of the X and Y values are simply passed to the `plot()` function. We want to plot the
+average temperature (TAVG) for a given division over time.
 
 Below we define a function called `plot_tavg` which takes the 2 arguments which are the X and Y arrays passed to the
-`plot` function
+`plot` function:
 
 ```python
 def plot_tavg(array_yearmonth, array_tavg):
@@ -32,9 +32,8 @@ def plot_tavg(array_yearmonth, array_tavg):
 ```
 
 The `matplotlib.pyplot` library contains many [functions](https://matplotlib.org/2.0.2/api/pyplot_summary.html) for
-plotting different kinds of
-plots (line, bar, contours) and for styling the plots with a title or different colors. In the example, we create a
-simple line plot and provide a title. If desired, you can pass additional options to the ```plot``
+plotting different kinds of plots (line, bar, contours) and for styling the plots with a title or different colors. In
+the example, we create a simple line plot and provide a title. If desired, you can pass additional options to the `plot`
 function to specify marks rather than lines, as well as the style and color of the lines or markers.
 
 Finally, the `show()` function is called to display the resulting plot (shown below). The plot is displayed in a
@@ -43,13 +42,13 @@ modal dialog so your program will wait until you close the plot window before co
 ![Simple Plot](.SimplePlotting_images/simple.png)
 
 Before calling the `plot_tavg` function, the data from the map must be placed into arrays. Recall that our data
-loaded with load_data_objects_into_map will have a dictionary by division and then an array of the data for that
+loaded with `load_data_objects_into_map` will have a dictionary by division and then an array of the data for that
 division. We need to extract the values for the average temperature into an array. Since we may want to create many
 different plots for different types of data, we create a reusable utility where we will say which element of the
 dictionary in the arrays we want to get.
 
-This function, create_attribute_array, will loop through the array for a division (passed in as data) and extract each
-individual value. The key to the values will be passed in as attribute. We'll put the values into a new array called a
+This function, `create_attribute_array`, will loop through the array for a division (passed in as data) and extract each
+individual value. The key to the values will be passed in as attribute. We'll put the values into a new array called `a`
 that we return.
 
 ```python
@@ -64,7 +63,7 @@ def create_attribute_array(data, attribute):
 So we can call it like this:
 
 ```python
-data_5 = data['5']  # to get the 5th division
+data_5 = data['5']  # get the 5th division
 arr_date = create_attribute_array(data_5, 'YearMonth')
 arr_tavg = create_attribute_array(data_5, 'TAVG')
 arr_pcp = create_attribute_array(data_5, 'PCP')
@@ -75,11 +74,11 @@ arr_pcp = create_attribute_array(data_5, 'PCP')
 Add the `import` statement to the top of your `read_weather.py` file.
 Add the `plot_tavg` function to the file.
 Add the `create_attribute_array` function to the file.
-Update your `main` section to
+Update your `main` section to:
 
-1) Select one of the divisions from the data map.
-2) Create attribute array objects for the YearMonth attribute and the TAVG attribute.
-3) Call the plot_tavg function with the YearMonth as first input and TAVG as second.
+1. Select one of the divisions from the data map.
+2. Create attribute array objects for the YearMonth attribute and the TAVG attribute.
+3. Call the `plot_tavg` function with the YearMonth as first input and TAVG as second.
 
 The plot shown above is for division 10.
 
@@ -115,12 +114,12 @@ def plot_division(division_data):
 
 ### Exercise
 
-Add the plot_division function to the file.
-Update your main section to call the plot_division function instead of create_attribute_array and plot_tavg.
+Add the `plot_division` function to your file.
+Update your main section to call the `plot_division` function instead of `create_attribute_array` and `plot_tavg`.
 
 ### Exercise
 
-Modify your program to plot your temperature data in Celsius units instead of Fahrenheit.
+Modify your program to plot your temperature data in Celsius instead of Fahrenheit.
 
 | [< Previous (File I/O) >](CSVFiles.md) | [Day4](../README.md) | [Next (Extra - Data Analysis)](../Extra/DataAnalysis.md) |
 |----------------------------------------|----------------------|----------------------------------------------------------|

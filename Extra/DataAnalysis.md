@@ -12,8 +12,8 @@ the following for the data for each weather station:
 ## Calculating Stats For Each Station
 
 In the weather example, the data has been loaded into a dictionary with the station (division) as the key. Let's write a
-new routine called ```perform_analysis()``` to iterate over the stations in the map. We can leverage the
-```create_attribute_array()``` routine to extract the temperature and precipitation values into an array:
+new routine called `perform_analysis()` to iterate over the stations in the map. We can leverage the
+`create_attribute_array()` routine to extract the temperature and precipitation values into an array:
 
 ```python
 def perform_analysis(data_map):
@@ -114,7 +114,7 @@ def plot_min_max(station_stats):
 
 The resulting chart:
 
-![](.DataAnalysis_images/4cceee54.png)
+![Min and Max Temperature by Station](.DataAnalysis_images/chart.png)
 
 | [< Previous (Day 4 - Plotting)](../Day4/SimplePlotting.md) | [Extras](../README.md) | [Next (Git - Saving your work) >](GitChanges.md) |
 |------------------------------------------------------------|------------------------|--------------------------------------------------|

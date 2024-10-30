@@ -87,7 +87,7 @@ need to change the indentation.
 ### Exercise
 
 Create a new Python file, `practice-conditionals.py`. Copy the last block of code and then modify it to allow you to input
-a value for x. Run it several times and use different values of x to trigger different conditional paths.
+a value for `x`. Run it several times and use different values of `x` to trigger different conditional paths.
 
 | [< Previous (Lists)](Lists.md) | [Day2](../README.md) | [Next (Loops) >](Loops.md) |
 |--------------------------------|----------------------|----------------------------|

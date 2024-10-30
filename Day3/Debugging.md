@@ -79,23 +79,24 @@ We will right-click on the `name` variable, select `Set Value...`, and change th
 
 ![Set Value](.Debugging_images/fred.png)
 
-We can now single step over (F8) the statements in or program, or use the run menu to control
-program execution.
+We can now single step over the statements in the program using the `Debug` panel controls, hitting the <kbd>F8</kbd>
+key, or using the run menu to control program execution.
 
 ![Run Menu](.Debugging_images/run_menu.png)
 
-After stepping over (F8)(F8), the highlighted line shows we are about to execute the number
+After stepping over (<kbd>F8</kbd><kbd>F8</kbd>), the highlighted line shows we are about to execute the number
 input statement...
 
 ![Stepping](.Debugging_images/about_to_enter.png)
 
-Stepping over again (F8) will prompt the user to enter the number. You will have to
+Stepping over again (<kbd>F8</kbd>) will prompt the user to enter the number. You will have to
 switch from the Debugger tab to the Console tab in order to enter the number.
 
 ![Number Prompt](.Debugging_images/number.png)
 
-You can continue to single step over (F8) and follow the flow of the program.
-Once you are finished stepping, you can tell the program to continue (F9).
+You can continue to single step over (<kbd>F8</kbd>) and follow the flow of the program.
+Once you are finished stepping, you can tell the program to continue (<kbd>F9</kbd> on Windows or 
+<kbd>Option</kbd>+<kbd>Command</kbd>+<kbd>R</kbd> on macOS).
 The program will then resume running normally unless it encounters another
 breakpoint, at which point the program will pause and allow you to inspect and
 modify variables again.

@@ -6,9 +6,9 @@
 At the end of this 4 day session, you will be able to read in data, perform analysis, and display both data and results
 as visually appealing plots, as shown below. We will use weather data for our exercise.
 
-![](../Day4/.SimplePlotting_images/subplots.png)
+![Subplots](../Day4/.SimplePlotting_images/subplots.png)
 
-To get here, we will go through
+To get here, we will go through:
 
 - Setting up the Python environment
 - Writing a simple program

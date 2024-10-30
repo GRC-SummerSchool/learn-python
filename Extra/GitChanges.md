@@ -29,7 +29,7 @@ You can't go back and save all your past edits, but we can start saving work now
 Saving files is actually a 2-step process.
 
 Identify what files you want to save. This is done with the git add command. Do this for each of your Python files. This
-is called ```staging```.
+is called `staging`.
 
 ```
 git add hello-world.py
@@ -80,7 +80,7 @@ Then browse your GitHub repository!
 
 ## More changes
 
-From now on, just use git add, git commit and git push
+From now on, just use `git add`, `git commit` and `git push`.
 
 ## Git references
 

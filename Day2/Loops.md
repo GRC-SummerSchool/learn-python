@@ -65,7 +65,7 @@ will produce the following output:
 10
 ```
 
-You can use this to create index to a list
+You can use this to create indices to a list:
 
 ```python
 numbers = [1, 20, 3, 40, 5, 60, 7, 80, 9]
@@ -118,8 +118,8 @@ will produce the following output:
 
 ### Infinite Loops
 
-If a chunk of code is taking much longer than you expected it to, it might be that you
-created an infinite loop - a loop whose ending condition will never be reached.
+If a code is taking much longer to run than you expected it to, you might have created an infinite loop - a loop whose
+ending condition will never be reached.
 
 ```python
 count = 1
@@ -128,8 +128,8 @@ while count < 10:
     # Oops! I forgot to add one!
 ```
 
-It's always useful to know ahead of time how to stop your code from running if this
-happens!
+It's always useful to know ahead of time how to stop your code from running if this happens! In PyCharm you can click 
+the stop sign button end execution.
 
 ### Exercise
 
@@ -191,9 +191,8 @@ You can't make me say that number!
 
 ### Further Practice
 
-Create a new Python file, `guess.py`. Write a guessing game that generates a random number, and prompts
-the user for input until they guess correctly. Generate a random number between 1 and 10 by
-using the following code snippet:
+Create a new Python file, `guess.py`. Write a guessing game that generates a random number, and prompts the user for 
+input until they guess correctly. Generate a random number between 1 and 10 by using the following code snippet:
 
 ```python
 from random import randint

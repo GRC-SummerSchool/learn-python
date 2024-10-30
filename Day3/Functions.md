@@ -27,15 +27,11 @@ converting between the units.
 
 Celsius to Fahrenheit:
 
-```math
-T_F = T_C \times \frac{9}{5} + 32
-```
+$T_F = T_C \times \frac{9}{5} + 32$
 
 Fahrenheit to Celsius:
 
-```math
-T_C = (T_F - 32) \times \frac{5}{9}
-```
+$T_C = (T_F - 32) \times \frac{5}{9}$
 
 ## Python Code to Convert Fahrenheit to Celsius
 
@@ -69,36 +65,27 @@ Add some calls to convert selected temperatures and print the results.
 
 # Function: Quadratic roots
 
-A  [quadratic equation](https://en.wikipedia.org/wiki/Quadratic_equation) can be represented as
+A [quadratic equation](https://en.wikipedia.org/wiki/Quadratic_equation) can be represented as $ax^2+bx+c=0$
 
-```math
-ax^2+bx+c=0
-```
+Such an equation has two roots, given by $x = \frac{{ - b \pm \sqrt {b^2 - 4ac} }}{{2a}}$
 
-Such an equation has two roots, given by:
+We will write a Python program to ask the user to input the values of coefficients `a`, `b` and `c`. Then we will
+calculate and print the two values of x (the roots). For the purpose of simplicity and understanding in class, we will
+use a very simple equation with non-imaginary roots.
 
-```math
-x = \frac{{ - b \pm \sqrt {b^2 - 4ac} }}{{2a}}
-```
+Let us consider the mathematical expression for quadratic roots.
 
-We will write a Python program to ask the user to input the values of coefficients a, b and c. Then we will calculate
-and print the two values of x (the roots). For the purpose of simplicity and understanding in class, we will use a very
-simple equation with non-imaginary roots.
-
-Let us consider the mathematical expression:
-$x = \frac{{ - b \pm \sqrt {b^2 - 4ac} }}{{2a}}$
-
-In Python, this mathematical expression can be written as two separate expressions
+In Python, this can be written as two separate expressions:
 
 ```python
 x1 = (-b + (b ** 2 - 4 * a * c) ** 0.5) / (2 * a)
 x2 = (-b - (b ** 2 - 4 * a * c) ** 0.5) / (2 * a)
 ```
 
-Note that the ```**``` symbols is the exponentiation or "Raise to the power of" operator. Consequently, the square root
-of y, mathematically expressed as $\sqrt{y}$, is written in Python as `y ** 0.5`.
+Note that `**` is the exponentiation or "raise to the power of" operator. Consequently, the square root of `y`,
+mathematically expressed as $\sqrt{y}$, is written in Python as `y ** 0.5`.
 
-Alternatively, we can also use Python's built-in Math library's `math.sqrt()` function, as shown below
+Alternatively, we can also use Python's built-in Math library function `math.sqrt()`, as shown below:
 
 ```python
 import math
@@ -107,7 +94,7 @@ x1 = (-b + math.sqrt(b ** 2 - 4 * a * c)) / (2 * a)
 x2 = (-b - math.sqrt(b ** 2 - 4 * a * c)) / (2 * a) 
 ```
 
-To avoid clutter, we can further breakdown and write
+To avoid clutter, we can further simplify and write:
 
 ```python
 import math
@@ -165,15 +152,15 @@ Enter the value of c: 15
 Roots are: 5.0 3.0
 ```
 
-_**What will happen if you input invalid coefficients (that make b^2-4ac negative)?**_
+> What will happen if you input invalid coefficients (that make $b^2 - 4ac$ negative)?
 
 ----
 
 # The "Main" of a Python Program
 
 So far we have just run one python file at a time. As projects get complex, you may have several functions and put the
-definitions in separate files. When you want to run them, one file needs to be the starting point. This is `__main__`. To
-include code to run only when the file is the starting point add a section checking if this is the main program like
+definitions in separate files. When you want to run them, one file needs to be the starting point. This is `__main__`.
+To include code to run only when the file is the starting point add a section checking if this is the main program like
 this:
 
 ```python
@@ -190,36 +177,26 @@ You can read more about this from the following links:
 
 1. Move the calls to the temperature function into a `__main__` section. Leave the def part of the function outside the
    if statement block. Run this program.
-
 2. Create a new program with just an `if __name__ == "__main__":` block. Put different code in this main section. Some
    suggestions:
-   Create a loop to ask the user for input values and then call the convert function.
-
+   - Create a loop to ask the user for input values and then call the convert function.
 3. Use conditionals to print comment about the temperatures, like "that is cold!", "that is a nice temperature for
-   playing golf", "that is hot, let's go swimming", etc.
-   Divide the function and main into two python files and run again.
-
+   playing golf", "that is hot, let's go swimming", etc. Divide the function and main into two python files and run 
+   again.
 4. Run this program and see the different output.
-
 5. Write a program that calls two functions `simpint()` and `compint()` to calculate the Simple Interest and
    Compound Interest on a (common) Principal Amount, Rate of Interest and Number of Years. Print both the interest
    values and the difference between them.
 
-   ```math
-   SimpleInterest = \frac{P \times R \times N}{100}
-   ```
+   $SimpleInterest = \frac{P \times R \times N}{100}$
 
-   ```math
-   CompoundInterest = P \times (1 + \frac{R}{100})^N
-   ```
+   $CompoundInterest = P \times (1 + \frac{R}{100})^N$
 
-   where
+   where:
 
-   P = Principal amount
-
-   R = Rate in % (e.g 5, 6.7, 9 etc)
-
-   N = Number of time periods (assume years for simplicity) over which the interest accrues
+    - `P` = Principal amount
+    - `R` = Rate in % (e.g 5, 6.7, 9 etc)
+    - `N` = Number of time periods (assume years for simplicity) over which the interest accrues
 
 | [< Previous (Debugging)](Debugging.md) | [Day3](../README.md) | [Next (Modules) >](Modules.md) |
 |----------------------------------------|----------------------|--------------------------------|

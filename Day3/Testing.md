@@ -36,8 +36,8 @@ import sq
 
 
 def test_squared():
-    assert (sq.square(2) == 4)
-    assert (sq.square(3) == 9)
+    assert sq.square(2) == 4
+    assert sq.square(3) == 9
 ```
 
 ## Running pytest
@@ -82,8 +82,8 @@ import temperature_conversion as tc
 
 
 def test_conversion():
-    assert (tc.convert_f_to_c(32) == 0)
-    assert (tc.convert_f_to_c(212) == 100)
+    assert tc.convert_f_to_c(32) == 0
+    assert tc.convert_f_to_c(212) == 100
 ```
 
 Run the test and observe the result.

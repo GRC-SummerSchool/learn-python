@@ -5,5 +5,5 @@ def convert_f_to_c(temperature_f):
 
 
 def test_conversion():
-    assert (convert_f_to_c(32) == 0)
-    assert (convert_f_to_c(212) == 100)
+    assert convert_f_to_c(32) == 0
+    assert convert_f_to_c(212) == 100

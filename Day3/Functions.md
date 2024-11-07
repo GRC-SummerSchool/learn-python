@@ -47,6 +47,16 @@ The keyword `def` defines the function name: `convert_f_to_c`.
 In the above example, the input argument `temperature_f` is a string type. The `float()` operator
 is used to convert the string to a float before performing the conversion calculation.
 
+We can also provide *type hints* for inputs and outputs of a function. In the example below we modify the
+`convert_f_to_c` function to specify a desired `temperature_f` type of either `str`, `int`, or `float` and indicate
+that the function will return a `float` value.
+
+```python
+def convert_f_to_c(temperature_f: [str, int, float]) -> float:
+    temperature_c = (float(temperature_f) - 32) * (5.0 / 9.0)
+    return temperature_c
+```
+
 After defining the function, we can use it to perform calculations.
 
 ## Python Code to call the conversion function
@@ -70,7 +80,7 @@ A [quadratic equation](https://en.wikipedia.org/wiki/Quadratic_equation) can be 
 Such an equation has two roots, given by $x = \frac{{ - b \pm \sqrt {b^2 - 4ac} }}{{2a}}$
 
 We will write a Python program to ask the user to input the values of coefficients `a`, `b` and `c`. Then we will
-calculate and print the two values of x (the roots). For the purpose of simplicity and understanding in class, we will
+calculate and print the two values of `x` (the roots). For the purpose of simplicity and understanding in class, we will
 use a very simple equation with non-imaginary roots.
 
 Let us consider the mathematical expression for quadratic roots.

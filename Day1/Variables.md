@@ -47,6 +47,19 @@ string3 = "I'm also a string"  # No need to escape the single quote, because str
 string4 = 'I\'m also a string'  # Here a single quote appearing inside a single quoted string needs to be escaped
 ```
 
+### String Formatting
+
+We can format strings using [formatted string literals](https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals),
+commonly called *f-strings*. This allows us to specify a precision on numbers used in strings as well as allowing for
+type conversion.
+
+```python
+f_val = 1.2345
+string5 = f"The value is {f_val:.2f}"
+```
+
+In this example we round the value of `f_val` to 2 decimal places using the formatter `.2f`.
+
 ### Dynamic Type
 
 Often, you may hear people say, *"Python is a dynamically-typed language"*. This means that the same variable can hold

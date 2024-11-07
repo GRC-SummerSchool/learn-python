@@ -6,7 +6,7 @@
 Often we do some additional analysis on the data before plotting results. Let's extend the weather example to calculate
 the following for the data for each weather station:
 
-* Calculate minimum and maximum temperate
+* Calculate minimum and maximum temperature
 * Calculate the average precipitation
 
 ## Calculating Stats For Each Station

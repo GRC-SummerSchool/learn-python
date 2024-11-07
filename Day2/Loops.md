@@ -93,7 +93,7 @@ Can you explain why it isn't
 
 ### While Loops
 
-A `while` loop will repeat until the loop condition isn't satisfied:
+A `while` loop will repeat as long as the condition is satisfied:
 
 ```python
 count = 1
@@ -130,10 +130,6 @@ while count < 10:
 
 It's always useful to know ahead of time how to stop your code from running if this happens! In PyCharm you can click 
 the stop sign button end execution.
-
-### Exercise
-
-Modify the conditionals exercise to run the code in a loop.
 
 ### Additional Information
 

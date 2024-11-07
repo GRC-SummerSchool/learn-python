@@ -68,7 +68,7 @@ can end up with code that looks like this and won't build!
 ```python
 if 1 + 1 == 2:
     print("All these statements")
-print("this is a problem because it is not indented 0 or 4 spaces")
+  print("this is a problem because it is not indented 0 or 4 spaces")
 print("This statement does not belong to the conditional and will always execute")
 ```
 

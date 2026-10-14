@@ -52,7 +52,7 @@ We can also provide *type hints* for inputs and outputs of a function. In the ex
 that the function will return a `float` value.
 
 ```python
-def convert_f_to_c(temperature_f: [str, int, float]) -> float:
+def convert_f_to_c(temperature_f: str | int | float) -> float:
     temperature_c = (float(temperature_f) - 32) * (5.0 / 9.0)
     return temperature_c
 ```
